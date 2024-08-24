@@ -1,5 +1,3 @@
-Your `README.md` looks great! Here's a cleaned-up version with a small fix in the Installation section and proper formatting:
-
 ```markdown
 # EuroSAT Classification with RGB and NIR Bands
 
