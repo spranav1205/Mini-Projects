@@ -1,4 +1,3 @@
-```markdown
 # EuroSAT Classification with RGB and NIR Bands
 
 ## Description
