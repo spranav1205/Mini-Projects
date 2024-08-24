@@ -17,18 +17,7 @@ This project aims to classify EuroSAT satellite images using four specific bands
 
 ### Steps
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/eurosat-classification.git
-   cd eurosat-classification
-   ```
-
-2. **Install Required Packages**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Manual Installation** (if you don't use `requirements.txt`):
+1. **Manual Installation** :
    ```bash
    pip install numpy pandas scikit-learn opencv-python
    ```
