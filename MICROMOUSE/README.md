@@ -1,7 +1,3 @@
-Here's a README for your micromouse code:
-
----
-
 # Micromouse Maze Solver
 
 This project is a basic implementation of a maze-solving algorithm for a micromouse using flood-fill logic. The micromouse navigates through a grid maze to find the shortest path to a target destination.
