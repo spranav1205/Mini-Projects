@@ -1,0 +1,54 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'POSCAR                                '
+_cell_length_a                         7.850000
+_cell_length_b                         8.935000
+_cell_length_c                         20.923752
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       90.000000
+_cell_angle_gamma                      90.000000
+_cell_volume                           1467.586774
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   C1         1.0     0.124956     0.934427     0.284752    Uiso  ? C
+   C2         1.0     0.276610     0.846217     0.284715    Uiso  ? C
+   C3         1.0     0.428586     0.934625     0.284763    Uiso  ? C
+   C4         1.0     0.428512     0.093927     0.284654    Uiso  ? C
+   C5         1.0     0.276416     0.182317     0.284597    Uiso  ? C
+   C6         1.0     0.124922     0.093954     0.284671    Uiso  ? C
+   C7         1.0     0.624928     0.934615     0.285092    Uiso  ? C
+   C8         1.0     0.776436     0.846295     0.285264    Uiso  ? C
+   C9         1.0     0.928509     0.934642     0.285143    Uiso  ? C
+   C10        1.0     0.928507     0.093825     0.285051    Uiso  ? C
+   C11        1.0     0.776586     0.182405     0.285131    Uiso  ? C
+   C12        1.0     0.624961     0.094219     0.284992    Uiso  ? C
+   C13        1.0     0.124364     0.434922     0.284763    Uiso  ? C
+   C14        1.0     0.276287     0.346323     0.284705    Uiso  ? C
+   C15        1.0     0.427938     0.434495     0.284879    Uiso  ? C
+   C16        1.0     0.427950     0.594125     0.284832    Uiso  ? C
+   C17        1.0     0.276459     0.682434     0.284678    Uiso  ? C
+   C18        1.0     0.124363     0.594104     0.284733    Uiso  ? C
+   C19        1.0     0.624328     0.434800     0.285223    Uiso  ? C
+   C20        1.0     0.776420     0.346401     0.285263    Uiso  ? C
+   C21        1.0     0.927957     0.434779     0.285184    Uiso  ? C
+   C22        1.0     0.927953     0.594346     0.285162    Uiso  ? C
+   C23        1.0     0.776282     0.682529     0.285267    Uiso  ? C
+   C24        1.0     0.624292     0.594098     0.285172    Uiso  ? C
