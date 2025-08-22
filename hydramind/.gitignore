@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Environment variables
+.env
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Test results
+.coverage
+*.cover
+htmlcov/
+.cache/
+
+# Packaging artifacts
+*.egg-info/
+dist/
+build/
+
+# mypy / pytest / coverage / profiling
+.mypy_cache/
+.pytest_cache/
+.tox/
+profile/
+prof/
+
+# Misc
+*.sqlite3
+*.db
+
+# If you're saving model outputs or caches
+outputs/
+checkpoints/
