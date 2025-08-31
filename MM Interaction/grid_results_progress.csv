@@ -1,0 +1,37 @@
+Model,Hyperparameters,RMSE
+GCN,"{'hidden_dim': 32, 'gnn_out_dim': 64, 'lr': 0.005}",1.0374149848916094
+GCN,"{'hidden_dim': 32, 'gnn_out_dim': 64, 'lr': 0.001}",1.0673436659331224
+GCN,"{'hidden_dim': 32, 'gnn_out_dim': 64, 'lr': 0.0005}",1.2311152369544214
+GCN,"{'hidden_dim': 32, 'gnn_out_dim': 96, 'lr': 0.005}",1.0311358282152487
+GCN,"{'hidden_dim': 32, 'gnn_out_dim': 96, 'lr': 0.001}",1.126921193940299
+GCN,"{'hidden_dim': 32, 'gnn_out_dim': 96, 'lr': 0.0005}",1.2473862915470892
+GCN,"{'hidden_dim': 64, 'gnn_out_dim': 64, 'lr': 0.005}",1.0301082076466812
+GCN,"{'hidden_dim': 64, 'gnn_out_dim': 64, 'lr': 0.001}",1.2127448601686226
+GCN,"{'hidden_dim': 64, 'gnn_out_dim': 64, 'lr': 0.0005}",1.1960495216201763
+GCN,"{'hidden_dim': 64, 'gnn_out_dim': 96, 'lr': 0.005}",1.0225619763440015
+GCN,"{'hidden_dim': 64, 'gnn_out_dim': 96, 'lr': 0.001}",1.343796795880308
+GCN,"{'hidden_dim': 64, 'gnn_out_dim': 96, 'lr': 0.0005}",1.2915555140649784
+Transformer,"{'d_model': 64, 'nhead': 4, 'num_layers': 2, 'lr': 0.003}",1.0068569993030052
+Transformer,"{'d_model': 64, 'nhead': 4, 'num_layers': 2, 'lr': 0.001}",1.3519411559919923
+Transformer,"{'d_model': 64, 'nhead': 4, 'num_layers': 2, 'lr': 0.0007}",1.2840397731229967
+Transformer,"{'d_model': 64, 'nhead': 4, 'num_layers': 3, 'lr': 0.003}",1.0127451003206018
+Transformer,"{'d_model': 64, 'nhead': 4, 'num_layers': 3, 'lr': 0.001}",1.104232667508174
+Transformer,"{'d_model': 64, 'nhead': 4, 'num_layers': 3, 'lr': 0.0007}",1.1898035209397881
+Transformer,"{'d_model': 64, 'nhead': 8, 'num_layers': 2, 'lr': 0.003}",1.0205177593292023
+Transformer,"{'d_model': 64, 'nhead': 8, 'num_layers': 2, 'lr': 0.001}",0.9457502251072807
+Transformer,"{'d_model': 64, 'nhead': 8, 'num_layers': 2, 'lr': 0.0007}",1.0705786579269536
+Transformer,"{'d_model': 64, 'nhead': 8, 'num_layers': 3, 'lr': 0.003}",1.0505239073263137
+Transformer,"{'d_model': 64, 'nhead': 8, 'num_layers': 3, 'lr': 0.001}",1.1570187807843393
+Transformer,"{'d_model': 64, 'nhead': 8, 'num_layers': 3, 'lr': 0.0007}",1.0222060844606282
+Transformer,"{'d_model': 128, 'nhead': 4, 'num_layers': 2, 'lr': 0.003}",1.0263020143825181
+Transformer,"{'d_model': 128, 'nhead': 4, 'num_layers': 2, 'lr': 0.001}",1.112402918463459
+Transformer,"{'d_model': 128, 'nhead': 4, 'num_layers': 2, 'lr': 0.0007}",1.638251304398386
+Transformer,"{'d_model': 128, 'nhead': 4, 'num_layers': 3, 'lr': 0.003}",1.0307132889117514
+Transformer,"{'d_model': 128, 'nhead': 4, 'num_layers': 3, 'lr': 0.001}",1.0395313670896755
+Transformer,"{'d_model': 128, 'nhead': 4, 'num_layers': 3, 'lr': 0.0007}",1.1080636540237738
+Transformer,"{'d_model': 128, 'nhead': 8, 'num_layers': 2, 'lr': 0.003}",1.1683820901932764
+Transformer,"{'d_model': 128, 'nhead': 8, 'num_layers': 2, 'lr': 0.001}",1.5702610740400094
+Transformer,"{'d_model': 128, 'nhead': 8, 'num_layers': 2, 'lr': 0.0007}",1.0272511322887576
+Transformer,"{'d_model': 128, 'nhead': 8, 'num_layers': 3, 'lr': 0.003}",1.1342310163439537
+Transformer,"{'d_model': 128, 'nhead': 8, 'num_layers': 3, 'lr': 0.001}",1.1536902636289597
+Transformer,"{'d_model': 128, 'nhead': 8, 'num_layers': 3, 'lr': 0.0007}",1.0168631047922738
