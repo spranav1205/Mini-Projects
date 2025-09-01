@@ -29,7 +29,7 @@ from utils import (
 # -------------------------------
 # CONFIG
 # -------------------------------
-num_epochs = 100
+num_epochs = 150
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Define feature dimensions (were previously undefined)
@@ -144,7 +144,7 @@ def process_sdf_and_predict(sdf_file, material_file, model, csv_out="predictions
 
 # --- Usage example ---
 if __name__ == "__main__":
-    name = "transformer"  # or "GAT" or "Transformer"
+    name = "GCN"  # or "GAT" or "Transformer"
 
     model = train(name)
 

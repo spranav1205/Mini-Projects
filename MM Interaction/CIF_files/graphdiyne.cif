@@ -1,0 +1,51 @@
+
+#======================================================================
+# CRYSTAL DATA
+#----------------------------------------------------------------------
+data_VESTA_phase_1
+
+_chemical_name_common                  'AA'
+_cell_length_a                         19.200001
+_cell_length_b                         19.200001
+_cell_length_c                         3.400000
+_cell_angle_alpha                      90.000000
+_cell_angle_beta                       90.000000
+_cell_angle_gamma                      120.000000
+_cell_volume                           1085.455573
+_space_group_name_H-M_alt              'P 1'
+_space_group_IT_number                 1
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   'x, y+1/2, z'
+   'x+1/2, y, z'
+   'x+1/2, y+1/2, z'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   C1         1.0     0.325500     0.250000     0.500000    Uiso  ? C
+   C1         1.0     0.250000     0.325500     0.500000    Uiso  ? C
+   C1         1.0     0.174500     0.174500     0.500000    Uiso  ? C
+   C1         1.0     0.174500     0.250000     0.500000    Uiso  ? C
+   C1         1.0     0.250000     0.174500     0.500000    Uiso  ? C
+   C1         1.0     0.325500     0.325500     0.500000    Uiso  ? C
+   C2         1.0     0.399000     0.250000     0.500000    Uiso  ? C
+   C2         1.0     0.250000     0.399000     0.500000    Uiso  ? C
+   C2         1.0     0.101000     0.101000     0.500000    Uiso  ? C
+   C2         1.0     0.101000     0.250000     0.500000    Uiso  ? C
+   C2         1.0     0.250000     0.101000     0.500000    Uiso  ? C
+   C2         1.0     0.399000     0.399000     0.500000    Uiso  ? C
+   C3         1.0     0.464650     0.250000     0.500000    Uiso  ? C
+   C3         1.0     0.250000     0.464650     0.500000    Uiso  ? C
+   C3         1.0     0.035350     0.035350     0.500000    Uiso  ? C
+   C3         1.0     0.035350     0.250000     0.500000    Uiso  ? C
+   C3         1.0     0.250000     0.035350     0.500000    Uiso  ? C
+   C3         1.0     0.464650     0.464650     0.500000    Uiso  ? C
