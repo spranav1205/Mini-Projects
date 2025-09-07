@@ -55,38 +55,105 @@ def load_mol_from_cif_or_sdf(base_path, cutoff=2.5, max_atoms=200):
         mol = candidates[0] if candidates else None
     return mol
 
-def molecule_to_feature_vector(mol):
+import numpy as np
+
+# Extend ATOM_PROPS with mass, etc.
+ATOM_PROPS = {
+    "H": {"en": 2.20, "mass": 1.008},
+    "C": {"en": 2.55, "mass": 12.011},
+    "N": {"en": 3.04, "mass": 14.007},
+    "O": {"en": 3.44, "mass": 15.999},
+    "F": {"en": 3.98, "mass": 18.998},
+    "P": {"en": 2.19, "mass": 30.974},
+    "S": {"en": 2.58, "mass": 32.06},
+    "Cl": {"en": 3.16, "mass": 35.45},
+    "Br": {"en": 2.96, "mass": 79.904},
+    "I": {"en": 2.66, "mass": 126.90},
+}
+
+def molecule_to_features(mol, cutoff=2.0):
     """
-    Generate a generic feature vector for a molecule
-    mol: pymatgen/ASE/RDKit molecule object (from load_mol_from_cif_or_sdf)
+    Compute a chemically descriptive feature vector for a molecule.
+    Uses only atomic numbers, positions, and simple properties.
     """
     if mol is None:
         return None
+    
+    number_of_atoms = mol.GetNumAtoms()
 
     atom_counts = {}
-    en_values = []
+    en_list, mass_list = [], []
+    positions = []
 
-    # Iterate over atoms
     for atom in mol.GetAtoms():
         symbol = atom.GetSymbol()
         props = ATOM_PROPS.get(symbol, {"en": 0.0, "mass": 0.0})
-        en_values.append(props["en"])
+        en_list.append(props["en"])
+        mass_list.append(props["mass"])
         atom_counts[symbol] = atom_counts.get(symbol, 0) + 1
 
-    # Build feature vector
-    all_symbols = sorted(ATOM_PROPS.keys())  # consistent ordering
-    counts_vec = [atom_counts.get(sym, 0) for sym in all_symbols]
+    #     positions.append(atom.GetPosition())
 
-    if en_values:
-        max_en = max(en_values)
-        min_en = min(en_values)
-        mean_en = np.mean(en_values)
+    # positions = np.array(positions) if positions else np.zeros((1,3))
+
+    # --- Atomic composition ---
+    all_symbols = sorted(ATOM_PROPS.keys())
+    counts = np.array([atom_counts.get(sym,0) for sym in all_symbols])
+    total_atoms = number_of_atoms
+    fractions = counts / total_atoms if total_atoms > 0 else counts
+
+    # --- Electronegativity ---
+    en_arr = np.array(en_list)
+    en_features = [
+        np.max(en_arr),
+        np.min(en_arr),
+        np.mean(en_arr),
+        np.std(en_arr)
+    ]
+
+    # --- Mass ---
+    mass_arr = np.array(mass_list)
+    mass_features = [
+        # np.sum(mass_arr),
+        np.max(mass_arr),
+        np.min(mass_arr),
+        np.mean(mass_arr),
+        np.std(mass_arr)
+    ]
+
+    # --- Molecular size & topology (approx.) ---
+    coords = positions
+    if len(coords) > 1:
+        dists = np.sqrt(np.sum((coords[:,None,:]-coords[None,:,:])**2,axis=-1))
+        # approximate connectivity: neighbors within cutoff
+        neighbors = np.sum((dists>0) & (dists<cutoff), axis=1)
     else:
-        max_en = min_en = mean_en = 0.0
+        neighbors = np.array([0])
+    size_features = [
+        total_atoms,
+        # np.sum(neighbors),
+        np.max(neighbors),
+        np.min(neighbors),
+        np.mean(neighbors),
+        np.std(neighbors)
+    ]
 
-    # Concatenate counts and electronegativity stats
-    feature_vec = np.array(counts_vec + [max_en, min_en, mean_en], dtype=np.float32)
-    return feature_vec
+    # --- Heteroatom features ---
+    hetero_atoms = ["N","O","S","F","Cl","Br","I"]
+    hetero_counts = np.array([atom_counts.get(a,0) for a in hetero_atoms])
+    hetero_fraction = np.sum(hetero_counts)/total_atoms if total_atoms>0 else 0.0
+
+    feature_vec = np.concatenate([
+        # counts,
+        fractions,
+        en_features,
+        mass_features,
+        size_features,
+        # hetero_counts,
+        [hetero_fraction]
+    ])
+    return feature_vec.astype(np.float32)
+
 
 def build_paired_features(csv_path, cif_dir, sdf_dir):
     df = pd.read_csv(csv_path)
@@ -104,8 +171,8 @@ def build_paired_features(csv_path, cif_dir, sdf_dir):
             continue
 
         # Generate feature vectors
-        mat_vec = molecule_to_feature_vector(mat_mol)
-        drug_vec = molecule_to_feature_vector(drug_mol)
+        mat_vec = molecule_to_features(mat_mol)
+        drug_vec = molecule_to_features(drug_mol)
 
         if mat_vec is None or drug_vec is None:
             continue
@@ -122,7 +189,7 @@ def build_paired_features(csv_path, cif_dir, sdf_dir):
     logger.info(f"Built paired dataset with {len(paired_dataset)} samples")
     return paired_dataset
 
-paired_dataset = build_paired_features("trial_dataCopy.csv", "data/CIF_files/", "data/SDF_files/")
+paired_dataset = build_paired_features("trial_dataCopy.csv", "./CIF_files", "./SDF_files")
 
 # Suppose paired_dataset is your output from build_paired_features
 # Each element: (paired_vec, y, weight)
@@ -131,7 +198,7 @@ y = np.array([y_val for _, y_val, _ in paired_dataset], dtype=np.float32)
 weights = np.array([w for _, _, w in paired_dataset], dtype=np.float32)
 
 # 5-fold cross-validation
-kf = KFold(n_splits=5, shuffle=True, random_state=42)
+kf = KFold(n_splits=5, shuffle=True, random_state=2)
 
 def evaluate_model(model, X, y, weights):
     mses = []
@@ -143,15 +210,25 @@ def evaluate_model(model, X, y, weights):
         model.fit(X_train, y_train, sample_weight=w_train)
         y_pred = model.predict(X_test)
         mse = mean_squared_error(y_test, y_pred, sample_weight=w_test)
+        print(f"Fold MSE: {mse:.4f}")
         mses.append(mse)
     return np.mean(mses), np.std(mses)
 
 # --- Random Forest ---
+print("Evaluating Random Forest...")
 rf_model = RandomForestRegressor(n_estimators=200, random_state=42)
 rf_mean_mse, rf_std_mse = evaluate_model(rf_model, X, y, weights)
 print(f"Random Forest MSE: {rf_mean_mse:.4f} ± {rf_std_mse:.4f}")
 
 # --- Linear Regression ---
+print("Evaluating Linear Regression...")
 lr_model = LinearRegression()
 lr_mean_mse, lr_std_mse = evaluate_model(lr_model, X, y, weights)
 print(f"Linear Regression MSE: {lr_mean_mse:.4f} ± {lr_std_mse:.4f}")
+
+# from xgboost import XGBRegressor
+
+# print("Evaluating XGBoost...")
+# xgb_model = XGBRegressor(n_estimators=500, max_depth=6, learning_rate=0.05, random_state=42)
+# mean_mse, std_mse = evaluate_model(xgb_model, X, y, weights)
+# print(f"XGBoost MSE: {mean_mse:.4f} ± {std_mse:.4f}")
