@@ -1,0 +1,29 @@
+# Core Python packages
+numpy==1.24.4
+pandas==2.1.1
+tqdm==4.66.1
+matplotlib==3.8.1
+scikit-learn==1.3.0
+networkx==3.1
+ase==3.23.1
+rdkit-pypi==2023.9.1
+
+# PyTorch (must match FairChem requirement)
+torch==2.6.0+cu121
+torchvision==0.15.2+cu121
+torchaudio==2.0.2+cu121
+-f https://download.pytorch.org/whl/torch_stable.html
+
+# Graph ML / optional (needed for MACE)
+torch-geometric==2.6.1
+
+# MACE (optional)
+# mace-torch==0.3.14
+e3nn==0.4.4
+
+# FairChem + UMA
+fairchem-core==2.4.0
+huggingface_hub==0.21.1
+
+# Logging / utilities
+loguru==0.7.0
