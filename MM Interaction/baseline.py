@@ -198,7 +198,7 @@ y = np.array([y_val for _, y_val, _ in paired_dataset], dtype=np.float32)
 weights = np.array([w for _, _, w in paired_dataset], dtype=np.float32)
 
 # 5-fold cross-validation
-kf = KFold(n_splits=5, shuffle=True, random_state=2)
+kf = KFold(n_splits=7, shuffle=True, random_state=2)
 
 def evaluate_model(model, X, y, weights):
     mses = []
@@ -226,9 +226,9 @@ lr_model = LinearRegression()
 lr_mean_mse, lr_std_mse = evaluate_model(lr_model, X, y, weights)
 print(f"Linear Regression MSE: {lr_mean_mse:.4f} ± {lr_std_mse:.4f}")
 
-# from xgboost import XGBRegressor
+from xgboost import XGBRegressor
 
-# print("Evaluating XGBoost...")
-# xgb_model = XGBRegressor(n_estimators=500, max_depth=6, learning_rate=0.05, random_state=42)
-# mean_mse, std_mse = evaluate_model(xgb_model, X, y, weights)
-# print(f"XGBoost MSE: {mean_mse:.4f} ± {std_mse:.4f}")
+print("Evaluating XGBoost...")
+xgb_model = XGBRegressor(n_estimators=500, max_depth=6, learning_rate=0.05, random_state=42)
+mean_mse, std_mse = evaluate_model(xgb_model, X, y, weights)
+print(f"XGBoost MSE: {mean_mse:.4f} ± {std_mse:.4f}")

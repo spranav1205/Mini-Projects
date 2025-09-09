@@ -185,7 +185,7 @@ def run_grid_search(dataset, device, epochs=100, k=5, save_path="grid_results_pr
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("--csv", type=str, default="trial_dataCopy.csv")
+    parser.add_argument("--csv", type=str, default="trial_data.csv")
     parser.add_argument("--cif_dir", type=str, default="CIF_files")
     parser.add_argument("--sdf_dir", type=str, default="SDF_files")
     parser.add_argument("--epochs", type=int, default=100)

@@ -36,7 +36,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 node_dim = DEFAULT_NODE_DIM
 edge_dim = DEFAULT_EDGE_DIM
 
-paired_data_list = build_pairs_from_csv("./trial_dataCopy.csv", cif_dir="./CIF_files/", sdf_dir="./SDF_files/")
+paired_data_list = build_pairs_from_csv("./trial_data.csv", cif_dir="./CIF_files/", sdf_dir="./SDF_files/")
     
 
 def train(name = "GCN"):
