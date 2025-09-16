@@ -19,7 +19,7 @@ loop_
 _space_group_symop_operation_xyz
    'x, y, z'
 
-loop_
+loop_x
    _atom_site_label
    _atom_site_occupancy
    _atom_site_fract_x

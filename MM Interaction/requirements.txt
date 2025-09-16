@@ -17,13 +17,5 @@ torchaudio==2.0.2+cu121
 # Graph ML / optional (needed for MACE)
 torch-geometric==2.6.1
 
-# MACE (optional)
-# mace-torch==0.3.14
-e3nn==0.4.4
-
-# FairChem + UMA
-fairchem-core==2.4.0
-huggingface_hub==0.21.1
-
 # Logging / utilities
 loguru==0.7.0

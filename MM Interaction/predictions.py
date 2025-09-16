@@ -44,7 +44,7 @@ def train(name = "GCN"):
     # Fresh model for final training
     # -------------------------------
     if name == "GCN":
-        model = GCNRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=64).to(device)
+        model = GCNRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=96).to(device)
     elif name == "GAT":
         model = GATRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=128).to(device)
     else:
