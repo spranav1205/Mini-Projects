@@ -144,7 +144,7 @@ def process_sdf_and_predict(sdf_file, material_file, model, csv_out="predictions
 
 # --- Usage example ---
 if __name__ == "__main__":
-    name = "GCN"  # or "GAT" or "Transformer"
+    name = "Transformer"  # or "GAT" or "Transformer"
 
     model = train(name)
 
