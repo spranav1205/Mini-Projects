@@ -34,6 +34,7 @@ def load_mol_from_cif_or_sdf(base_path, cutoff=2.5, max_atoms=200):
     cif = base_path + ".cif"
     sdf = base_path + ".sdf"
     mol = None
+    print(f"Loading molecule from {base_path}")
     if os.path.exists(cif):
         from pymatgen.core import Structure
         structure = Structure.from_file(cif)
