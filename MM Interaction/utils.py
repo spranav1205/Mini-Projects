@@ -136,7 +136,7 @@ bond_featurizer = BondFeaturizer(
     }
 )
 
-DEFAULT_NODE_DIM = 26  # base expected node dim
+DEFAULT_NODE_DIM = 23  # base expected node dim
 DEFAULT_EDGE_DIM = bond_featurizer.dim
 
 ATOM_LIST = ["H", "B", "C", "N", "O", "F", "Na", "P", "S", "Cl", 
@@ -191,18 +191,19 @@ class BasicAtomFeaturizer:
         except Exception:
             formal_charge = 0
 
-        # Coordinates
-        coords = np.zeros(3)
-        if conf is not None:
-            try:
-                pos = conf.GetAtomPosition(atom.GetIdx())
-                coords = np.array([pos.x, pos.y, pos.z])
-            except Exception:
-                pass
+        # # Coordinates
+        # coords = np.zeros(3)
+        # if conf is not None:
+        #     try:
+        #         pos = conf.GetAtomPosition(atom.GetIdx())
+        #         coords = np.array([pos.x, pos.y, pos.z])
+        #     except Exception:
+        #         pass
 
         return np.concatenate([
             one_hot,
-            [mass, valency, eneg, degree, formal_charge], coords])
+            # [mass, valency, eneg, degree, formal_charge], coords])
+            [mass, valency, eneg, degree, formal_charge]])
 
 
 basic_featurizer = BasicAtomFeaturizer()

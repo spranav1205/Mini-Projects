@@ -37,7 +37,7 @@ node_dim = DEFAULT_NODE_DIM
 edge_dim = DEFAULT_EDGE_DIM
 
 paired_data_list = build_pairs_from_csv("./trial_data.csv", cif_dir="./CIF_files/", sdf_dir="./SDF_files/")
-    
+
 
 def train(name = "GCN"):
     # -------------------------------
@@ -61,7 +61,8 @@ def train(name = "GCN"):
             train_loss = train_one_epoch(model, paired_data_list, optimizer, device)
             if epoch % 5 == 0:
                 print(f"Epoch {epoch}: Train Loss = {train_loss:.4f}")
-
+        
+        # Save the trained model
         torch.save(model.state_dict(), f"./models/{name}_trained_model.pth")
 
     else:
@@ -111,7 +112,8 @@ def process_sdf_and_predict(sdf_file, material_file, model, csv_out="predictions
                 num_atoms = drug.GetNumAtoms()
 
                 # Convert to graph
-                drug_graph = add_loops_to_data(graph_from_molecule(drug))
+                # drug_graph = add_loops_to_data(graph_from_molecule(drug))
+                drug_graph = graph_from_molecule(drug)  # No loops for drugs
                 if drug_graph.x is None or drug_graph.x.size(0) == 0:
                     print(f"Skipping {name}: invalid drug graph")
                     continue
@@ -149,7 +151,7 @@ if __name__ == "__main__":
     model = train(name)
 
     mat_file = "CIF_files/Graphsene"
-    sdf_file = "Approveddrugslibrary.sdf"
+    sdf_file = "20220301-L1300-FDA-approved-Drug-Library.sdf"
 
     # model = GCNRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=128)  # Or load your trained model
     process_sdf_and_predict(sdf_file, mat_file, model, f"drug_predictions_{name}.csv")

@@ -61,6 +61,7 @@ def load_mol_from_cif_or_sdf(base_path, cutoff=2.5, max_atoms=200):
     return mol
 
 def build_pairs_from_csv(csv_path, cif_dir, sdf_dir):
+    """Builds pairs from names in a CSV file."""
     df = pd.read_csv(csv_path)
     materials, drugs = [], []
     logger.info(f"Loaded {len(df)} rows from {csv_path}")
@@ -73,7 +74,7 @@ def build_pairs_from_csv(csv_path, cif_dir, sdf_dir):
             materials.append(None)
             continue
         g = graph_from_molecule(mol)
-        g = add_loops_to_data(g)
+        # g = add_loops_to_data(g)
         materials.append(g)
         if (i + 1) % 10 == 0:
             logger.info(f"Processed {i+1} / {len(df)} materials")
