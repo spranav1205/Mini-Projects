@@ -113,7 +113,7 @@ def lorenz_attractor(X, Y, Z, x0, y0, z0, time=10, step = 10e-3):
     y_points = []
     z_points = []
 
-    t = t0
+    t = 0
     x = x0
     y = y0
     z = z0
@@ -200,7 +200,7 @@ if __name__ == "__main__":
     Y = lambda x,y,z: x * (rho - z) - y
     Z = lambda x,y,z: x * y - beta * z
 
-    x0, y0, z0 = 21, 100, -15
+    x0, y0, z0 = -20, 11, -15
     time = 500
     step = 1e-2
     t0 = 0
