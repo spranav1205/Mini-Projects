@@ -36,3 +36,5 @@ dist/
 .coverage
 .pytest_cache/
 htmlcov/
+
+/MM Interaction/data/

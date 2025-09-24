@@ -11,19 +11,23 @@ from utils import graph_from_molecule, PairedData, add_loops_to_data
 from hyperparameter_tuning import load_mol_from_cif_or_sdf
 
 import torch
-from torch_geometric.loader import DataLoaderpip 
+import torch.nn as nn
+import torch.optim as optim
+from QM9 import GCNRegressor  # Importing the GCNEncoder from QM9.py
+from torch_geometric.loader import DataLoader
 
 # --- utils brings all helpers & models ---
 from utils import (
     graph_from_molecule,
     PairedData,
     add_loops_to_data,
-    GCNRegressor,
+    # GCNRegressor,
     GATRegressor,
     TransformerRegressor,
     DEFAULT_NODE_DIM,
     DEFAULT_EDGE_DIM,
     train_one_epoch,                 # NEW: now exists in utils
+    basic_featurizer
 )
 
 # -------------------------------
@@ -38,6 +42,45 @@ edge_dim = DEFAULT_EDGE_DIM
 
 paired_data_list = build_pairs_from_csv("./trial_data.csv", cif_dir="./CIF_files/", sdf_dir="./SDF_files/")
 
+def train_with_frozen_encoder(train_loader, val_loader):
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    
+    # Get node dimension
+    node_dim = len(basic_featurizer.atom_list) + 5
+    
+    # Initialize model with pretrained encoder
+    model = GCNRegressor(
+        node_dim=node_dim,
+        pretrained_encoder_path='models/pretrained_encoder.pth'
+    ).to(device)
+    
+    # Create optimizer - only for trainable parameters (MLP)
+    trainable_params = [p for p in model.parameters() if p.requires_grad]
+    optimizer = optim.Adam(trainable_params, lr=0.001)
+    criterion = nn.MSELoss()
+    
+    print(f"Total parameters: {sum(p.numel() for p in model.parameters())}")
+    print(f"Trainable parameters: {sum(p.numel() for p in trainable_params)}")
+    
+    # Training loop
+    model.train()
+    for epoch in range(50):  # Fewer epochs since only MLP is training
+        total_loss = 0
+        for batch in train_loader:
+            batch = batch.to(device)
+            optimizer.zero_grad()
+            
+            pred = model(batch)
+            loss = criterion(pred, batch.y)
+            
+            loss.backward()
+            optimizer.step()
+            total_loss += loss.item()
+        
+        if epoch % 10 == 0:
+            print(f'Epoch {epoch}, Loss: {total_loss/len(train_loader):.4f}')
+    
+    return model
 
 def train(name = "GCN"):
     # -------------------------------
