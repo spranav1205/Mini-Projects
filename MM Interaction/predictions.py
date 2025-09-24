@@ -11,7 +11,7 @@ from utils import graph_from_molecule, PairedData, add_loops_to_data
 from hyperparameter_tuning import load_mol_from_cif_or_sdf
 
 import torch
-from torch_geometric.loader import DataLoader
+from torch_geometric.loader import DataLoaderpip 
 
 # --- utils brings all helpers & models ---
 from utils import (
