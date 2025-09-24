@@ -51,7 +51,7 @@ def train_with_frozen_encoder(train_loader, val_loader):
     # Initialize model with pretrained encoder
     model = GCNRegressor(
         node_dim=node_dim,
-        pretrained_encoder_path='models/pretrained_encoder.pth'
+        pretrained_encoder_path='models/pretrained_encoder_custom.pth',  # Path to your pretrained encoder
     ).to(device)
     
     # Create optimizer - only for trainable parameters (MLP)
@@ -87,7 +87,9 @@ def train(name = "GCN"):
     # Fresh model for final training
     # -------------------------------
     if name == "GCN":
-        model = GCNRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=96).to(device)
+        model = GCNRegressor(
+        node_dim=node_dim,
+        pretrained_encoder_path='models/pretrained_encoder_custom.pth').to(device)
     elif name == "GAT":
         model = GATRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=128).to(device)
     else:
@@ -111,7 +113,7 @@ def train(name = "GCN"):
     else:
         print("No training data found (paired_data_list is empty). Skipping training.")
 
-    return model
+    return model, train_loss
 
 def process_sdf_and_predict(sdf_file, material_file, model, csv_out="predictions.csv"):
     """
@@ -191,10 +193,13 @@ def process_sdf_and_predict(sdf_file, material_file, model, csv_out="predictions
 if __name__ == "__main__":
     name = "GCN"  # or "GAT" or "Transformer"
 
-    model = train(name)
+    model, final_loss = train(name)
 
     mat_file = "CIF_files/Graphsene"
     sdf_file = "20220301-L1300-FDA-approved-Drug-Library.sdf"
 
     # model = GCNRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=128)  # Or load your trained model
     process_sdf_and_predict(sdf_file, mat_file, model, f"drug_predictions_{name}.csv")
+
+    print("Final Loss of model:", final_loss)
+    print("Prediction process completed.")

@@ -9,7 +9,7 @@ import numpy as np
 from utils import BasicAtomFeaturizer
 from rdkit import Chem
 
-MAX_DATA = 1000
+MAX_DATA = 10000
 
 ATOM_LIST = ["H", "B", "C", "N", "O", "F", "Na", "P", "S", "Cl", 
              "Ca", "I", "Br", "Se", "Mo", "Nb", "Ga", "Sb"]
@@ -118,19 +118,34 @@ class GCNRegressor(nn.Module):
         
         # Load pretrained weights if provided
         if pretrained_encoder_path:
-            pretrained_state = torch.load(pretrained_encoder_path)
-            self.encoder1.load_state_dict(pretrained_state)
-            self.encoder2.load_state_dict(pretrained_state)
+            checkpoint = torch.load(pretrained_encoder_path, map_location='cpu')
+            
+            # Extract the actual encoder state dict from the checkpoint
+            encoder_state_dict = checkpoint['encoder_state_dict']
+            
+            # Load into both encoders
+            self.encoder1.load_state_dict(encoder_state_dict)
+            self.encoder2.load_state_dict(encoder_state_dict)
+            
+            # Verify dimensions match
+            expected_dim = checkpoint.get('node_dim', node_dim)
+            if expected_dim != node_dim:
+                raise ValueError(f"Node dimension mismatch: expected {expected_dim}, got {node_dim}")
+            
+            print("Loaded pretrained encoder successfully!")
             
             # Freeze the encoder parameters
             self.freeze_encoders()
-        
+        else:
+            print("No pretrained encoder path provided, training from scratch.")
+
         # MLP for final prediction (this will be trainable)
         self.mlp = nn.Sequential(
-            nn.Linear(2 * gnn_out_dim, mlp_hidden),  # Note: 2 * gnn_out_dim, not 4
+            nn.Linear(2 * gnn_out_dim, mlp_hidden),  # 2 encoders concatenated
             nn.ReLU(),
             nn.Linear(mlp_hidden, 1)
         )
+        
     
     def freeze_encoders(self):
         """Freeze encoder parameters to prevent updates during training"""
@@ -246,7 +261,7 @@ def pretrain_encoder():
     
     # Training loop
     model.train()
-    for epoch in range(50):
+    for epoch in range(10):
         total_loss = 0
         for batch_idx, batch in enumerate(train_loader):
             batch = batch.to(device)
@@ -276,7 +291,7 @@ def pretrain_encoder():
             'atom_list': ATOM_LIST,
             'feature_dim': node_dim
         }
-    }, 'pretrained_encoder_custom.pth')
+    }, './models/pretrained_encoder_custom.pth')
     
     print("Pretrained encoder with custom features saved!")
     return model.encoder
@@ -287,5 +302,10 @@ if __name__ == "__main__":
     
     # Later, when using with your paired molecules:
     node_dim = len(ATOM_LIST) + 5  # Same dimension as your custom featurizer
+
+    model = GCNRegressor(
+        node_dim=node_dim,
+        pretrained_encoder_path='models/pretrained_encoder_custom.pth'  # Path to your pretrained encoder
+    ).to(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
     
     print("Model ready for transfer learning with custom features!")
