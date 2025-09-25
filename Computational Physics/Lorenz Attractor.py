@@ -14,13 +14,13 @@ Y = lambda x,y,z: x * (rho - z) - y
 Z = lambda x,y,z: x * y - beta * z
 
 # Main trajectory
-x0, y0, z0 = 0,0,0
+x0, y0, z0 = 0.3, 0.2, 1
 time, step = 200, 0.01
 x, y, z, t = lorenz_attractor(X, Y, Z, x0, y0, z0, time, step)
 
 # Ensemble initial conditions (spread out)
 n_particles = 50
-spread = 5
+spread = 5.0
 np.random.seed(1)
 init_conditions = np.array([ [x0, y0, z0] + spread*np.random.randn(3) 
                               for _ in range(n_particles) ])
@@ -72,5 +72,5 @@ def update(frame):
     return [line_main] + lines
 
 ani = FuncAnimation(fig, update, frames=steps, init_func=init,
-                    interval=1, blit=True)
+                    interval=2, blit=True)
 plt.show()
