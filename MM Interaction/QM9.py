@@ -258,11 +258,13 @@ def pretrain_encoder():
     
     print(f"Training on device: {device}")
     print(f"Training samples: {len(train_dataset)}")
+    print(f"Validation samples: {len(val_dataset)}")
     
     # Training loop
-    model.train()
-    for epoch in range(10):
+    for epoch in range(20):  # increased a bit for validation usefulness
+        model.train()
         total_loss = 0
+        
         for batch_idx, batch in enumerate(train_loader):
             batch = batch.to(device)
             optimizer.zero_grad()
@@ -275,11 +277,22 @@ def pretrain_encoder():
             total_loss += loss.item()
             
             if batch_idx % 50 == 0:
-                print(f'Epoch {epoch}, Batch {batch_idx}, Loss: {loss.item():.4f}')
+                print(f'Epoch {epoch}, Batch {batch_idx}, Train Loss: {loss.item():.4f}')
         
-        if epoch % 10 == 0:
-            avg_loss = total_loss / len(train_loader)
-            print(f'Epoch {epoch}, Average Loss: {avg_loss:.4f}')
+        avg_train_loss = total_loss / len(train_loader)
+        
+        # ---- Validation step ----
+        model.eval()
+        val_loss = 0
+        with torch.no_grad():
+            for batch in val_loader:
+                batch = batch.to(device)
+                pred = model(batch).squeeze()
+                loss = criterion(pred, batch.y)
+                val_loss += loss.item()
+        avg_val_loss = val_loss / len(val_loader)
+        
+        print(f'Epoch {epoch} | Train Loss: {avg_train_loss:.4f} | Val Loss: {avg_val_loss:.4f}')
     
     # Save the pretrained encoder with metadata
     torch.save({
@@ -303,9 +316,13 @@ if __name__ == "__main__":
     # Later, when using with your paired molecules:
     node_dim = len(ATOM_LIST) + 5  # Same dimension as your custom featurizer
 
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+    print("Device:", device)
+
     model = GCNRegressor(
         node_dim=node_dim,
         pretrained_encoder_path='models/pretrained_encoder_custom.pth'  # Path to your pretrained encoder
-    ).to(torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
+    ).to(device)
     
     print("Model ready for transfer learning with custom features!")
