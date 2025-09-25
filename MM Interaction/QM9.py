@@ -203,11 +203,7 @@ def prepare_qm9_custom_data():
     
     # Use a subset for faster training (adjust as needed)
     processed_data = processed_data[:10000]  # Use first 10k for demo
-    
-    # Debug: Check the target tensor shape before processing
-    print(f"Sample target tensor shape: {processed_data[0].y.shape}")
-    print(f"Sample target tensor: {processed_data[0].y}")
-    
+        
     # Select one target property - be safe about indexing
     for data in processed_data:
         if data.y.dim() > 0 and data.y.shape[0] > 2:
@@ -219,6 +215,10 @@ def prepare_qm9_custom_data():
         else:
             # If y is scalar or empty, just use it as is
             data.y = data.y.unsqueeze(0) if data.y.dim() == 0 else data.y
+
+    # Debug: Check the target tensor shape before processing
+    print(f"Sample target tensor shape: {processed_data[0].y.shape}")
+    print(f"Sample target tensor: {processed_data[0].y}")
     
     # Split dataset
     train_size = int(0.8 * len(processed_data))
@@ -253,7 +253,7 @@ def pretrain_encoder():
     
     # Initialize model
     model = QM9Pretrainer(node_dim).to(device)
-    optimizer = optim.Adam(model.parameters(), lr=0.001)
+    optimizer = optim.Adam(model.parameters(), lr=0.0001)
     criterion = nn.MSELoss()
     
     print(f"Training on device: {device}")
@@ -261,7 +261,7 @@ def pretrain_encoder():
     print(f"Validation samples: {len(val_dataset)}")
     
     # Training loop
-    for epoch in range(20):  # increased a bit for validation usefulness
+    for epoch in range(50):  # increased a bit for validation usefulness
         model.train()
         total_loss = 0
         
