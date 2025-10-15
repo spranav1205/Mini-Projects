@@ -14,6 +14,7 @@ import torch
 import torch.nn as nn
 import torch.optim as optim
 from QM9 import GCNRegressor  # Importing the GCNEncoder from QM9.py
+# from utils import GCNRegressor 
 from torch_geometric.loader import DataLoader
 
 # --- utils brings all helpers & models ---
@@ -42,7 +43,7 @@ edge_dim = DEFAULT_EDGE_DIM
 
 paired_data_list = build_pairs_from_csv("./trial_data.csv", cif_dir="./CIF_files/", sdf_dir="./SDF_files/")
 
-def train_with_frozen_encoder(train_loader, val_loader):
+def train_with_encoder(train_loader, val_loader, frozen=True):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     
     # Get node dimension
@@ -52,6 +53,7 @@ def train_with_frozen_encoder(train_loader, val_loader):
     model = GCNRegressor(
         node_dim=node_dim,
         pretrained_encoder_path='models/pretrained_encoder_custom.pth',  # Path to your pretrained encoder
+        frozen=frozen
     ).to(device)
     
     # Create optimizer - only for trainable parameters (MLP)
@@ -89,13 +91,15 @@ def train(name = "GCN"):
     if name == "GCN":
         model = GCNRegressor(
         node_dim=node_dim,
-        pretrained_encoder_path='models/pretrained_encoder_custom.pth').to(device)
+        pretrained_encoder_path='models/pretrained_encoder_custom.pth',
+        frozen=True).to(device)
     elif name == "GAT":
         model = GATRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=128).to(device)
     else:
         model = TransformerRegressor(node_dim=node_dim, d_model=64, nhead=8, num_layers=2, dim_feedforward=256).to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-5)
+
     # criterion = torch.nn.MSELoss()
 
     print(f"Training model on {len(paired_data_list)} samples...")
@@ -112,6 +116,16 @@ def train(name = "GCN"):
 
     else:
         print("No training data found (paired_data_list is empty). Skipping training.")
+    
+    # After training, print predictions and true values for last 5 entries
+    model.eval()
+    with torch.no_grad():
+        print("\nLast 5 training samples predictions:")
+        for data in paired_data_list[-5:]:
+            data = data.to(device)
+            pred = model(data).item()
+            true = data.y if hasattr(data, 'y') else None
+            print(f"Prediction: {pred:.4f}, True value: {true}")
 
     return model, train_loss
 
@@ -157,8 +171,8 @@ def process_sdf_and_predict(sdf_file, material_file, model, csv_out="predictions
                 num_atoms = drug.GetNumAtoms()
 
                 # Convert to graph
-                # drug_graph = add_loops_to_data(graph_from_molecule(drug))
-                drug_graph = graph_from_molecule(drug)  # No loops for drugs
+                drug_graph = add_loops_to_data(graph_from_molecule(drug))
+                # drug_graph = graph_from_molecule(drug)  # No loops for drugs
                 if drug_graph.x is None or drug_graph.x.size(0) == 0:
                     print(f"Skipping {name}: invalid drug graph")
                     continue

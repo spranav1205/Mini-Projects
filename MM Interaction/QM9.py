@@ -4,7 +4,7 @@ import torch.optim as optim
 from torch_geometric.datasets import QM9
 from torch_geometric.data import Data
 from torch_geometric.data import DataLoader
-from torch_geometric.nn import GCNConv, global_mean_pool
+from torch_geometric.nn import GCNConv, global_mean_pool, global_max_pool
 import numpy as np
 from utils import BasicAtomFeaturizer
 from rdkit import Chem
@@ -98,18 +98,24 @@ class GCNEncoder(nn.Module):
             x = torch.relu(conv(x, edge_index))
         x = self.convs[-1](x, edge_index)
         
-        # Global pooling for graph-level representation
+        # Global mean and max pooling for graph-level representation
         if batch is not None:
-            x = global_mean_pool(x, batch)
+            pooled_mean = global_mean_pool(x, batch)
+            pooled_max = global_max_pool(x, batch)
         else:
-            x = global_mean_pool(x, batch=None)
-        
-        return x
+            batch_zeros = torch.zeros(x.size(0), dtype=torch.long, device=x.device)
+            pooled_mean = global_mean_pool(x, batch_zeros)
+            pooled_max = global_max_pool(x, batch_zeros)
+        pooled = torch.cat([pooled_mean, pooled_max], dim=-1)
+
+        # print(f"Pooled shape: {pooled.shape}")
+
+        return pooled
     
 
 class GCNRegressor(nn.Module):
     def __init__(self, node_dim, hidden_dim=32, gnn_out_dim=64, mlp_hidden=64, 
-                 pretrained_encoder_path=None):
+                 frozen = False, pretrained_encoder_path=None):
         super().__init__()
         
         # Initialize encoders
@@ -135,13 +141,20 @@ class GCNRegressor(nn.Module):
             print("Loaded pretrained encoder successfully!")
             
             # Freeze the encoder parameters
-            self.freeze_encoders()
+
+            if frozen:
+                self.freeze_encoders()
+            else:
+                self.unfreeze_encoders()
+
         else:
             print("No pretrained encoder path provided, training from scratch.")
 
         # MLP for final prediction (this will be trainable)
+        # Each encoder outputs [batch_size, 2 * gnn_out_dim] (mean + max pooling)
+        # So concatenated: [batch_size, 4 * gnn_out_dim]
         self.mlp = nn.Sequential(
-            nn.Linear(2 * gnn_out_dim, mlp_hidden),  # 2 encoders concatenated
+            nn.Linear(4 * gnn_out_dim, mlp_hidden),  # 2 encoders concatenated
             nn.ReLU(),
             nn.Linear(mlp_hidden, 1)
         )
@@ -166,6 +179,9 @@ class GCNRegressor(nn.Module):
         print("Encoders unfrozen")
     
     def forward(self, data):
+
+        # print("Inside forward pass")
+
         h1 = self.encoder1(data.x1, data.edge_index1)
         h2 = self.encoder2(data.x2, data.edge_index2)
 
@@ -183,7 +199,7 @@ class QM9Pretrainer(nn.Module):
         super().__init__()
         self.encoder = GCNEncoder(node_dim, hidden_dim, gnn_out_dim, num_layers=3)
         self.predictor = nn.Sequential(
-            nn.Linear(gnn_out_dim, 32),
+            nn.Linear(2*gnn_out_dim, 32),
             nn.ReLU(),
             nn.Linear(32, 19)
         )

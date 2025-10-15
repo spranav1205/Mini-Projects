@@ -87,7 +87,7 @@ def build_pairs_from_csv(csv_path, cif_dir, sdf_dir):
             drugs.append(None)
             continue
         g = graph_from_molecule(mol)
-        g = add_loops_to_data(g)
+        g = add_loops_to_data(g) #Adds self-loops to drug graphs
         drugs.append(g)
         if (i + 1) % 10 == 0:
             logger.info(f"Processed {i+1} / {len(df)} drugs")
