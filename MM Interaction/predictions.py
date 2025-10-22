@@ -43,6 +43,8 @@ edge_dim = DEFAULT_EDGE_DIM
 
 paired_data_list = build_pairs_from_csv("./trial_data.csv", cif_dir="./CIF_files/", sdf_dir="./SDF_files/")
 
+print("Sample data point:",paired_data_list[0])
+
 def train_with_encoder(train_loader, val_loader, frozen=True):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     

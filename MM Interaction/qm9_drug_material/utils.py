@@ -2,9 +2,9 @@ import os
 import logging
 import warnings
 import numpy as np
+import pandas as pd
 from rdkit import Chem
 from rdkit import RDLogger
-import pandas as pd
 
 warnings.filterwarnings("ignore")
 RDLogger.DisableLog("rdApp.*")
@@ -243,6 +243,54 @@ def load_mol_from_cif_or_sdf(base_path, cutoff=2.5, max_atoms=200):
         mol = candidates[0] if candidates else None
     return mol
 
+def molecule_from_smiles(smiles):
+    molecule = Chem.MolFromSmiles(smiles, sanitize=False)
+    flag = Chem.SanitizeMol(molecule, catchErrors=True)
+    if flag != Chem.SanitizeFlags.SANITIZE_NONE:
+        Chem.SanitizeMol(molecule, sanitizeOps=Chem.SanitizeFlags.SANITIZE_ALL ^ flag)
+    Chem.AssignStereochemistry(molecule, cleanIt=True, force=True)
+    return molecule
+
+
+def graph_from_molecule(molecule):
+    if molecule is None:
+        raise ValueError("graph_from_molecule received None molecule")
+
+    atom_features = []
+    bond_features = []
+    edge_index = []
+
+    # --- New Atom Features ---
+    for atom in molecule.GetAtoms():
+        vec = basic_featurizer.encode(atom)
+        atom_features.append(vec)
+
+    # --- Bond Features ---
+    for bond in molecule.GetBonds():
+        s, e = bond.GetBeginAtomIdx(), bond.GetEndAtomIdx()
+        edge_index.append([s, e])
+        edge_index.append([e, s])
+        bf = bond_featurizer.encode(bond)
+        bond_features.append(bf)
+        bond_features.append(bf)
+
+    # --- Convert to tensors ---
+    x = torch.tensor(atom_features, dtype=torch.float)
+    if len(edge_index) == 0:
+        edge_index = torch.empty((2, 0), dtype=torch.long)
+        edge_attr = torch.empty((0, bond_featurizer.dim), dtype=torch.float)
+    else:
+        edge_index = torch.tensor(edge_index, dtype=torch.long).t().contiguous()
+        edge_attr = torch.tensor(bond_features, dtype=torch.float)
+
+    return Data(x=x, edge_index=edge_index, edge_attr=edge_attr)
+
+
+def add_loops_to_data(data: Data) -> Data:
+    edge_index, _ = add_self_loops(data.edge_index, num_nodes=data.x.size(0))
+    data.edge_index = edge_index
+    return data
+
 def build_pairs_from_csv(csv_path, cif_dir, sdf_dir):
     """Builds pairs from names in a CSV file."""
     df = pd.read_csv(csv_path)
@@ -291,54 +339,6 @@ def build_pairs_from_csv(csv_path, cif_dir, sdf_dir):
 
     logger.info(f"Built dataset with {len(dataset)} pairs")
     return dataset
-
-def molecule_from_smiles(smiles):
-    molecule = Chem.MolFromSmiles(smiles, sanitize=False)
-    flag = Chem.SanitizeMol(molecule, catchErrors=True)
-    if flag != Chem.SanitizeFlags.SANITIZE_NONE:
-        Chem.SanitizeMol(molecule, sanitizeOps=Chem.SanitizeFlags.SANITIZE_ALL ^ flag)
-    Chem.AssignStereochemistry(molecule, cleanIt=True, force=True)
-    return molecule
-
-
-def graph_from_molecule(molecule):
-    if molecule is None:
-        raise ValueError("graph_from_molecule received None molecule")
-
-    atom_features = []
-    bond_features = []
-    edge_index = []
-
-    # --- New Atom Features ---
-    for atom in molecule.GetAtoms():
-        vec = basic_featurizer.encode(atom)
-        atom_features.append(vec)
-
-    # --- Bond Features ---
-    for bond in molecule.GetBonds():
-        s, e = bond.GetBeginAtomIdx(), bond.GetEndAtomIdx()
-        edge_index.append([s, e])
-        edge_index.append([e, s])
-        bf = bond_featurizer.encode(bond)
-        bond_features.append(bf)
-        bond_features.append(bf)
-
-    # --- Convert to tensors ---
-    x = torch.tensor(atom_features, dtype=torch.float)
-    if len(edge_index) == 0:
-        edge_index = torch.empty((2, 0), dtype=torch.long)
-        edge_attr = torch.empty((0, bond_featurizer.dim), dtype=torch.float)
-    else:
-        edge_index = torch.tensor(edge_index, dtype=torch.long).t().contiguous()
-        edge_attr = torch.tensor(bond_features, dtype=torch.float)
-
-    return Data(x=x, edge_index=edge_index, edge_attr=edge_attr)
-
-
-def add_loops_to_data(data: Data) -> Data:
-    edge_index, _ = add_self_loops(data.edge_index, num_nodes=data.x.size(0))
-    data.edge_index = edge_index
-    return data
 
 
 class PairedData(Data):
