@@ -31,6 +31,16 @@ from utils import (
     basic_featurizer
 )
 
+import random
+import numpy as np
+
+SEED = 42
+random.seed(SEED)
+torch.manual_seed(SEED)
+np.random.seed(SEED)
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(SEED)
+
 # -------------------------------
 # CONFIG
 # -------------------------------
@@ -93,7 +103,7 @@ def train(name = "GCN"):
     if name == "GCN":
         model = GCNRegressor(
         node_dim=node_dim,
-        pretrained_encoder_path='models/pretrained_encoder_custom.pth',
+        pretrained_encoder_path='models/best_qm9_encoder.pth',
         frozen=True).to(device)
     elif name == "GAT":
         model = GATRegressor(node_dim=node_dim, hidden_dim=64, gnn_out_dim=128).to(device)

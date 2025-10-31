@@ -1,0 +1,3023 @@
+name,num_atoms,pred_energy
+Axitinib,28,0.6267335414886475
+AZD6244 (Selumetinib),27,0.7588074207305908
+Nintedanib (BIBF 1120),40,0.6202656626701355
+Bortezomib (Velcade),28,0.6184641122817993
+Bosutinib (SKI-606),36,0.6545572280883789
+Dasatinib,33,0.647692084312439
+Deforolimus (MK-8669) ,71,0.6793312430381775
+Gefitinib (ZD1839),31,0.65793377161026
+Imatinib Mesylate (STI571),42,0.7196067571640015
+Lapatinib (GW-572016) Ditosylate,62,0.6951212882995605
+Lenalidomide (CC-5013),19,0.6085878610610962
+Panobinostat (LBH589),26,0.6220024228096008
+Nilotinib (AMN-107),39,0.661372721195221
+Pazopanib HCl,32,0.8210313320159912
+Rapamycin (Sirolimus),65,0.6172668933868408
+Sorafenib Tosylate,43,0.6921405792236328
+Sunitinib Malate,38,0.6207354068756104
+"Vorinostat (SAHA, MK0683)",19,0.6187301874160767
+"Entinostat (MS-275, SNDX-275)",28,0.6190310716629028
+Enzastaurin (LY317615),39,0.6137325167655945
+"Olaparib (AZD2281, Ku-0059436)",32,0.617910623550415
+Masitinib (AB1010),36,0.6326851844787598
+Vismodegib (GDC-0449),27,0.6728137731552124
+Belinostat (PXD101),22,0.6750102043151855
+"Rucaparib (AG-014699,PF-01367338) phosphate",29,0.7233293056488037
+Everolimus (RAD001),68,0.616832971572876
+"Cabozantinib (XL184, BMS-907351)",37,0.614653468132019
+Malotilate,18,0.6269317865371704
+Ivacaftor (VX-770),29,0.6223692893981934
+Docetaxel (Taxotere),58,0.6228973865509033
+Paclitaxel (Taxol),62,0.6195570230484009
+Capecitabine (Xeloda),25,0.6055749654769897
+Regorafenib (BAY 73-4506),33,0.6606819033622742
+Danoprevir (ITMN-191),51,0.6769955158233643
+Ritonavir,50,0.6290187835693359
+Anastrozole,22,0.6214213371276855
+Aprepitant (MK-0869),37,0.6514973640441895
+Bicalutamide (Casodex),29,0.6714752912521362
+Fulvestrant (Faslodex),44,0.6804778575897217
+Raltitrexed (Tomudex),32,0.6242507696151733
+Exemestane,25,0.6707887649536133
+Cladribine,19,0.6428180932998657
+Decitabine,16,0.5894558429718018
+Dutasteride,41,0.6750986576080322
+Tivozanib (AV-951),32,0.6450090408325195
+Doxorubicin (Adriamycin) HCl,41,0.8351798057556152
+Adrucil (Fluorouracil),9,0.583984375
+Abitrexate (Methotrexate),33,0.6192541122436523
+Bendamustine HCL ,24,0.8051306009292603
+Nelarabine (Arranon),21,0.5956954956054688
+Clofarabine,20,0.642221212387085
+Dexrazoxane Hydrochloride,20,0.8116166591644287
+Epirubicin Hydrochloride,41,0.8351798057556152
+"Etoposide (VP-16)
+Etoposide",47,0.6109777092933655
+Evista (Raloxifene Hydrochloride),35,0.8157666921615601
+Fludarabine Phosphate (Fludara),24,0.6844298243522644
+Topotecan HCl,32,0.8222527503967285
+2-Methoxyestradiol,25,0.626642644405365
+Letrozole,22,0.6122910380363464
+Temozolomide,14,0.5968945622444153
+Agomelatine,18,0.6198838949203491
+Leflunomide,19,0.6537467241287231
+MDV3100 (Enzalutamide),32,0.6542636752128601
+Dienogest,25,0.626403272151947
+Nepafenac,19,0.6154646873474121
+Posaconazole,51,0.6162264347076416
+Prasugrel (Effient),26,0.6282037496566772
+Ramelteon,19,0.6185845136642456
+AMG-073 HCl (Cinacalcet hydrochloride),28,0.9388597011566162
+Celecoxib,26,0.6942374110221863
+"Vemurafenib (PLX4032, RG7204)",33,0.6806636452674866
+Adapalene,31,0.6373772621154785
+Altretamine (Hexalen),15,0.5967797040939331
+Amisulpride,25,0.6671682596206665
+Aniracetam,16,0.6019095182418823
+Asenapine maleate,30,0.659847617149353
+Benazepril hydrochloride,32,0.8233960866928101
+Budesonide,35,0.6302875280380249
+Bumetanide,25,0.6826547384262085
+Carmofur,18,0.6078941226005554
+Cetirizine Dihydrochloride,29,0.8151663541793823
+Cilnidipine,36,0.6213479042053223
+Diethylstilbestrol,20,0.609146237373352
+Diltiazem HCl,30,0.8116503953933716
+Diphenhydramine HCl (Benadryl),20,0.8301330804824829
+Dapoxetine hydrochloride (Priligy),24,0.8376245498657227
+Anagrelide hydrochloride ,17,0.7968741655349731
+Antipyrine,14,0.6063598990440369
+Felodipine (Plendil),25,0.6596571207046509
+Deflazacort (Calcort),36,0.6349924802780151
+Nizatidine,21,0.6108596324920654
+Dyclonine hydrochloride,22,0.8189646005630493
+Carbidopa,16,0.6180316209793091
+Valsartan (Diovan),33,0.6145612597465515
+Dipyridamole (Persantine),36,0.60857093334198
+Hydroxyurea (Cytodrox),5,0.5764957666397095
+Potassium iodide,2,1.3814810514450073
+Tropisetron HCl,24,1.0394434928894043
+Nicotinamide (Vitamin B3),9,0.6086946725845337
+Vitamin B12,94,0.686469316482544
+Diclofenac Sodium,20,0.7092469930648804
+Metronidazole (Flagyl),12,0.6119794845581055
+Flutamide (Eulexin),19,0.6493270397186279
+Fluvastatin sodium (Lescol),31,0.7272636890411377
+Sulfamethoxazole,17,0.6624640226364136
+Sulfisoxazole,18,0.6689300537109375
+Crystal violet ,29,0.8230366706848145
+Haloperidol (Haldol),26,0.65294349193573
+Phenindione (Rectadione),17,0.6076645851135254
+Triamcinolone (Aristocort),30,0.6274558901786804
+Azilsartan Medoxomil (TAK-491),42,0.6215082406997681
+Medetomidine HCl,16,0.8319021463394165
+Prucalopride,25,0.6485275030136108
+Cilostazol,27,0.6134368181228638
+Floxuridine,17,0.5898522138595581
+"Tegafur (FT-207, NSC 148958)",14,0.6004573106765747
+Ifosfamide,14,0.6273242235183716
+Megestrol Acetate,31,0.6360061168670654
+Mercaptopurine (6-MP),10,0.641268253326416
+Streptozotocin (STZ),18,0.5834635496139526
+Costunolide,17,0.6137652397155762
+Dexamethasone,30,0.6286859512329102
+Doxazosin mesylate,38,0.712049126625061
+Etodolac (Lodine),21,0.627585768699646
+Etomidate,18,0.6113559007644653
+Fluconazole,22,0.6102434992790222
+Flumazenil,22,0.610159158706665
+Fluoxetine  HCl,23,0.8258497714996338
+Flupirtine maleate,30,0.615054726600647
+Gatifloxacin,27,0.6166619658470154
+Genistein,20,0.6029289960861206
+Glimepiride,34,0.6771992444992065
+Lansoprazole,25,0.6584476232528687
+Levetiracetam,12,0.6044442653656006
+Loratadine,27,0.6628634929656982
+Amonafide,21,0.6143268346786499
+Acitretin,24,0.6229996085166931
+Gestodene,27,0.6767877340316772
+Drospirenone,34,0.7177848815917969
+Lopinavir (ABT-378),46,0.613516092300415
+Meropenem,26,0.6163034439086914
+Mianserin HCl,21,0.8482227325439453
+Mosapride citrate,42,0.6478283405303955
+Nafamostat mesylate,36,0.7150042057037354
+Naftopidil Dihydrochloride,31,0.8235557079315186
+Omeprazole (Prilosec),24,0.6475018858909607
+Ondansetron hydrochloride (Zofran),23,0.8265204429626465
+Pizotifen malate,30,0.63161301612854
+Resveratrol,17,0.6095751523971558
+Rocuronium bromide,43,3.469630241394043
+Tenofovir Disoproxil Fumarate,43,0.6517469882965088
+Tenofovir (Viread),19,0.686295747756958
+Tigecycline,44,0.6275428533554077
+Trilostane,28,0.6603292226791382
+Vecuronium Bromide,45,3.4750711917877197
+Bimatoprost,30,0.6120875477790833
+Linezolid (Zyvox),24,0.6122303009033203
+Alfuzosin hydrochloride (Uroxatral),29,0.8117432594299316
+Clopidogrel (Plavix),26,0.7098701000213623
+5-Aminolevulinic acid hydrochloride,10,0.7834203243255615
+Ranolazine dihydrochloride,33,0.8170092105865479
+Repaglinide,33,0.6228324174880981
+Rolipram,20,0.6101995706558228
+Sildenafil citrate,46,0.6624754667282104
+Sumatriptan succinate,28,0.679634690284729
+Tianeptine sodium,30,0.716030478477478
+Topiramate,22,0.6822069883346558
+Tranilast (SB 252218),24,0.6175063848495483
+Venlafaxine HCl,21,0.8222917318344116
+Voriconazole,25,0.6134098768234253
+Zileuton,16,0.615856409072876
+Ziprasidone hydrochloride,29,0.8154186010360718
+Zonisamide,14,0.6974153518676758
+Tipifarnib (Zarnestra),34,0.6598777770996094
+Roxadustat (FG-4592),26,0.6178654432296753
+Calcitriol (Rocaltrol),31,0.6292799711227417
+Doxercalciferol (Hectorol),32,0.6221849918365479
+Alfacalcidol,30,0.6194345951080322
+Moxifloxacin hydrochloride,32,1.0029031038284302
+Safinamide Mesylate (FCE28073),27,0.7109466195106506
+Daclatasvir (BMS-790052),54,0.6216313242912292
+Iloperidone (Fanapt),31,0.6126365065574646
+HMN-214,30,0.6736322641372681
+Naratriptan HCl,24,0.822577714920044
+Ponatinib (AP24534),39,0.6627753973007202
+Fludarabine (Fludara),20,0.6018635034561157
+Betamethasone (Celestone),30,0.6286859512329102
+Mycophenolate mofetil (CellCept),31,0.6085190176963806
+Dyphylline (Dilor),18,0.5977768898010254
+"Aztreonam (Azactam, Cayston)",28,0.6750739812850952
+Tadalafil (Cialis),30,0.608711838722229
+Cyclosporine (Neoral),85,0.606846809387207
+Quizartinib (AC220),40,0.6251968145370483
+Zinc Pyrithione,17,0.6437391042709351
+Milnacipran HCl,19,0.8258577585220337
+Darifenacin HBr,33,3.220339059829712
+2-Thiouracil,8,0.6197606325149536
+Febuxostat (Uloric),22,0.6235691905021667
+Dapagliflozin,28,0.6504981517791748
+Pimobendan (Vetmedin),25,0.612424373626709
+Amphotericin B,67,0.6111409664154053
+Azelastine hydrochloride (Astelin),28,0.8215453624725342
+"Clarithromycin (Biaxin, Klacid)",52,0.6103237867355347
+Ampicillin sodium,26,0.7096575498580933
+VX-809 (Lumacaftor),33,0.6537280678749084
+Pomalidomide,20,0.6059860587120056
+Tazarotene (Avage),25,0.6267610192298889
+Fasudil HCl (HA-1077),21,0.8237698078155518
+Candesartan (Atacand),33,0.6265683174133301
+Altrenogest,25,0.6265875101089478
+Apixaban,34,0.614463210105896
+Reserpine,47,0.6167656183242798
+Furosemide (Lasix),21,0.6744693517684937
+Cefdinir (Omnicef),28,0.6227062940597534
+Clotrimazole (Canesten),25,0.6749086380004883
+Rizatriptan Benzoate (Maxalt),29,0.6275915503501892
+Pyridostigmine Bromide (Mestinon),14,2.650970697402954
+"Methimazole (Tapazole, Northyx)",7,0.6242101788520813
+Metolazone (Zaroxolyn),24,0.6884967088699341
+Mifepristone (Mifeprex),34,0.6243457794189453
+Riluzole (Rilutek),15,0.6536591649055481
+Artemether,24,0.625791609287262
+Sulfameter (Bayrena),19,0.6628440618515015
+Prilocaine,16,0.6093862056732178
+Prednisone (Adasone),29,0.6335798501968384
+Acetylcysteine,11,0.6174600720405579
+Ethinyl Estradiol,25,0.6504839658737183
+Naproxen Sodium,18,0.7251499891281128
+"Nitazoxanide (Alinia, Annita)",21,0.6317735910415649
+Triamcinolone Acetonide,33,0.6278362274169922
+"Orlistat (Alli, Xenical)",35,0.6124724745750427
+Allopurinol (Zyloprim),10,0.5952576994895935
+Allopurinol Sodium (Aloprim),11,0.7100092768669128
+Zafirlukast (Accolate),41,0.6774882078170776
+Ibuprofen (Advil),15,0.6224489808082581
+Albendazole (Albenza),18,0.6169773936271667
+Chlorothiazide,17,0.6628915071487427
+Ursodiol (Actigal Urso),33,0.6426085233688354
+Nitrofurazone (Nitrofural),14,0.6130613088607788
+Ketoprofen (Actron),19,0.6192553043365479
+Adenosine (Adenocard),19,0.5974812507629395
+Artemisinin,23,0.6272444128990173
+Artesunate,30,0.6272605657577515
+Zolmitriptan (Zomig),21,0.6255504488945007
+"Telbivudine (Sebivo, Tyzeka)",17,0.5984365940093994
+Monobenzone (Benoquin),15,0.6064095497131348
+All-trans Retinoic Acid (Tretinoin),22,0.6333128809928894
+"Phenylbutazone (Butazolidin, Butatron)",23,0.6057749390602112
+Ezetimibe (Zetia),30,0.6156591773033142
+Dofetilide (Tikosyn),29,0.6916466355323792
+Isradipine (Dynacirc),27,0.6118155717849731
+Estrone,23,0.6622717380523682
+Flucytosine (Ancobon),9,0.5928568840026855
+Loteprednol etabonate,35,0.6848317980766296
+Pregnenolone,26,0.6588425636291504
+Aminophylline (Truphylline),30,0.5951537489891052
+Amorolfine Hydrochloride,24,0.8323463201522827
+Chloramphenicol (Chloromycetin),20,0.7154812812805176
+Disulfiram (Antabuse),16,0.6723392605781555
+Mesalamine (Lialda),11,0.6058463454246521
+Ipratropium bromide,25,3.0016705989837646
+Betamethasone Dipropionate (Diprolene),38,0.6260977983474731
+Betapar (Meprednisone),30,0.6334586143493652
+Betamethasone valerate (Betnovate),36,0.6252975463867188
+Praziquantel (Biltricide),23,0.6141389608383179
+"Busulfan (Myleran, Busulfex)",14,0.6660987138748169
+Gemcitabine (Gemzar),18,0.6238458156585693
+Carbamazepine (Carbatrol),18,0.6246097087860107
+Hydrocortisone (Cortisol),29,0.6335798501968384
+Desonide,34,0.6340162754058838
+Didanosine (Videx),17,0.6003130674362183
+Divalproex sodium,21,0.7158281803131104
+Progesterone (Prometrium),26,0.6588425040245056
+Lamivudine (Epivir),15,0.6155440807342529
+Estradiol,23,0.6622717380523682
+Deferasirox (Exjade),28,0.6212379932403564
+Piroxicam (Feldene),23,0.6673189401626587
+Glipizide (Glucotrol),31,0.6754662990570068
+Glyburide (Glibenclamide),33,0.6741271615028381
+"Adefovir Dipivoxil (Preveon, Hepsera)",34,0.6639430522918701
+Zalcitabine,15,0.5980232954025269
+"Azathioprine (Azasan, Imuran)",19,0.6139248609542847
+"Indomethacin (Indocid, Indocin)",25,0.6519732475280762
+Levonorgestrel (Levonelle),27,0.6767877340316772
+Gemfibrozil (Lopid),18,0.623468279838562
+Indapamide (Lozol),24,0.687574028968811
+Methylprednisolone,30,0.6334729790687561
+Meloxicam (Mobic),23,0.6557398438453674
+"Mesna (Uromitexan, Mesnex)",8,0.6360690593719482
+Methocarbamol (Robaxin),17,0.6116129159927368
+Telmisartan (Micardis),39,0.6244901418685913
+Thiabendazole,14,0.642582893371582
+Guaifenesin (Guaiphenesin),14,0.6064842343330383
+Nevirapine (Viramune),20,0.6102169752120972
+Nimodipine (Nimotop),30,0.6195383071899414
+Oxybutynin (Ditropan),26,0.618240237236023
+Pitavastatin calcium (Livalo),63,1.305120825767517
+Pyrazinamide (Pyrazinoic acid amide),9,0.6013466119766235
+Quetiapine fumarate (Seroquel),62,0.6269562244415283
+Cefditoren pivoxil,42,0.61408931016922
+Sulfadiazine,17,0.6664206981658936
+Chlorprothixene,21,0.6528767347335815
+Oxytetracycline (Terramycin),35,0.6118850708007812
+Thioguanine,11,0.6305302381515503
+Thiotepa (Thioplex),11,0.6578996181488037
+Ethionamide,11,0.6486378312110901
+Trifluridine (Viroptic),20,0.6353161334991455
+Azacitidine (Vidaza),17,0.5883756875991821
+Vidarabine (Vira-A),19,0.5974812507629395
+Teniposide (Vumon),47,0.6226603984832764
+Rifaximin (Xifaxan),57,0.6180368065834045
+Simvastatin (Zocor),32,0.627419114112854
+Ramipril (Altace),30,0.618314266204834
+"Fenofibrate (Tricor, Trilipix)",25,0.6464332342147827
+Ranolazine (Ranexa),31,0.6093152761459351
+Ranitidine Hydrochloride,22,0.7985086441040039
+Acipimox ,11,0.6058186292648315
+Acyclovir (Aciclovir),16,0.5955005884170532
+Nifedipine (Adalat),25,0.6170874238014221
+Amiloride HCl,16,0.7931264042854309
+Baricitinib (LY3009104),26,0.6818833947181702
+Amlodipine besylate (Norvasc),38,0.6848375201225281
+Chloroxine,13,0.6424791812896729
+Lomustine (CeeNU),15,0.660550594329834
+Chenodeoxycholic acid,33,0.6426085233688354
+Cimetidine (Tagamet),17,0.6235021352767944
+Clemastine Fumarate,32,0.6512377262115479
+Daidzein,19,0.6038477420806885
+Methylthiouracil,9,0.6327197551727295
+Isoniazid (Tubizid),10,0.6057047247886658
+Levofloxacin (Levaquin),27,0.618408739566803
+Enalapril maleate (Vasotec),35,0.6144031286239624
+Menadione,13,0.6012250185012817
+Metformin hydrochloride (Glucophage),10,0.805060625076294
+Methoxsalen (Oxsoralen),16,0.608898401260376
+Miconazole nitrate,29,0.6454585194587708
+Primidone (Mysoline),16,0.6149846315383911
+Nefiracetam (Translon),18,0.6090846061706543
+Nicorandil (Ikorel),15,0.6280863285064697
+Tamoxifen Citrate (Nolvadex),41,0.6257553100585938
+Methscopolamine (Pamine),28,3.399083375930786
+Propylthiouracil,11,0.6387134194374084
+Elvitegravir (GS-9137),31,0.656159520149231
+Maraviroc,37,0.6427981853485107
+Raltegravir (MK-0518),32,0.6145407557487488
+Pyrimethamine,17,0.6574716567993164
+Sulindac (Clinoril),25,0.6686142683029175
+Silibinin (Silybin),35,0.603032648563385
+Silymarin (Silybin B),35,0.6030325889587402
+Sinomenine (Cucoline),25,0.6122264862060547
+Synephrine (Oxedrine),12,0.5998867750167847
+Tanshinone I,21,0.6112436652183533
+Tanshinone IIA (Tanshinone B),22,0.6216163039207458
+Troxerutin,52,0.6003390550613403
+Ursolic acid (Malol),36,0.638857901096344
+Yohimbine hydrochloride (Antagonil),30,1.120529055595398
+5-hydroxytryptophan (5-HTP),16,0.618184506893158
+Aloin (Barbaloin),32,0.6115659475326538
+Ammonium Glycyrrhizinate (AMGZ),64,0.6346743106842041
+Butylscopolamine bromide (Scopolamine butylb,31,3.4071857929229736
+Dioscin (Collettiside III),69,0.6284470558166504
+Diosmetin (Luteolin 4-methyl ether),22,0.6005479097366333
+D-Mannitol (Osmitrol),12,0.5667365789413452
+Gastrodin (Gastrodine),20,0.6007710099220276
+Hematoxylin (Hydroxybrazilin),23,0.6106587052345276
+Indirubin,20,0.6112968921661377
+Lappaconite Hydrobromide,46,3.470036506652832
+L-carnitine (Levocarnitine),11,0.6176480054855347
+Naringin Dihydrochalcone (Naringin DC),42,0.5942345857620239
+Polydatin(Piceid),28,0.6121978163719177
+Metoprolol tartrate,48,0.6181644797325134
+Nimesulide,21,0.6885871887207031
+Noradrenaline bitartrate monohydrate (Levoph,26,0.6223680973052979
+Orphenadrine citrate (Norflex),33,0.6217478513717651
+Oxytetracycline dihydrate,37,0.6325088739395142
+Pioglitazone hydrochloride (Actos),26,0.8131259679794312
+Pramiracetam,19,0.6065984964370728
+Tioconazole,23,0.6701557636260986
+Valaciclovir HCl,24,0.8131803274154663
+Enoxacin (Penetrex),23,0.6133140325546265
+Avobenzone (Parsol 1789),23,0.6197112798690796
+Lapatinib,40,0.6965597867965698
+PA-824,25,0.6641808152198792
+Amiodarone HCl,32,0.8811255693435669
+Pefloxacin mesylate,29,0.7081779837608337
+Canagliflozin,31,0.6201602816581726
+MK-2048,32,0.6550260782241821
+Laquinimod (ABR-215062),25,0.6511620283126831
+"Tofacitinib (CP-690550, Tasocitinib)",23,0.6098299026489258
+Istradefylline (KW-6002),28,0.6053425073623657
+Torcetrapib (CP-529414),41,0.6552000045776367
+Ciclopirox ethanolamine,19,0.6095869541168213
+Rimonabant (SR141716),30,0.6537560224533081
+Cabazitaxel (Jevtana),62,0.6252824068069458
+Bufexamac,16,0.6136775016784668
+Lamotrigine,16,0.6606229543685913
+Lonafarnib (SCH66336),36,0.7610790729522705
+Synephrine HCl,13,0.8111650943756104
+Aminoglutethimide (Cytadren),17,0.6164960265159607
+Verteporfin (Visudyne),53,0.6267976760864258
+Atazanavir sulfate,56,0.7279279232025146
+Dabrafenib (GSK2118436),35,0.6757807731628418
+Alpelisib (BYL719),30,0.6469793319702148
+Vildagliptin (LAF-237),22,0.6235626935958862
+Pravastatin sodium,32,0.7269594669342041
+Daunorubicin HCl (Daunomycin HCl),40,0.8437490463256836
+Quercetin (Sophoretin),22,0.5999565124511719
+Sorbitol (Glucitol),12,0.5667365789413452
+Salidroside (Rhodioloside),21,0.6059107780456543
+Palmatine chloride,27,0.8110575675964355
+Pramipexole dihydrochloride monohydrate ,17,0.7986340522766113
+Chlormezanone (Trancopal),17,0.6454452872276306
+Candesartan cilexetil (Atacand),45,0.6264501810073853
+Dextrose (D-glucose),12,0.5667365789413452
+Xylose,10,0.566132128238678
+Mestranol,26,0.6332333087921143
+Naftopidil (Flivas),29,0.6155890226364136
+S-(+)-Rolipram,20,0.6101995706558228
+Atropine sulfate monohydrate,52,0.7315348386764526
+Roflumilast (Daxas),26,0.6556956768035889
+E7080 (Lenvatinib),30,0.6530853509902954
+Biotin (Vitamin B7),18,0.6172692775726318
+Dexamethasone acetate,33,0.6296823024749756
+Ethynodiol diacetate,32,0.6396199464797974
+Atomoxetine HCl,20,0.8255088329315186
+Moguisteine,23,0.6167640089988708
+Nadifloxacin,26,0.618438184261322
+Amitriptyline HCl ,22,0.8643307685852051
+"LDE225 (NVP-LDE225, Erismodegib)",35,0.6719306707382202
+BIBR-1048 (Dabigatran),46,0.6156959533691406
+Tebipenem pivoxil (L-084),35,0.6244651675224304
+Daphnetin,13,0.604350209236145
+Cyclophosphamide monohydrate,15,0.6211859583854675
+Ixazomib (MLN2238),23,0.6392461061477661
+Desloratadine ,22,0.6768301725387573
+Ornidazole,14,0.6481239199638367
+Oxybutynin chloride,27,0.8191149234771729
+Ixazomib Citrate (MLN9708),34,0.6424600481987
+Ivermectin,68,0.6119024753570557
+Sulfanilamide,11,0.673368513584137
+Formestane,25,0.6293407678604126
+Irinotecan HCl Trihydrate (Campto),47,0.8242583274841309
+(-)-Epigallocatechin gallate,33,0.5967882871627808
+4-Methylumbelliferone (4-MU),13,0.6080201268196106
+Aesculin (Esculin),24,0.6006267070770264
+Amygdalin,32,0.6052341461181641
+Andrographolide,26,0.6223323345184326
+Apigenin,20,0.6016130447387695
+"Arbutin (Uva, p-Arbutin)",19,0.5955215692520142
+Ipriflavone,21,0.6088221669197083
+Asiatic acid,38,0.6357508301734924
+Baicalein,20,0.6081254482269287
+MPEP,15,0.6350295543670654
+5-hydroxymethyl tolterodine (PNU 200577),25,0.6117777824401855
+Baicalin,32,0.6150345802307129
+Azithromycin,52,0.6131162643432617
+Bergenin (Cuscutin),25,0.5980434417724609
+Berberine chloride,26,0.8121259212493896
+Caffeic acid,13,0.6148149967193604
+Chlorogenic acid,25,0.617118239402771
+Cinchonidine,24,0.6384633183479309
+Amlodipine (Norvasc),28,0.6435437798500061
+Cyclosporin A,85,0.606846809387207
+Cytisine,14,0.6120396852493286
+Dihydroartemisinin (DHA),23,0.6272443532943726
+DL-Carnitine hydrochloride,12,0.7860310673713684
+Emodin,20,0.6021113395690918
+Enoxolone (Glycyrrhetin),38,0.642117977142334
+10-Hydroxycamptothecin,27,0.6211896538734436
+Formononetin (Formononetol),20,0.6049960851669312
+Fumalic acid (Ferulic acid),14,0.6147658824920654
+Glycyrrhizin (Glycyrrhizic Acid),61,0.6326205134391785
+Gramine,13,0.6134964227676392
+Rotundine,27,0.6057366132736206
+Tolbutamide,18,0.6705147624015808
+Hesperetin,22,0.6005479097366333
+Hesperidin,43,0.6014325618743896
+Honokiol,20,0.607776403427124
+Hyodeoxycholic acid (HDCA),32,0.6422646045684814
+Kaempferol,21,0.6018086671829224
+Kinetin (6-Furfuryladenine),16,0.6058691143989563
+L (+)-Rhamnose Monohydrate,12,0.602418839931488
+Luteolin,21,0.6010462641716003
+Magnolol,20,0.607068657875061
+Matrine ((+)-Matrine),22,0.6910879611968994
+Morin hydrate (Aurantica),23,0.6196599006652832
+Nalidixic acid (NegGram),17,0.6145849227905273
+Naringin (Naringoside),41,0.6020784378051758
+Neohesperidin dihydrochalcone (Nhdc),43,0.6040879487991333
+Oleanolic Acid (Caryophyllin),36,0.6425608396530151
+Orotic acid (6-Carboxyuracil),11,0.5899510979652405
+Osthole (Osthol),18,0.6129953861236572
+Oxymatrine (Matrine N-oxide),23,0.6514269709587097
+Paeonol (Peonol),12,0.5957702994346619
+Parthenolide ((-)-Parthenolide),18,0.6163080930709839
+Piperine (1-Piperoylpiperidine),21,0.61213219165802
+Puerarin (Kakonein),31,0.6072577834129333
+Quercetin dihydrate (Sophoretin),24,0.6227820515632629
+Rutaecarpine (Rutecarpine),22,0.6139949560165405
+Rutin (Rutoside),43,0.5997172594070435
+"Salicin (Salicoside, Salicine)",20,0.6043440103530884
+Sclareol,22,0.6262494325637817
+Sodium Danshensu,15,0.715442419052124
+Amantadine hydrochloride (Symmetrel),12,0.8354758024215698
+Amfebutamone (Bupropion) HCl,17,0.8091390132904053
+Benserazide HCl,19,0.8072339296340942
+Bupivacaine hydrochloride (Marcain),22,0.8228698968887329
+Bethanechol chloride,12,0.7866396903991699
+Chlorpromazine HCl,22,0.8119971752166748
+Clonidine hydrochloride (Catapres),15,0.800145149230957
+Clozapine (Clozaril),23,0.6636717915534973
+Dehydroepiandrosterone (DHEA),24,0.6721696853637695
+Domperidone (Motilium),30,0.660845160484314
+Estriol,24,0.6265082359313965
+Famciclovir (Famvir),23,0.6107354164123535
+Fenbendazole (Panacur),21,0.6255106329917908
+Gallamine triethiodide (Flaxedil),39,4.847579002380371
+Hexestrol (Bibenzyl),20,0.609146237373352
+Imatinib (STI571) ,37,0.6121377944946289
+Lincomycin hydrochloride (Lincocin),29,0.8048559427261353
+Loperamide hydrochloride,35,0.8244891166687012
+Manidipine (Manyper),45,0.6246508359909058
+PCI-32765 (Ibrutinib),33,0.6122108697891235
+Manidipine dihydrochloride (CV-4093),47,0.8196742534637451
+Milrinone (Primacor),16,0.6074975728988647
+Mitoxantrone 2HCl,34,0.8149427175521851
+Moroxydine HCl,13,0.8028925657272339
+Mycophenolic acid,23,0.6149208545684814
+Nateglinide (Starlix),23,0.6227772235870361
+Nitrendipine,26,0.6193639636039734
+Novobiocin sodium (Albamycin),45,0.7220257520675659
+Olanzapine (Zyprexa),22,0.6309424638748169
+Olopatadine hydrochloride (Opatanol),26,0.8257445096969604
+Ozagrel,17,0.627396821975708
+Pancuronium dibromide,47,3.293285369873047
+Quinine hydrochloride dihydrate,29,1.0410090684890747
+Racecadotril (Acetorphan),27,0.6479087471961975
+Ribavirin (Copegus),17,0.5896263122558594
+Rosiglitazone maleate,33,0.6353329420089722
+Scopolamine hydrobromide,27,3.472083806991577
+Sotalol HCl,19,0.8063398599624634
+Spectinomycin 2HCl,28,0.9131094217300415
+Sulfadoxine (Sulphadoxine),21,0.6611759066581726
+Terbinafine hydrochloride (Lamisil),23,0.8401986360549927
+Vardenafil Hydrochloride Trihydrate (Vivanza,38,0.8119887113571167
+Maprotiline hydrochloride,22,0.881820797920227
+Naphazoline hydrochloride (Naphcon),17,0.8457872867584229
+Epinephrine bitartrate (Adrenalinium),23,0.6096774339675903
+Phenytoin sodium (Dilantin),20,0.7315521240234375
+Phenytoin (Lepitoin),19,0.6220673322677612
+Ciclopirox (Penlac),15,0.6129611730575562
+Dopamine hydrochloride (Inotropin),12,0.8129684925079346
+Ritodrine hydrochloride (Yutopar),24,0.9973697662353516
+Isoconazole nitrate (Travogen),29,0.6453724503517151
+Econazole nitrate (Spectazole),28,0.6537439227104187
+Miconazole (Monistat),25,0.6431716680526733
+Secnidazole (Flagentyl),13,0.6131210327148438
+Rivaroxaban (Xarelto),29,0.6851741671562195
+Fingolimod (FTY720) HCl,23,0.824074387550354
+Pimecrolimus,57,0.6513540744781494
+Tofacitinib citrate (CP-690550 citrate),36,0.6211958527565002
+"Toremifene Citrate (Fareston, Acapodene)",42,0.6663753986358643
+CAL-101 (GS-1101),31,0.6136983036994934
+Neohesperidin,43,0.5974003076553345
+Clomipramine hydrochloride (Anafranil),23,0.828384518623352
+Ceftiofur hydrochloride ,37,0.7946576476097107
+Phenformin hydrochloride ,16,0.8279807567596436
+Erythromycin,52,0.6011456847190857
+Trospium chloride (Sanctura),32,0.959476113319397
+Tolterodine tartrate (Detrol LA),34,0.6243425607681274
+Clomifene citrate (Serophene),42,0.6489291787147522
+Cloxacillin sodium,32,0.7074384093284607
+Niacin (Nicotinic acid),9,0.6115316152572632
+Cortisone acetate (Cortone),32,0.6338560581207275
+Isoprenaline hydrochloride,16,0.8105504512786865
+Rosiglitazone (Avandia),25,0.6387100219726562
+R788 (Fostamatinib),40,0.6920758485794067
+Edaravone (MCI-186),13,0.6064300537109375
+Dolutegravir (GSK1349572),31,0.604575514793396
+Suplatast tosylate,33,0.6825650930404663
+Fluocinonide (Vanos),37,0.6279871463775635
+Curcumin,27,0.6043750047683716
+Prednisolone acetate (Omnipred),32,0.6338560581207275
+Dimethyl Fumarate,10,0.5769685506820679
+Clinofibrate,34,0.6303379535675049
+GSK1120212 (Trametinib),37,0.9249358177185059
+Ciprofibrate,18,0.6959658861160278
+Amoxicillin sodium (Amox),27,0.7073392868041992
+"Fedratinib (SAR302503, TG101348)",37,0.6797280311584473
+Brompheniramine hydrogen maleate,27,0.7639604210853577
+Carvedilol,30,0.6141681671142578
+Phenylephrine hydrochloride,14,0.834331750869751
+Medroxyprogesterone acetate,31,0.6360061168670654
+Ropinirole HCl,20,0.8247854709625244
+"(+,-)-Octopamine HCl",12,0.810521125793457
+"Dacomitinib (PF299804, PF-00299804)",33,0.6614499688148499
+Linagliptin (BI-1356),35,0.6109859347343445
+Erdosteine,15,0.5877035856246948
+Fenoprofen calcium,37,1.2420722246170044
+Olmesartan medoxomil (Benicar),41,0.630492091178894
+Pramipexole (Mirapex),14,0.629024863243103
+Adenine hydrochloride,11,0.8100287914276123
+Benidipine hydrochloride,38,0.8203003406524658
+Clorsulon,20,0.7029074430465698
+"Fluticasone propionate (Flonase, Veramyst)",36,0.6611355543136597
+Formoterol hemifumarate,58,0.6153998374938965
+Ketotifen fumarate (Zaditor),30,0.6285334229469299
+"Lacidipine (Lacipil, Motens)",33,0.620427131652832
+"Mirtazapine (Remeron, Avanza)",20,0.6253676414489746
+Mometasone furoate,37,0.6671373844146729
+Pidotimod,16,0.6113448739051819
+Pyridoxine hydrochloride,13,0.8021562099456787
+Tetracaine hydrochloride (Pontocaine),20,0.8156355619430542
+Urapidil hydrochloride,29,0.8201442956924438
+Albendazole Oxide (Ricobendazole),19,0.6421966552734375
+Alibendol,18,0.6021924018859863
+Aspartame,21,0.6180551052093506
+Bifonazole,24,0.6968291401863098
+Butoconazole nitrate,29,0.663555383682251
+Ganciclovir,18,0.5966757535934448
+Phentolamine Mesylate ,26,0.7167444229125977
+Sulphadimethoxine,21,0.6612744927406311
+Uridine,17,0.5904296636581421
+Enalaprilat dihydrate,27,0.6308319568634033
+Cefoperazone (Cefobid),45,0.6165482401847839
+Acemetacin (Emflex),29,0.6513614654541016
+Natamycin,50,0.6142261028289795
+Nystatin (Fungicidin),67,0.6109810471534729
+Buflomedil HCl,23,0.8141160011291504
+Clobetasol propionate,36,0.6790076494216919
+Lonidamine,21,0.656613826751709
+L-Thyroxine,24,0.8149644136428833
+Miglitol (Glyset),14,0.5862775444984436
+Phenacetin,13,0.6076647043228149
+Pioglitazone (Actos),25,0.6392294764518738
+Tetracycline hydrochloride,36,1.0692440271377563
+Thiamphenicol (Thiophenicol),21,0.7040530443191528
+Tolfenamic acid,18,0.6505292654037476
+Tolvaptan (OPC-41061),32,0.6576709747314453
+Zidovudine (Retrovir),19,0.6010871529579163
+Geniposide,29,0.6093639731407166
+Gliclazide (Diamicron),22,0.6764463782310486
+Idebenone,24,0.5994722843170166
+Paeoniflorin,36,0.6131629943847656
+Quinapril hydrochloride (Accupril),33,0.8209477663040161
+Atracurium besylate,87,0.6941176652908325
+Captopril (Capoten),14,0.6374149322509766
+Cyproheptadine hydrochloride (Periactin),23,0.873294472694397
+Cyproterone acetate,32,0.6632982492446899
+Cytidine,17,0.595703125
+Doxifluridine,17,0.5934872031211853
+Gimeracil,9,0.6116651296615601
+Memantine hydrochloride (Namenda),14,0.8368117809295654
+Thalidomide,19,0.6080594062805176
+Finasteride,31,0.6398739218711853
+Bisoprolol fumarate,31,0.6108590364456177
+Dacarbazine (DTIC-Dome),13,0.6000207662582397
+Entecavir hydrate,21,0.6309482455253601
+Rufinamide (Banzel),17,0.6085764765739441
+Acarbose,44,0.5942096710205078
+Lidocaine (Alphacaine),17,0.610739529132843
+Tiotropium Bromide hydrate,30,3.0490939617156982
+Tioxolone,11,0.6115042567253113
+Betaxolol hydrochloride (Betoptic),23,0.8177057504653931
+Sodium salicylate,11,0.7011992931365967
+Sulfamerazine,18,0.6707971096038818
+Sulfamethazine,19,0.6721563339233398
+Trimethoprim,21,0.6072169542312622
+Entacapone,22,0.6189144849777222
+Estradiol valerate,29,0.6311820149421692
+Articaine HCl,20,0.7962309122085571
+Gliquidone,37,0.6776076555252075
+Butenafine HCl,25,0.8634955883026123
+Mepivacaine HCl,19,0.8220343589782715
+Tylosin tartrate,76,0.6113914251327515
+Benztropine mesylate,28,0.7199959754943848
+Betahistine 2HCl,12,0.8137818574905396
+Brinzolamide,23,0.6726275682449341
+Carbenicillin disodium,29,0.7055670619010925
+Eletriptan HBr,28,3.0433971881866455
+Flumequine,19,0.6189563274383545
+Ticarcillin sodium,27,0.6697300672531128
+Azlocillin sodium salt,33,0.7043346166610718
+Trifluoperazine 2HCl,30,0.8147104978561401
+Meptazinol HCl,18,0.8263552188873291
+Adrenalone HCl,14,0.8090575933456421
+Reboxetine mesylate,29,0.7075320482254028
+Triflusal,17,0.6456006169319153
+Xylazine HCl,16,0.8145946264266968
+Catharanthine,27,0.6237136125564575
+Fexofenadine HCl,38,0.8396658897399902
+Moclobemide (Ro 111163),18,0.6440154314041138
+ARN-509,33,0.659022867679596
+Vitamin C (Ascorbic acid),12,0.5693976283073425
+Sulfathiazole,16,0.6565057039260864
+Carfilzomib (PR-171),52,0.6153454780578613
+Rofecoxib (Vioxx),22,0.6866134405136108
+Azilsartan (TAK-536),34,0.6251912713050842
+Cinepazide maleate,38,0.6152628660202026
+Equol,18,0.6080559492111206
+Otilonium Bromide,36,3.088945150375366
+Cyclocytidine HCl,17,0.8036143779754639
+Bosentan Hydrate,40,0.6803084015846252
+Alverine Citrate,34,0.6246379613876343
+Azelnidipine,43,0.6258531212806702
+Chlorhexidine HCl,36,0.8142578601837158
+Diclofenac Diethylamine,24,0.6511548757553101
+Diclofenac Potassium,20,0.5999957323074341
+Epinephrine HCl (Adrenaline),14,0.8090575933456421
+Inosine,19,0.5956190824508667
+Beclomethasone dipropionate ,38,0.6474119424819946
+Naloxone HCl,26,0.9083200693130493
+Piracetam,10,0.6037837266921997
+Vanillin ,11,0.5950585603713989
+Dexmedetomidine,15,0.624706506729126
+Foscarnet Sodium,10,0.6346973180770874
+Acesulfame Potassium ,11,0.6085838079452515
+Atovaquone (Atavaquone),26,0.6622411012649536
+Etravirine (TMC125),28,0.7628219127655029
+Camostat Mesilate (FOY-305),34,0.7120426297187805
+Rupatadine Fumarate,38,0.6592691540718079
+Guanosine,20,0.5954523086547852
+Indacaterol Maleate,37,0.6225860118865967
+Triptolide,27,0.6221655607223511
+Pirfenidone,14,0.6087960004806519
+S-Ruxolitinib,23,0.6092644929885864
+Lumiracoxib (COX-189),20,0.6510051488876343
+4-Aminohippuric Acid,14,0.6159152984619141
+Aripiprazole (Abilify),30,0.6745471358299255
+Duloxetine HCl (Cymbalta),22,0.8233526945114136
+Almotriptan malate (Axert),32,0.6722695827484131
+Paroxetine HCl,25,0.8284956216812134
+Terazosin HCl Dihydrate,31,0.8137662410736084
+Ivabradine HCl (Procoralan),35,0.8252218961715698
+Betaxolol (Betoptic),22,0.6108671426773071
+Detomidine HCl,15,0.831436038017273
+Cisatracurium besylate (Nimbex),87,0.6941176652908325
+Levosulpiride (Levogastrol),23,0.6818962097167969
+Trimebutine,28,0.6146911382675171
+Naltrexone HCl,26,0.8266395330429077
+Icotinib,29,0.6090103387832642
+Melatonin,17,0.6139284372329712
+Felbamate,17,0.6215107440948486
+Fluvoxamine maleate,30,0.6550157070159912
+Oxcarbazepine,19,0.6188704967498779
+Trichlormethiazide (Achletin),20,0.6885198950767517
+Suprofen (Profenal),18,0.6202058792114258
+Pranlukast,36,0.6117441654205322
+Oxfendazole,22,0.6450333595275879
+Tizanidine HCl,17,0.8047635555267334
+Erythromycin Ethylsuccinate,60,0.6100477576255798
+Pralatrexate(Folotyn),35,0.6236128807067871
+Alprostadil(Caverject),25,0.6157822608947754
+"Saxagliptin (BMS-477118,Onglyza)",25,0.6280307769775391
+Roxatidine acetate HCl,26,0.8205854892730713
+Protionamide (Prothionamide),12,0.651105523109436
+Sulfamethizole (Proklar),17,0.6577548384666443
+Tropicamide,21,0.6094319820404053
+Sulbactam,17,0.6470823884010315
+Pranoprofen,19,0.6195865869522095
+Rimantadine (Flumadine),13,0.6765812635421753
+Meglumine,13,0.5866204500198364
+Diclazuril,26,0.64578777551651
+Flunarizine 2HCl,32,0.8309890031814575
+Fenticonazole nitrate,34,0.6630477905273438
+Rebamipide,26,0.658389151096344
+Bromhexine HCl,19,0.7898247241973877
+Lovastatin (Mevacor),30,0.6171568036079407
+Tiopronin (Thiola),10,0.6043354272842407
+Balofloxacin,28,0.6198134422302246
+Lafutidine,30,0.659502387046814
+Moxonidine,16,0.6422399282455444
+Argatroban,36,0.6683168411254883
+Rosiglitazone HCl,26,0.8126316070556641
+Atorvastatin calcium (Lipitor),83,1.312439203262329
+Famotidine (Pepcid),20,0.6572428941726685
+Moexipril HCl,37,0.8178938627243042
+Clevidipine Butyrate,30,0.660991907119751
+Adiphenine HCl,24,0.8226450681686401
+Rivastigmine tartrate (Exelon),28,0.617068886756897
+Dexmedetomidine HCl (Precedex),16,0.8319021463394165
+Ambrisentan,28,0.622986912727356
+Bexarotene,26,0.635168194770813
+Temocapril HCl,33,0.8079558610916138
+Gabexate mesylate,28,0.7068166732788086
+Rasagiline mesylate,18,0.7222772836685181
+Flunixin meglumin,34,0.6507431268692017
+Dronedarone HCl (Multaq),40,0.8160037994384766
+Conivaptan HCl (Vaprisol),39,0.8572384119033813
+Ibutilide fumarate,60,0.6887927055358887
+Probucol,35,0.6709977388381958
+Arbidol HCl,30,0.7958104610443115
+Levosimendan,21,0.6129686832427979
+Fluocinolone acetonide (Flucort-N),36,0.630549430847168
+Phenoxybenzamine HCl,22,0.8190592527389526
+Propafenone HCl,25,0.6120291948318481
+Roxithromycin (Roxl-150),58,0.613301157951355
+Tenoxicam(Mobiflex),22,0.6563460826873779
+Sulbactam sodium (Unasyn),18,0.7109821438789368
+Xylometazoline HCl,19,0.8360855579376221
+Nilvadipine (ARC029),28,0.620672345161438
+Carbazochrome sodium sulfonate,21,0.7169218063354492
+Clevudine (Levovir),18,0.6024274230003357
+Zaltoprofen,21,0.6185298562049866
+Pazopanib,31,0.6945608854293823
+Amoxicillin (Amoxycillin),26,0.6234174966812134
+Aspirin (Acetylsalicylic acid),13,0.6122639179229736
+Niflumic acid,20,0.6590362191200256
+Amprenavir (Agenerase),35,0.6669479608535767
+Darunavir Ethanolate (Prezista),46,0.6764336824417114
+Proparacaine HCl,22,0.8102507591247559
+Sulfasalazine (Azulfidine),28,0.6701905727386475
+Losartan potassium,31,0.6065523624420166
+Sparfloxacin,28,0.6175556182861328
+Tolnaftate,22,0.6607538461685181
+Ozagrel HCl ,18,0.8242208957672119
+Arecoline HBr,12,2.638766288757324
+Cobicistat (GS-9350),54,0.6316999793052673
+Pergolide mesylate,29,0.7203577160835266
+Cabozantinib malate,46,0.6235920786857605
+Bazedoxifene HCl,36,0.8505512475967407
+Acebutolol HCl,25,0.8149724006652832
+Ampiroxicam,31,0.6649599075317383
+Lithocholic acid,31,0.6446191072463989
+Mirabegron (YM178),28,0.6396557688713074
+Allylthiourea,7,0.6407641172409058
+Hyoscyamine (Daturine),21,0.612484335899353
+Avanafil,34,0.6564369201660156
+Probenecid (Benemid) ,19,0.6551700830459595
+Procaine (Novocaine) HCl,18,0.8113095760345459
+Sennoside A,62,0.6179221868515015
+Sennoside B,62,0.6179221868515015
+Sodium Picosulfate,31,0.7345633506774902
+Tolcapone,20,0.6220582723617554
+Methazolamide,14,0.6608280539512634
+Nabumetone,17,0.6174293756484985
+Sertraline HCl,21,0.8214970827102661
+Methyclothiazide,20,0.6518376469612122
+Retapamulin,39,0.6419287919998169
+Ronidazole,14,0.6075668334960938
+Ropivacaine HCl,21,0.8225181102752686
+Vitamin D3 (Cholecalciferol),29,0.620299220085144
+Nafcillin Sodium,32,0.6440527439117432
+Norethindrone (Norethisterone),26,0.6812113523483276
+Olsalazine Sodium,24,0.7129807472229004
+Tetrahydrozoline HCl,16,0.8452739715576172
+Toltrazuril,29,0.6878053545951843
+Dibucaine (Cinchocaine) HCl,26,0.8220150470733643
+Diphemanil Methylsulfate,27,0.7215357422828674
+Doxapram HCl,30,0.8283129930496216
+Vitamin D2 (Ergocalciferol),30,0.6200334429740906
+Desvenlafaxine,19,0.6143816709518433
+Desvenlafaxine Succinate,27,0.6216104030609131
+Dicloxacillin Sodium,32,0.6365844011306763
+Estradiol Benzoate,31,0.6301616430282593
+Sodium 4-Aminosalicylate,12,0.710924506187439
+Valdecoxib,22,0.6926732063293457
+Bisacodyl,27,0.6211347579956055
+Carbimazole,12,0.6197026371955872
+Decamethonium Bromide,20,2.5079524517059326
+Estradiol Cypionate,32,0.6310548186302185
+Griseofulvin,24,0.6416889429092407
+Guanidine (Aminoformamidine) HCl,5,0.781076192855835
+Mefenamic Acid,18,0.621380090713501
+Mequinol,9,0.5915634632110596
+Pirarubicin,47,0.6091380715370178
+Valganciclovir Hydrochloride,26,0.8126809597015381
+Escitalopram Oxalate,30,0.6334806680679321
+Guanabenz (WY-8678) Acetate,18,0.6267186403274536
+Tinidazole,16,0.6620104312896729
+Sulfacetamide Sodium,15,0.7015924453735352
+Ticagrelor,36,0.6305906772613525
+Triamterene,19,0.6128958463668823
+Ethambutol HCl,16,0.80083167552948
+Homatropine Methylbromide,24,3.248993158340454
+Homatropine Bromide,23,3.3165109157562256
+Hydroxyzine 2HCl,28,0.8170458078384399
+Aclidinium Bromide,35,3.0484561920166016
+Histamine 2HCl,10,0.799393892288208
+Levodropropizine,17,0.616589367389679
+Pefloxacin Mesylate Dihydrate,31,0.7077345252037048
+Sodium Phenylbutyrate,13,0.6437110900878906
+Sulconazole Nitrate,28,0.6453862190246582
+Tilmicosin,61,0.6109726428985596
+Timolol Maleate,29,0.6282058954238892
+Tolazoline HCl,13,0.840300440788269
+Troxipide,21,0.59941565990448
+Ampicillin Trihydrate,28,0.638278067111969
+Azithromycin Dihydrate,54,0.6320428848266602
+Cyclizine 2HCl,22,0.8287461996078491
+Dinitolmide (Zoalene),16,0.6163403987884521
+1-Hexadecanol,17,0.6004993915557861
+Amfenac Sodium (monohydrate),21,0.7279701232910156
+Benzydamine Hydrochloride,24,0.8330099582672119
+Betamipron,14,0.6187624931335449
+Carprofen,19,0.6550467014312744
+Cetylpyridinium Chloride,23,0.8170123100280762
+Chlorpropamide,17,0.6523032188415527
+Chlorquinaldol,14,0.6432275772094727
+Chlorzoxazone,11,0.6303373575210571
+Choline Chloride,8,0.7858502268791199
+Cinchophen,19,0.6258508563041687
+Climbazole,20,0.6509735584259033
+Clofazimine,33,0.6609164476394653
+Clorprenaline HCL,15,0.8057564496994019
+Closantel,30,0.8857033252716064
+Closantel Sodium,31,0.8839128017425537
+Coumarin,11,0.6137657165527344
+Cyclandelate,20,0.6258996725082397
+Cyromazine,12,0.610895037651062
+Dexlansoprazole,25,0.6584476232528687
+Doxofylline,19,0.5941603183746338
+Dropropizine,17,0.616589367389679
+Ethamsylate,17,0.6757778525352478
+Mezlocillin Sodium,38,0.7072490453720093
+Nifuroxazide,20,0.6184866428375244
+Penciclovir,18,0.6028547286987305
+Penfluridol,36,0.6709983348846436
+Salicylanilide,16,0.6096835732460022
+Sasapyrine,19,0.6140142679214478
+Sulfaguanidine,14,0.6628117561340332
+Tiratricol,21,0.8261744976043701
+Triclabendazole,21,0.6541063785552979
+Trometamol,8,0.5936994552612305
+Uracil,8,0.5894309878349304
+Primaquine Diphosphate,29,0.7090602517127991
+Bemegride,11,0.6156598329544067
+Bergapten,16,0.602981686592102
+Broxyquinoline,13,0.7416408061981201
+Cepharanthine,47,0.6107606887817383
+Deoxycorticosterone acetate,30,0.636172890663147
+Dirithromycin,60,0.6142452955245972
+Domiphen Bromide,25,3.030799150466919
+Doxylamine Succinate,28,0.6182646751403809
+Ethacridine lactate monohydrate,26,0.6315752267837524
+Florfenicol,21,0.7044049501419067
+Furaltadone HCl,24,0.8080629110336304
+Nicardipine HCl,36,0.8192076683044434
+Phenazopyridine HCl,17,0.8268290758132935
+Serotonin HCl,14,0.8190784454345703
+Sucralose,23,0.6064128875732422
+Teriflunomide,19,0.6548125743865967
+Valnemulin HCl,41,0.893277645111084
+Cetrimonium Bromide,21,2.9746429920196533
+Difluprednate,38,0.626435399055481
+Diminazene Aceturate,37,0.6206987500190735
+Droperidol,28,0.6171925067901611
+Eprosartan Mesylate,35,0.7082149982452393
+Esmolol HCl,22,0.8142950534820557
+"Fenspiride HCl 
+Fenspiride HCl",20,0.8242762088775635
+Flumethasone,31,0.6267740726470947
+Halcinonide,33,0.6723606586456299
+Halobetasol Propionate,35,0.6707155108451843
+Ifenprodil Tartrate,58,0.6244139671325684
+Levobetaxolol HCl,23,0.8177057504653931
+Lomerizine 2HCl,36,0.8215020895004272
+Loxapine Succinate,31,0.6514623761177063
+Pramoxine HCl,22,0.8203775882720947
+Vitamin A Acetate,24,0.6304115056991577
+Voglibose,18,0.5973296165466309
+Azaperone,24,0.6145219802856445
+Benzbromarone,22,0.7535048723220825
+Benzethonium chloride,31,0.8183740377426147
+Benzocaine,12,0.6060279011726379
+Benzoic acid,9,0.6171305775642395
+Penicillin G Sodium,25,0.709768533706665
+Bezafibrate,25,0.6516119241714478
+Buparvaquone,24,0.6232918500900269
+Chromocarb,14,0.6155644655227661
+Clofibric acid,14,0.6315152645111084
+Cysteamine HCl,5,0.7481871843338013
+Erythritol,8,0.5649347305297852
+Fidaxomicin,74,0.6515859365463257
+Fluorometholone Acetate,34,0.6348675489425659
+Isosorbide,12,0.5947260856628418
+Liothyronine Sodium,24,0.829203724861145
+Mevastatin,29,0.6167802214622498
+Mexiletine HCl,14,0.8201857805252075
+Montelukast Sodium,42,0.7221099734306335
+Oxaprozin,22,0.626220703125
+Oxybuprocaine HCl,23,0.8126019239425659
+Pheniramine Maleate,26,0.6247508525848389
+Pilocarpine HCl,16,0.8142898082733154
+Piperacillin Sodium,37,0.7168177366256714
+Tolperisone HCl,19,0.8232989311218262
+Prucalopride Succinat,33,0.6463576555252075
+Bromfenac Sodium,21,0.7546424865722656
+Flopropione,13,0.5900201797485352
+Tranylcypromine (2-PCPA) HCl,12,0.7676666975021362
+Sulfamethoxypyridazine,19,0.6622618436813354
+Mechlorethamine HCl,9,0.7683320045471191
+Epinastine HCl,21,0.6652085185050964
+Latrepirdine 2HCl,26,0.8293887376785278
+Bazedoxifene Acetate,39,0.6281651258468628
+Daidzin,30,0.60805344581604
+Verapamil HCl,34,0.8236435651779175
+VX-745,28,0.6386655569076538
+Quinacrine 2HCl,30,0.8126639127731323
+oxethazaine,34,0.6202652454376221
+Flurbiprofen,18,0.621904194355011
+Chlorpheniramine Maleate,27,0.6551878452301025
+Emtricitabine,16,0.6071995496749878
+Idoxuridin,17,0.8418291807174683
+Lubiprostone,27,0.6339477300643921
+Mitotane,18,0.7122107148170471
+Nisoldipine,28,0.619601845741272
+Prednisolone,29,0.6335798501968384
+Rifabutin,61,0.6187317967414856
+Rifampin,59,0.6140502691268921
+Rifapentine,63,0.6158497333526611
+spironolactone,32,0.6596351861953735
+Taxifolin (Dihydroquercetin),22,0.5999565124511719
+Terbinafine,22,0.632144570350647
+Alizapride hydrochloride,24,0.8186869621276855
+Brimonidine Tartrate,27,0.7496604323387146
+Buspirone hydrochloride,29,0.8296295404434204
+Diacerein,27,0.6120860576629639
+Silodosin,35,0.6671781539916992
+Sofosbuvir(PSI-7977),36,0.6585943102836609
+Efaproxiral sodium,26,0.7245776653289795
+Etofibrate,25,0.6408382058143616
+Flufenamic acid,20,0.660240888595581
+Luliconazole,21,0.6303059458732605
+Nicaraven,21,0.6024078130722046
+Tamibarotene,26,0.6320157051086426
+Vilazodone Hydrochloride,34,0.8301917314529419
+Telaprevir (VX-950),51,0.6267294883728027
+Doxycycline hyclate,74,0.989494800567627
+LX1606 hippurate,53,0.6669362783432007
+Vinorelbine Tartrate,79,0.6265500783920288
+Oxiracetam,11,0.5907783508300781
+Vincristine Sulfate,68,0.732208788394928
+Meclofenoxate (Centrophenoxine) HCl,18,0.7912257313728333
+Ospemifene,27,0.6734176874160767
+Nelfinavir Mesylate,47,0.71892249584198
+Chloroprocaine HCl,19,0.8017641305923462
+Carteolol HCl,22,0.8192051649093628
+Demeclocycline HCl,35,0.9227763414382935
+Cyclobenzaprine HCl,22,0.8643307685852051
+Anidulafungin (LY303366),82,0.6105037927627563
+Chloroambucil,19,0.6570017337799072
+Bambuterol HCl,27,0.8141958713531494
+Promethazine HCl,21,0.8169047832489014
+MetoclopraMide HCl,21,0.8028002977371216
+Rotigotine,22,0.629562258720398
+Diphenidol HCl,24,0.8272075653076172
+Dicoumarol,25,0.6079355478286743
+Procainamide HCl,18,0.8157018423080444
+Labetalol HCl,25,0.8205959796905518
+Meclofenamate sodium,20,0.6461660265922546
+Mefloquine HCl,28,0.853653073310852
+Aliskiren Hemifumarate,86,0.6248606443405151
+Bepotastine Besilate,37,0.6937572956085205
+Afatinib (BIBW2992),34,0.6593595743179321
+Daptomycin,115,0.6155725121498108
+Doripenem Hydrate,30,0.6921678781509399
+Fesoterodine Fumarate,38,0.6198987364768982
+Fosaprepitant dimeglumine salt,67,0.6839326620101929
+Nebivolol HCl,32,0.9204970598220825
+Tacrolimus (FK506),58,0.6070617437362671
+Rosuvastatin Calcium,67,1.1551566123962402
+Ruxolitinib (INCB018424),23,0.6092644929885864
+"Temsirolimus (CCI-779, NSC 683864)",73,0.618911623954773
+Mupirocin,37,0.6161417961120605
+Salmeterol Xinafoate,44,0.6222566366195679
+Pentoxyverine Citrate,30,0.7208552360534668
+Levobupivacaine HCl,22,0.8228698968887329
+Ketorolac,19,0.6206556558609009
+Lactulose,24,0.5871520042419434
+Crizotinib (PF-02341066),30,0.6544529795646667
+Eltrombopag olamine,41,0.6181617379188538
+Eltrombopag,33,0.6219203472137451
+Sitagliptin phosphate monohydrate,34,0.7051501274108887
+Fenoprofen calcium hydrate,39,0.6710999011993408
+Sodium Nitroprusside,15,0.7060478925704956
+Sertaconazole nitrate,31,0.6551347970962524
+Calcium D-Panthotenate,31,0.6543688774108887
+gossypol-Acetic acid,44,0.6185752749443054
+6-Mercaptopurine (6-MP) Monohydrate,11,0.6412469744682312
+Tamoxifen,41,0.6257553100585938
+Vinblastine sulfate,67,0.7329060435295105
+Acetazolamide,13,0.6564387083053589
+17-Hydroxyprogesterone,27,0.63356614112854
+Chloroxylenol,10,0.6310055255889893
+Cefotaxime sodium,32,0.6948732137680054
+4-Aminobenzoic acid,10,0.6124051809310913
+Fenofibric acid,22,0.6466115713119507
+Fenbufen,19,0.6261575818061829
+Pentamidine isethionate,39,0.6978380680084229
+Esomeprazole sodium,25,0.6457716226577759
+NEXIUM (esomeprazole magnesium),49,0.605965256690979
+i-Inositol,12,0.5656734108924866
+Furazolidone,16,0.61131751537323
+Citric acid trilithium salt tetrahydrate,20,0.5864067673683167
+4-Aminoantipyrine,15,0.6067562699317932
+Ethylparaben,12,0.6002097129821777
+Iopamidol,31,0.8513866662979126
+Nitrofurantoin,17,0.6116975545883179
+Dehydroacetic acid,12,0.5913088321685791
+Acetylleucine,13,0.6124663352966309
+Aceglutamide,13,0.5987274646759033
+Bithionol,19,0.5941329002380371
+Aminoguanidine (hydrochloride),6,0.784689724445343
+Diethylcarbamazine (citrate),27,0.6113460063934326
+Danthron,18,0.6014633178710938
+Trihexyphenidyl hydrochloride,23,0.8270001411437988
+Trimetazidine dihydrochloride,21,0.8115890026092529
+Pantoprazole sodium,27,0.7186152935028076
+Salicylic acid,10,0.612472653388977
+Methylene Blue,21,0.804537296295166
+Hexylresorcinol,14,0.6029493808746338
+Fluphenazine (dihydrochloride),32,0.8164581060409546
+DL-Panthenol,14,0.6048620939254761
+Diiodohydroxyquinoline,13,0.8488950729370117
+Cloxiquine,12,0.6414672136306763
+Citiolone,10,0.5986710786819458
+Carzenide,13,0.670008659362793
+Bronopol,9,0.6877886652946472
+(+)-Camphor,11,0.6195511817932129
+Cephalothin,27,0.680182933807373
+Chlormadinone acetate,31,0.6622700691223145
+Terpin (hydrate),13,0.6355350017547607
+Xylitol,10,0.566132128238678
+Urethane,6,0.587548017501831
+Lercanidipine (hydrochloride),46,0.8292864561080933
+Cefixime,31,0.6154289841651917
+Cefazolin Sodium,30,0.6794149279594421
+Nitroxoline,14,0.6213163137435913
+Pentylenetetrazol,10,0.616244912147522
+Succinylsulfathiazole,23,0.6613476276397705
+Butylparaben,14,0.601760745048523
+Butamben,14,0.6076469421386719
+Sulfabenzamide,19,0.672848105430603
+Cefuroxime sodium,31,0.7025527954101562
+Itopride hydrochloride,27,0.81861412525177
+Amodiaquin (dihydrochloride dihydrate),29,0.8110154867172241
+Alcaftadine,23,0.6170658469200134
+Diazoxide,14,0.6476777195930481
+Chlorotrianisene,27,0.6518648862838745
+(+/-)-Sulfinpyrazone,29,0.6552966833114624
+Ethosuximide,10,0.6111351251602173
+Fenoldopam (mesylate),26,0.7094529271125793
+Brexpiprazole,31,0.6312353610992432
+Lesinurad,24,0.7674369215965271
+Cyproheptadine hydrochloride,24,0.8197259902954102
+Dapson,17,0.6589953303337097
+Mebendazole,22,0.620510995388031
+Levofloxacin hydrate,27,0.563167154788971
+Gallic acid,12,0.5916935205459595
+Diflunisal,18,0.6192527413368225
+Desogestrel,27,0.7123199701309204
+Isosorbide Mononitrate,15,0.627539873123169
+Parecoxib,26,0.676954984664917
+Sulisobenzone,21,0.6903489828109741
+Cefmenoxime hydrochloride,69,0.7876530885696411
+Docusate Sodium,29,0.717434287071228
+Eslicarbazepine Acetate,22,0.622299313545227
+Atipamezole,16,0.6512061953544617
+Atipamezole hydrochloride,17,0.8391399383544922
+Methylbenactyzine Bromide,26,3.0065712928771973
+Tedizolid Phosphate,31,0.7031490802764893
+Sodium sulfadiazine,18,0.668128252029419
+Acetohydroxamic acid,5,0.5812439322471619
+Triclosan,17,0.6186328530311584
+Dehydrocholic acid,33,0.6384874582290649
+Azelaic acid,13,0.6130250096321106
+Terazosin HCl ,29,0.8134093284606934
+Hydroxyprogesterone caproate,34,0.6318314671516418
+Sildenafil Mesylate,38,0.7067583799362183
+Guanfacine Hydrochloride,16,0.7783418893814087
+Oxybenzone,17,0.6045218706130981
+Sivelestat sodium tetrahydrate,35,0.7179621458053589
+Molsidomine,17,0.5939666628837585
+Tiagabine hydrochloride,26,0.7994792461395264
+Glycopyrrolate,24,2.986387014389038
+Hydroquinidine,26,0.6161975860595703
+Sulpiride,23,0.6818962097167969
+Etoricoxib,24,0.6831042766571045
+Dantrolene sodium hemiheptahydrate,25,0.6722314357757568
+Ciclesonide,43,0.6299157738685608
+Prasugrel Hydrochloride,27,0.8134859800338745
+Ademetionine disulfate tosylate ,48,0.7087652683258057
+Loxoprofen,18,0.6204289197921753
+Protirelin,26,0.609655499458313
+Rebeprazole sodium,26,0.6465977430343628
+Fusidate Sodium,41,0.7403879165649414
+Clioquinol,13,0.855728030204773
+Efavirenz,21,0.6639426946640015
+arbinoxaMine Maleate,28,0.6498849987983704
+Benzocaine hydrochloride,13,0.8080631494522095
+Procaine,17,0.6073899269104004
+Lidocaine hydrochloride,18,0.8196451663970947
+"Tetrabenazine (Nitoman, Xenazine)",23,0.6084582805633545
+Deoxycholic acid,33,0.6441242694854736
+Saxagliptin hydrate ,26,0.653649628162384
+Teneligliptin hydrobromide,31,0.5792372226715088
+Atazanavir,51,0.6276990175247192
+Tazobactam,21,0.640221118927002
+Etonogestrel,28,0.674612283706665
+Escin,79,0.6260923147201538
+Cinnarizine,28,0.6961966156959534
+Evans Blue,62,0.6891015768051147
+Esculetin,13,0.6024569869041443
+Isatin,11,0.6106674671173096
+Acetylcholine iodide,11,4.533844947814941
+(-)-Menthol,11,0.6077831983566284
+Etretinate,26,0.6158908009529114
+Lauric Acid,14,0.6154278516769409
+Benzenesulfonamide,10,0.6879563331604004
+Pantoprazole (Protonix),26,0.6508910655975342
+2-Deoxy-D-glucose,11,0.5696557760238647
+(-)Epicatechin,21,0.6006904244422913
+Perphenazine,27,0.6519142389297485
+Prochlorperazine dimaleate salt,41,0.6456890106201172
+MK-4827(Niraparib),24,0.6223509907722473
+Salvianolic acid B,52,0.616977870464325
+Retigabine 2HCl,24,0.8112651109695435
+Retigabine,22,0.6164905428886414
+Trapidil,15,0.6034412980079651
+Psoralen,14,0.6117005348205566
+Sulfacetamide Sodium salt hydrate,16,0.6606454849243164
+Citalopram HBr,25,3.1140425205230713
+Ondansetron Hydrochloride Dihydrate,25,0.825491189956665
+Corticosterone,28,0.6301565170288086
+Cisapride hydrate,33,0.6543067693710327
+Imidapril HCl,30,0.8164902925491333
+Povidone iodine,12,0.5507699251174927
+Azatadine dimaleate,38,0.6226503252983093
+Cefaclor,26,0.6596798896789551
+Ganoderic acid A,37,0.6296557188034058
+Stavudine,16,0.5992539525032043
+Dihydrotestosterone (DHT),25,0.7054324150085449
+Berbamine (dihydrochloride),47,0.8241106271743774
+Rosmarinic acid,26,0.6153188943862915
+Acetylspiramycin (ASPM),62,0.6145081520080566
+Fangchinoline,45,0.6105494499206543
+N-Ethylmaleimide (NEM),9,0.5930058360099792
+Mafenide hydrochloride,13,0.8041865825653076
+Nortriptyline hydrochloride,21,0.8592865467071533
+Benactyzine hydrochloride,25,0.8179682493209839
+Urea,4,0.5798166990280151
+Asiaticoside,70,0.6220158338546753
+Diammonium Glycyrrhizinate,65,0.6342880725860596
+(+)-Fangchinoline,47,0.6102712154388428
+Dehydrocostus Lactone,19,0.6265832185745239
+Pazufloxacin mesylate,28,0.7086776494979858
+Tyramine,10,0.6065152883529663
+Tryptamine,12,0.6255593299865723
+Methacholine chloride,12,0.7872623205184937
+4-Methylbenzylidene camphor,19,0.6200360059738159
+Avibactam sodium,19,0.721548318862915
+Kitasamycin,55,0.6117899417877197
+Umbelliferone,12,0.6073375940322876
+Carbendazim,14,0.6202059388160706
+Cinnamic acid,11,0.6245334148406982
+Thymopentin,48,0.618545651435852
+Cefsulodin sodium,38,0.711546778678894
+Cefonicid sodium,38,0.7012584805488586
+Levamlodipine,28,0.6435438394546509
+Doxepin hydrochloride,22,0.8351248502731323
+Pargyline hydrochloride,13,0.8251223564147949
+"2,6-Dihydroxypurine",11,0.5964041352272034
+Moxidectin,48,0.6126134991645813
+Quinestrol,30,0.6466940641403198
+Iopromide,32,0.8605107069015503
+Selexipag,35,0.6973047852516174
+Grazoprevir,54,0.6790509223937988
+Tipiracil hydrochloride,17,0.8028771877288818
+Medroxyprogesterone,28,0.6333150863647461
+Cefadroxil hydrate,27,0.6218174695968628
+Cefpirome sulfate,41,0.706769585609436
+S3638 Cefamandole (nafate).cdx,36,0.7038459181785583
+Methoxyphenamine Hydrochloride,14,0.8157225847244263
+Osalmid,17,0.6071097254753113
+Sulfamonomethoxine,19,0.662199854850769
+Mafenide Acetate,16,0.6766664385795593
+Amlexanox,22,0.6198455095291138
+Vilanterol Trifenate,54,0.6612178087234497
+Cefepime Dihydrochloride Monohydrate,36,0.799150824546814
+Piribedil,22,0.6180194020271301
+Promestriene,27,0.6389987468719482
+Fludrocortisone acetate,32,0.6294864416122437
+Afloqualone,21,0.6163427233695984
+Sulfaphenazole,22,0.678316593170166
+Cholic acid,33,0.6384873986244202
+Carbasalate Calcium,31,0.6645166873931885
+Chlorobutanol,8,0.7131798267364502
+Testosterone Enanthate,32,0.6313586831092834
+Lifitegrast,41,0.6802144050598145
+S3718 Leuprolide Acetate.cdx,91,0.6266169548034668
+Topiroxostat,19,0.6055493354797363
+Isavuconazole,31,0.6281688809394836
+Ramosetron Hydrochloride,22,0.8270817995071411
+Velpatasvir,65,0.6219272613525391
+Umeclidinium bromide,33,3.1176834106445312
+Balsalazide disodium,30,0.7214691042900085
+Lumefantrine,35,0.6560492515563965
+Ethidium bromide,25,3.078636407852173
+Sarpogrelate hydrochloride,32,0.8202869892120361
+Ethopabate,17,0.6092877388000488
+Sulfachloropyridazine,18,0.6574454307556152
+Flibanserin,28,0.6641721725463867
+Calcipotriene,32,0.6192293167114258
+4-Biphenylacetic acid,16,0.6292527914047241
+Glucosamine hydrochloride,13,0.7840529084205627
+Boceprevir,39,0.634164571762085
+Sodium benzoate,10,0.7177425026893616
+Metaxalone,16,0.6133443117141724
+Levothyroxine sodium,25,0.8126389980316162
+Iron sucrose,44,0.559820294380188
+Rotenone (Barbasco),31,0.6080136895179749
+Tacrine hydrochloride hydrate,17,0.5467312932014465
+Quinidine sulfate,59,0.7351638674736023
+Flupenthixol dihydrochloride,32,0.8185176849365234
+Benznidazole,19,0.6275641918182373
+Colchicine,30,0.60596764087677
+Cinchonine.cdx,24,0.6384632587432861
+Ilaprazole,26,0.6524237394332886
+Amitraz,22,0.6089420318603516
+p-Coumaric Acid,12,0.6181259155273438
+Tauroursodeoxycholic Acid,38,0.7192589044570923
+Caryophyllene oxide,19,0.7470443248748779
+Nordihydroguaiaretic acid,22,0.6085323691368103
+(+)-Borneol,11,0.6195511817932129
+Tetramethylpyrazine,10,0.5963559150695801
+Harmine hydrochloride,17,0.8210948705673218
+Quercitrin,32,0.6009573340415955
+Loganin,29,0.6090269088745117
+Isoquercitrin,33,0.602625846862793
+Gamma-Oryzanol,47,0.6312606930732727
+Histamine,8,0.5935605764389038
+Tanshinone IIA sulfonate (sodium),27,0.7302846908569336
+Palmatine,26,0.6101893186569214
+Tyrosol,10,0.604712963104248
+Dehydroandrographolide Succinate Potasium Sa,40,0.5811024904251099
+Ligustrazine hydrochloride,11,0.8184740543365479
+Lappaconitine,46,0.6224343180656433
+Norcantharidin,12,0.5987969636917114
+Sinomenine hydrochloride,26,0.957566499710083
+Echinacoside,55,0.6027476787567139
+Liquiritin,30,0.6068148612976074
+4-Hydroxybenzoic acid,10,0.60542231798172
+Betaine,8,0.6177321672439575
+Eupatilin,25,0.599690318107605
+Spermine,14,0.5886930227279663
+Mesterolone,26,0.7037156820297241
+L-Cycloserine,7,0.5864695310592651
+Zinc Undecylenate,27,0.5712189078330994
+Ginsenoside Re,72,0.6235803365707397
+Pyrogallol,9,0.5967509746551514
+L-Rhamnose monohydrate,12,0.602418839931488
+Arteether,25,0.6255055665969849
+Isopsoralen,14,0.610630989074707
+Scopoletin,14,0.602234959602356
+Protopine,26,0.6086779236793518
+Trigonelline Hydrochloride,11,0.7937366962432861
+Dehydroandrographolide,25,0.6232464909553528
+Imperatorin,20,0.6123843789100647
+Panaxatriol,38,0.6303991079330444
+Hederacoside C,88,0.6219955086708069
+Astragaloside IV,58,0.6301321983337402
+Ginkgolide C,32,0.616059422492981
+Succinic acid,8,0.5776137709617615
+Palmitic acid,18,0.6171773672103882
+Helicide,21,0.5952765941619873
+Gentisic acid,11,0.595767617225647
+Lathyrol,25,0.6151635050773621
+Betulin,36,0.6768100261688232
+(-)-Epicatechin gallate,32,0.6029984951019287
+Forsythin,40,0.607444167137146
+Swertiamarin,26,0.6042383909225464
+Nicergoline,32,0.76882004737854
+Capmatinib (INCB28060),31,0.6214150190353394
+Plerixafor 8HCl (DB06809),44,0.8242084980010986
+Leucovorin Calcium Pentahydrate,40,1.2028053998947144
+Ibandronate sodium,21,0.6917426586151123
+L-Arginine HCl,13,0.8040653467178345
+Thiamine HCl (Vitamin B1),20,0.797417402267456
+Palonosetron HCl,25,1.073239803314209
+Solifenacin succinate,36,0.617068886756897
+Besifloxacin HCl (Besivance),29,0.8145960569381714
+Amprolium HCl,20,0.8202757835388184
+Bacitracin,99,0.6296439170837402
+Ceritinib (LDK378),38,0.6728339195251465
+abemaciclib (LY2835219),42,0.7209180593490601
+Ceftriaxone Sodium Trihydrate,39,0.6437169313430786
+Chloroquine Phosphate,32,0.7094939947128296
+Chlortetracycline HCl,35,0.8642529249191284
+Eprazinone 2HCl,30,0.8176257610321045
+Sodium Gluconate,14,0.6751282215118408
+Batyl alcohol,24,0.6114850044250488
+Guaiacol,9,0.599173903465271
+Bulleyaconi cine A,49,0.6253191232681274
+Catalpol,28,0.6111927628517151
+Ginsenoside Rg1,59,0.6234833002090454
+Ginsenoside Rb1,81,0.6189258098602295
+Galanthamine,22,0.607822060585022
+Harmine,16,0.6079185009002686
+D-Pinitol,13,0.5679123997688293
+D-Galactose,12,0.5686112642288208
+Glucosamine sulfate,17,0.690400242805481
+Camphor,11,0.6195511817932129
+Tetrahydropalmatine hydrochloride,27,0.8257006406784058
+Allantoin,11,0.5852335691452026
+Lawsone,13,0.6067692637443542
+Sophoridine,22,0.6910879611968994
+Hydroxy Camptothecine,27,0.6211896538734436
+Hederagenin,37,0.639865517616272
+Indigo,20,0.6078826189041138
+Daminozide,11,0.5984557867050171
+Menadiol Diacetate,19,0.6119298934936523
+Benzyl isothiocyanate,10,0.6658673286437988
+L-5-Hydroxytryptophan,16,0.618184506893158
+alpha-Asarone,15,0.5965884327888489
+Harmaline,16,0.6079185009002686
+Drostanolone Propionate,30,0.6372776031494141
+Trenbolone acetate,25,0.6324813365936279
+Methandrostenolone,25,0.6587977409362793
+Thymidine,17,0.5984365940093994
+Melibiose,23,0.5708122253417969
+Maltitol,23,0.5712413787841797
+Tannic acid,122,0.5929915904998779
+Flavone,17,0.6085035800933838
+Protocatechuic acid,11,0.6025720834732056
+(-)-Borneol,12,0.6443954706192017
+Pyridoxine,12,0.5928769111633301
+Cefuroxime axetil,37,0.6082826852798462
+Potassium acetate,5,0.5494042634963989
+Cefcapene Pivoxil Hydrochloride,41,0.7993613481521606
+Cefotiam hydrochloride,37,0.7887471318244934
+Brivudine,19,0.7814855575561523
+Methyl 4-hydroxybenzoate,11,0.6015675067901611
+L(+)-Arabinose,10,0.568871259689331
+L-Tryptophan,15,0.6249003410339355
+D-(+)-Trehalose dihydrate,25,0.5871729850769043
+Guaiazulene,15,0.6841030120849609
+Thioctic acid,12,0.6436678171157837
+Oxaceprol,12,0.5936239957809448
+Ceftizoxime,26,0.6084720492362976
+Atenolol,19,0.6107975244522095
+Acotiamide hydrochloride,35,0.8083571195602417
+Bedaquiline fumarate,45,0.7723115682601929
+Asunaprevir,51,0.6745144128799438
+Delamanid,38,0.6619032025337219
+"TMC-435, TMC-435350",55,0.6803249716758728
+Azathramycin,53,0.6127691268920898
+Anamorelin,40,0.6244163513183594
+Chlorthalidone,22,0.6866363883018494
+Madecassoside,71,0.6213501691818237
+Propacetamol hydrochloride,20,0.810370922088623
+Elagolix Sodium,46,0.7260979413986206
+Tiamulin fumarate,42,0.6353558301925659
+Nadolol,22,0.6213123798370361
+Sophoricoside,31,0.6070905923843384
+Propantheline bromide,28,3.0367074012756348
+Eperisone hydrochloride,20,0.8229762315750122
+Neticonazole Hydrochloride,22,0.8183913230895996
+Valpromide,10,0.607048749923706
+Methylcobalamin,93,0.6872789263725281
+Nilutamide,22,0.6510570049285889
+Ibudilast,17,0.607961893081665
+Dalbavancin,128,0.6548384428024292
+Gadopentetate Dimeglumine,54,0.6039687395095825
+Iproniazid,13,0.6045681834220886
+Propiverine hydrochloride,28,0.8205978870391846
+Proxyphylline,17,0.5973827838897705
+Teprenone,24,0.6152604818344116
+Octenidine Dihydrochloride,42,0.8305771350860596
+Ioversol,33,0.8526401519775391
+Crisaborole (AN2728),19,0.6090261340141296
+Levocetirizine Dihydrochloride,29,0.8151663541793823
+TriacetonaMine,11,0.615354597568512
+Xanthinol Nicotinate,31,0.6092005372047424
+Sulfamethoxazole sodium,18,0.6643860340118408
+Robenidine Hydrochoride,23,0.8090723752975464
+Calcium Dobesilate,13,0.6169677376747131
+Maltol,9,0.5846216678619385
+Fumaric acid,8,0.5776137709617615
+Usnic acid,25,0.604767382144928
+Tropine,12,0.6584458947181702
+Pyrantel Pamoate ,43,0.6336573362350464
+L-Cysteine HCl,8,0.7559794783592224
+Diatrizoate sodium,21,0.8207100629806519
+Saccharin,12,0.6663495302200317
+Maltose,24,0.5871520042419434
+Piperonyl butoxide,24,0.6040587425231934
+Tolmetin,19,0.6211657524108887
+Aceclofenac,23,0.6504207849502563
+Mosapride,29,0.6518269777297974
+Indole-3-carboxylic acid,12,0.6223433017730713
+Pyridoxal 5-phosphate monohydrate,18,0.6838502287864685
+Cefazedone,33,0.6225242614746094
+Cephapirin Benzathine,76,0.6157515048980713
+Taurolidine,17,0.663439154624939
+Menbutone,19,0.6213405132293701
+Nikethamide,13,0.6002983450889587
+Cytosine,8,0.5977473258972168
+Sulfogaiacol,14,0.6238040924072266
+cis-Aconitic acid,12,0.583351731300354
+Glycocholic acid,37,0.6375443935394287
+Lactobionic acid,24,0.5794992446899414
+Iminostilbene,15,0.7219527959823608
+Fimasartan,36,0.6539357900619507
+Efonidipine,45,0.660789430141449
+Oxyclozanide,22,0.6297919154167175
+Indobufen,22,0.6206923723220825
+Faropenem Sodium,23,0.7187941074371338
+Cefodizime Sodium,40,0.6881086230278015
+Lynestrenol,25,0.7209751605987549
+Tilorone dihydrochloride,32,0.8204847574234009
+Capsaicin,22,0.608604907989502
+Nicarbazin,31,0.618529200553894
+Sulfalene(SMPZ),19,0.661887526512146
+Sorbic acid,8,0.608816921710968
+Isoprinosine,79,0.6153824329376221
+Valproic acid sodium salt (Sodium valproate),11,0.6285178065299988
+"5,5-Dimethyloxazolidine-2,4-dione",9,0.6039732694625854
+Notoginsenoside R1,68,0.6218674182891846
+Veratric acid,13,0.6043236255645752
+Vindoline,35,0.6242066025733948
+Fusidine,40,0.63255375623703
+Clindamycin,27,0.6463769674301147
+Clindamycin HCl ,28,0.801821231842041
+Clindamycin palmitate HCl,45,0.8105382919311523
+Isotretinoin ,22,0.6333129405975342
+Ulipristal acetate,37,0.6306161880493164
+spiramycin,59,0.6136713027954102
+Propranolol HCl,20,0.8223366737365723
+(+)-Catechin,21,0.6006904244422913
+Scutellarin,33,0.6121397018432617
+Vandetanib (ZD6474),30,0.7635741233825684
+Enrofloxacin,26,0.620437741279602
+Hypoxanthine,10,0.5966595411300659
+(R)-baclofen,14,0.6490810513496399
+Miltefosine (Hexadecylphosphocholine),27,0.6877883076667786
+Ambroxol HCl,19,0.783165693283081
+Alogliptin,25,0.6133899092674255
+Hygromycin B,40,0.6041507124900818
+Amikacin disulfate,50,0.7058112621307373
+Geneticin (G418 Sulfate),44,0.7045028805732727
+Mozavaptan,32,0.6129559874534607
+Prazosin HCl,29,0.8134093284606934
+Penicillamine (Cuprimine),9,0.6179335117340088
+Sarafloxacin HCl,29,0.8187397718429565
+Lisinopril (Zestril),29,0.620781660079956
+Fosinopril sodium (Monopril),40,0.7194902300834656
+Vinpocetine (Cavinton),27,0.6231254935264587
+Dichlorphenamide (Diclofenamide),16,0.6423103213310242
+Tobramycin,34,0.5949376821517944
+Vancomycin HCl (Vancocin),107,0.9206154346466064
+Inulin,24,0.5432177186012268
+Zanamivir (Relenza),24,0.6088919639587402
+Sulfapyridine (Dagenan),17,0.6702427864074707
+Vonoprazan Fumarate (TAK-438),32,0.6673834323883057
+Vortioxetine (Lu AA21004) hydrobromide,22,2.941047430038452
+Plerixafor,36,0.6252483129501343
+Pemirolast (BMY 26517) potassium,18,0.5605874061584473
+Sodium Monofluorophosphate,7,0.6371166110038757
+"Duvelisib (IPI-145, INK1197)",30,0.6570509076118469
+Netilmicin Sulfate,91,0.7073595523834229
+"Venetoclax (ABT-199, GDC-0199)",61,0.6809120178222656
+VX-661,37,0.6518123745918274
+Empagliflozin (BI10773),31,0.651195228099823
+Flavoxate HCl,30,0.8189849853515625
+Mildronate,10,0.6201928853988647
+Succinylcholine Chloride Dihydrate,24,0.7890256643295288
+Terbutaline Sulfate,37,0.7216799259185791
+Macitentan,32,0.7555125951766968
+Embelin,21,0.6027997732162476
+Erlotinib(OSI-744),30,0.8207201957702637
+Pemetrexed,33,0.7253814935684204
+Gemcitabine HCl (Gemzar),19,0.801393985748291
+Imiquimod,18,0.6096246242523193
+Bleomycin sulfate,102,0.7013102769851685
+Carboplatin,13,0.5728213787078857
+Oxaliplatin (Eloxatin),15,0.5796400308609009
+Perifosine (KRX-0401),31,0.6891762018203735
+Camptothecin,26,0.6230499744415283
+Oxibendazole,18,0.6119747161865234
+Irsogladine,16,0.629630446434021
+Danofloxacin Mesylate,33,0.7195150852203369
+Pamidronate Disodium,15,0.6805832386016846
+Gabapentin Hydrochloride,13,0.8179209232330322
+Galanthamine hydrobromide,22,3.0297677516937256
+Granisetron HCl,24,0.8253887891769409
+Ketoconazole,36,0.6597051620483398
+Cefoselis sulfate,41,0.7008949518203735
+Dorzolamide HCL,20,0.7878037095069885
+Mizoribine (Bredinin),18,0.5899987816810608
+Dinoprostone,25,0.6157822608947754
+Risedronate sodium,18,0.7131573557853699
+Varenicline tartrate,26,0.6263502836227417
+Marbofloxacin,26,0.6107820272445679
+Perindopril Erbumine (Aceon),33,0.6361457109451294
+Irbesartan (Avapro),32,0.6206750273704529
+Norfloxacin (Norxacin),23,0.6160504817962646
+Cidofovir (Vistide),18,0.6771677136421204
+Ibuprofen Lysine (NeoProfen),25,0.6209373474121094
+Tripelennamine HCl,20,0.8321479558944702
+Abacavir sulfate,47,0.7337250113487244
+Amikacin hydrate,43,0.5732837319374084
+Risperidone (Risperdal),30,0.6126497387886047
+Alendronate sodium trihydrate,18,0.6613161563873291
+Oxacillin sodium monohydrate,31,0.714577317237854
+Methyldopa (Aldomet),15,0.6192299127578735
+Cytarabine,17,0.595703125
+Torsemide (Demadex),24,0.6754823327064514
+Eplerenone,32,0.6252872943878174
+Beta Carotene,40,0.6720020771026611
+Deferiprone,10,0.5992254018783569
+(-)-Tetramisole ,16,0.8148322105407715
+D-Cycloserine,7,0.5864695310592651
+Sodium butyrate,7,0.6989647150039673
+Taurine,7,0.658689558506012
+Fudosteine,11,0.584183931350708
+Gabapentin (Neurontin),12,0.6284255385398865
+Creatinine,8,0.5970970392227173
+Neratinib (HKI-272),40,0.657414436340332
+R935788 (Fostamatinib disodium),42,0.7164514064788818
+(-)-Huperzine A (HupA),19,0.6253963708877563
+Diosmin,43,0.6014325618743896
+Donepezil HCl (Aricept),29,0.8271839618682861
+Itraconazole (Sporanox),49,0.6607688665390015
+Neostigmine bromide (Prostigmin),17,2.8081562519073486
+Salbutamol sulfate (Albuterol),22,0.7193373441696167
+Methacycline hydrochloride (Physiomycine),35,0.996789813041687
+7-Aminocephalosporanic acid,19,0.5950889587402344
+PTC124 (Ataluren),21,0.6230604648590088
+L-Glutamine,10,0.5962235927581787
+Ketanserin (Vulketan Gel),29,0.6168573498725891
+Lomefloxacin hydrochloride (Maxaquin),26,0.8120836019515991
+Hydralazine hydrochloride,13,0.8284873962402344
+Neomycin sulfate,47,0.7075594067573547
+Amiloride hydrochloride dihydrate,18,0.7945857048034668
+Adenine sulfate,25,0.7170476913452148
+ATP (Adenosine-Triphosphate),33,0.7025413513183594
+Meclizine dihydrochloride,30,0.8248358964920044
+Procarbazine hydrochloride (Matulane),17,0.8194640874862671
+Ticlopidine hydrochloride,18,0.8169280290603638
+Trazodone hydrochloride (Desyrel),27,0.8186658620834351
+Disodium Cromoglycate,36,0.7131468057632446
+Epalrestat,21,0.6711742877960205
+Tranexamic acid (Transamin),11,0.6191840171813965
+Flubendazole (Flutelmium),23,0.6209216713905334
+NAD+,44,0.689012348651886
+Streptomycin sulfate,99,0.7101883888244629
+Clindamycin phosphate,31,0.6835671663284302
+Etidronate (Didronel),11,0.6333005428314209
+Lornoxicam (Xefo),23,0.6743134260177612
+Gadodiamide Hydrate,31,0.5915502309799194
+Capreomycin Sulfate,55,0.7259272336959839
+D-Phenylalanine,12,0.6229349374771118
+Nefopam HCl,20,0.8308980464935303
+Paromomycin Sulfate,50,0.714645266532898
+Proflavine Hemisulfate,37,0.7383609414100647
+Sodium ascorbate,14,0.6883560419082642
+Bismuth Subcitrate Potassium,32,0.556926965713501
+Clodronate Disodium,13,0.6738282442092896
+Colistin Sulfate,187,0.7219594717025757
+Cyclo(RGDyK),58,0.6653060913085938
+Dexamethasone Sodium Phosphate,36,0.733747661113739
+Oseltamivir Phosphate,27,0.7053399085998535
+Histamine Phosphate,18,0.6983982920646667
+Dibutyryl-cAMP (Bucladesine),33,0.6797874569892883
+Pyrilamine maleate,29,0.6200957894325256
+Oleuropein,39,0.5938401222229004
+Monomethyl auristatin E (MMAE),52,0.6061272621154785
+ODM-201,28,0.6530476808547974
+Phytol,21,0.612726092338562
+Citral,12,0.598433256149292
+Valproic acid,10,0.6095666885375977
+Vanillyl Butyl Ether,15,0.5970391035079956
+L-Lysine hydrochloride,11,0.8028522729873657
+lutein,42,0.6207112669944763
+Olivetol,13,0.604500412940979
+Methyl salicylate,11,0.6073520183563232
+Cinnamaldehyde,11,0.595230221748352
+Nuciferine,23,0.6104769110679626
+L-SelenoMethionine,9,0.7430957555770874
+Sodium Aescinate,81,0.6473214030265808
+Carvacrol,11,0.6081830859184265
+cis-Anethole,11,0.6057449579238892
+isoleucine,9,0.6131771206855774
+L-Leucine,9,0.6153435111045837
+Proanthocyanidins,43,0.6058672666549683
+Bornyl acetate,15,0.6326535940170288
+DL-Glutamine,10,0.5962235927581787
+Vincamine,27,0.6286407709121704
+Sodium Houttuyfonate,21,0.7160927057266235
+Ribostamycin Sulfate,36,0.7062544822692871
+Tetramisole HCl,15,0.8262184858322144
+Vitamin A Palmitate,38,0.6275801658630371
+Amoxapine,22,0.6664316654205322
+Minocycline HCl,36,1.0182511806488037
+Apramycin Sulfate,44,0.7148177623748779
+Cephalexin (Cefalexin),25,0.6097370386123657
+"Binimetinib (MEK162, ARRY-162, ARRY-438162)",27,0.7591999769210815
+Aceclidine Hydrochloride,14,0.8999689817428589
+"9-Aminoacridine
+9-Aminoacridine
+Aminoacrid",15,0.6283509731292725
+anisindione,19,0.6071644425392151
+anisotropine methylbromide,21,2.932563543319702
+bendroflumethiazide,27,0.6890066266059875
+bentiromide,30,0.621111273765564
+benzthiazide,26,0.6830829381942749
+bephenium hydroxynaphthoate,33,0.6320561170578003
+Calcium Gluceptate,31,0.6230897903442383
+camylofine chlorhydrate,25,0.8136661052703857
+Potassium Canrenoate,30,0.6002199649810791
+carbadox,19,0.6179568767547607
+Carbenoxolone disodiuM,45,0.7365975379943848
+ceftazidime pentahydrate,43,0.6309198141098022
+cephapirin sodium,29,0.6948577761650085
+cinoxacin,19,0.6088382005691528
+clofoctol,24,0.6618865728378296
+DicycloMine  Hydrochloride,23,0.8228926658630371
+diperodon hydrochloride,30,0.8219751119613647
+disopyramide phosphate,30,0.7208552360534668
+ethoxzolamide,16,0.6810282468795776
+fosfomycin tromethamine,16,0.6592546105384827
+glafenine hydrochloride,27,0.8151216506958008
+IMipraMine hydrochloride,22,0.8425503969192505
+isoetharine mesylate,22,0.7063180208206177
+mepenzolate bromide,26,3.0117034912109375
+mesoridazine besylate,36,0.689263641834259
+metaproterenol sulfate,35,0.7167572975158691
+metaraminol bitartrate,22,0.613952100276947
+meticrane,17,0.6709703207015991
+Misoprostol,27,0.6185532808303833
+oxelaidin citrate,37,0.6205532550811768
+pasiniazid,21,0.6115679740905762
+pentoxifylline,20,0.6048269271850586
+phthalylsulfacetamide,25,0.6727298498153687
+pimozide,34,0.62192702293396
+piromidic acid,21,0.6140074729919434
+proadifen hydrochloride,27,0.8233290910720825
+procyclidine hydrochloride,22,0.8267477750778198
+ractopamine hydrochloride,23,0.8197050094604492
+tacrine hydrochlorid,16,0.8301465511322021
+terfenadine,35,0.622006893157959
+Thioridazine hydrochloride,26,0.8127126693725586
+tolmetin sodium,22,0.6431299448013306
+Ebastine,35,0.6217329502105713
+Tazemetostat (EPZ-6438),42,0.6102965474128723
+trimipramine maleate,30,0.6230636835098267
+Rilpivirine,28,0.6068435907363892
+Sorafenib,32,0.6631665229797363
+Selinexor (KPT-330),31,0.6580801010131836
+guanethidine sulfate,33,0.7324321269989014
+Aceclidine HCl,14,0.8999689817428589
+Ribociclib (LEE011),32,0.6144747734069824
+Triapine,13,0.6535418629646301
+Trelagliptin,26,0.6109650135040283
+AZD9291,37,0.6158574819564819
+Ascomycin (FK520),58,0.6120412349700928
+Puromycin 2HCl,36,0.8182253837585449
+Rilmenidine Phosphate,18,0.7285802364349365
+Micafungin Sodium,90,0.7061386108398438
+Zotarolimus (ABT-578),70,0.6153645515441895
+Amifostine,15,0.7011134624481201
+Biapenem,25,0.6248638033866882
+Caspofungin Acetate,90,0.6245864629745483
+Paliperidone,31,0.6113779544830322
+Teicoplanin,185,0.600956916809082
+Lomitapide,50,0.6735238432884216
+Erythromycin Cyclocarbonate,56,0.6160967350006104
+Glasdegib (PF-04449913),28,0.6137230396270752
+Abscisic Acid (Dormin),19,0.6244405508041382
+Heparin sodium,85,0.6360368728637695
+Nedaplatin,8,0.5326294898986816
+Clopidol,11,0.6246297359466553
+Obeticholic Acid,31,0.6344579458236694
+Hydroxychloroquine Sulfate,28,0.7172107696533203
+LCZ696,66,0.6741135120391846
+PF-06463922,30,0.6083354949951172
+Ledipasvir (GS5885),65,0.6402342319488525
+Lomitapide Mesylate,55,0.725890040397644
+Isepamicin Sulphate,46,0.7076773643493652
+Picropodophyllin (PPP),32,0.605435848236084
+BAF312 (Siponimod),37,0.6614583730697632
+Indoximod (NLG-8189),16,0.6237332820892334
+Docetaxel Trihydrate,61,0.6389742493629456
+Pemetrexed Disodium Hydrate,34,0.5849368572235107
+Dasatinib Monohydrate,34,0.6542458534240723
+Sunitinib,29,0.6124914288520813
+Erlotinib,29,0.6081485748291016
+PD 0332991 (Palbociclib) HCl,34,0.8374911546707153
+PD 0332991 (Palbociclib) Isethionate,40,0.7051950097084045
+(S)-crizotinib,30,0.6544529795646667
+Combretastatin A4,23,0.6052885055541992
+Afatinib (BIBW2992) Dimaleate,50,0.6547743082046509
+Marimastat (BB-2516),23,0.6246744394302368
+Cyclo (-RGDfK),50,0.6673624515533447
+Gentamicin Sulfate,50,0.6669764518737793
+Pexidartinib (PLX3397),29,0.6744916439056396
+"Cobimetinib (GDC-0973, RG7420)",30,0.8836872577667236
+Tenofovir Alafenamide (GS-7340),33,0.6573874950408936
+Cilengitide trifluoroacetate,49,0.6638886332511902
+Favipiravir (T-705),11,0.5860259532928467
+"Peficitinib (ASP015K, JNJ-54781532)",24,0.6254062652587891
+Entrectinib (RXDX-101),41,0.6210689544677734
+Sotagliflozin (LX4211),29,0.641144871711731
+Vorapaxar (SCH 530348),40,0.6332444548606873
+CB-5083,31,0.6147654056549072
+Fumagillin,34,0.6193995475769043
+Riociguat (BAY 63-2521),31,0.6200758814811707
+Resiquimod,23,0.6232320070266724
+Radotinib,39,0.6610150337219238
+Ripasudil (K-115),25,0.8128495216369629
+Ozanimod (RPC1063),30,0.6174871921539307
+Sitafloxacin hydrate,59,0.6611679792404175
+Pimavanserin,72,0.6234829425811768
+Oclacitinib maleate,31,0.6780567169189453
+Acalabrutinib (ACP-196),35,0.612633228302002
+AG-120 (Ivosidenib).cdx,41,0.6564385890960693
+Halofuginone,24,0.7639551758766174
+Eliglustat (Tartrate),31,0.605448842048645
+ETC-1002,24,0.6193071603775024
+AG-221 (Enasidenib),33,0.6600819826126099
+Dihydrostreptomycin sulfate,95,0.705321729183197
+DEET,14,0.6082055568695068
+Sivelestat (ONO-5046),30,0.6680635213851929
+Eprodisate (disodium),13,0.6627048254013062
+2-Aminoheptane,8,0.6031176447868347
+Tyloxapol,65,0.5731996297836304
+Halothane,7,0.7484984993934631
+Triacetin,15,0.5768576860427856
+Benzyl alcohol,8,0.607431173324585
+Benzyl benzoate,16,0.6143146753311157
+Pralidoxime (chloride),11,0.7980544567108154
+Sisomicin sulfate,87,0.705417811870575
+Eflornithine hydrochloride hydrate,14,0.7986223697662354
+Folic acid,32,0.6192898154258728
+"Olmutinib (HM61713, BI 1482694)",35,0.6279354095458984
+Fomepizole (Antizol),6,0.6017013788223267
+Glutathione,20,0.6239660978317261
+Sildenafil,33,0.6672979593276978
+Alosetron Hydrochloride,23,0.8247721195220947
+Netupitant,41,0.6625346541404724
+D panthenol,14,0.6048620939254761
+Vitamin E,31,0.6140778660774231
+Cefradine,25,0.6097370386123657
+Kanamycin sulfate,40,0.7075064182281494
+MK-4827(Niraparib) tosylate,35,0.7007943391799927
+Polymyxin B sulphate,90,0.7257905006408691
+Eugenol,12,0.6029981970787048
+Rivastigmine,18,0.6142926812171936
+Aprotinin,1,0.7503787279129028
+LY333531 HCl,36,0.8380389213562012
+D-(+)-Cellobiose,23,0.5723620653152466
+L-Glutamic acid monosodium salt,11,0.6097337603569031
+LOXO-101(sulfate),36,0.7268612384796143
+4-Aminobutyric acid,7,0.5948141813278198
+Choline bitartrate,17,0.6166831851005554
+Oleic Acid,20,0.6177896857261658
+Latanoprost,31,0.6160564422607422
+(+)-Catechin hydrate,21,0.6006904244422913
+ARRY-380 (ONT-380),36,0.6199707984924316
+JNJ-42756493 (Erdafitinib),33,0.6103057265281677
+Y-39983 HCl,24,0.82011878490448
+Sodium ferulate,15,0.717415452003479
+Danshensu,14,0.6149672269821167
+LCI699,17,0.620479166507721
+CP21R7 (CP21),24,0.614133358001709
+Troglitazone (CS-045),31,0.6390590667724609
+TAS-102,57,0.8108652830123901
+Omarigliptin (MK-3102),27,0.6856609582901001
+Tirofiban Hydrochloride,32,0.8145793676376343
+"Voxelotor(GBT440, GTx011)",25,0.6062754392623901
+Tofogliflozin(CSG 452),29,0.6362743377685547
+Sodium dichloroacetate (DCA),7,0.6421543955802917
+Gilteritinib (ASP2215),40,0.6132050156593323
+Tucidinostat (Chidamide),29,0.6154395341873169
+Ipragliflozin (ASP1941),28,0.618212103843689
+Citicoline sodium,32,0.7105041742324829
+Phenethyl alcohol,9,0.6108859777450562
+Penicillin V potassium salt,26,0.5856218338012695
+Chondroitin sulfate,33,0.6399295330047607
+Imipenem,23,0.6379414200782776
+Ceftazidime,37,0.6212484836578369
+Pirenzepine dihydrochloride,28,0.8194565773010254
+Carmustine,12,0.6085934042930603
+Cangrelor Tetrasodium,48,0.7390243411064148
+Bilastine,34,0.626835823059082
+Cesium chloride,2,0.5547380447387695
+Travoprost,35,0.6533725261688232
+Boldenone Undecylenate,36,0.6302471160888672
+Acamprosate CalciuM,12,0.6209640502929688
+Calcium gluconate,28,0.9230492115020752
+Octocrylene,27,0.6158781051635742
+L-Citrulline,12,0.6075812578201294
+Vitamin E Acetate,34,0.6239847540855408
+Glycylglycine,9,0.5890428423881531
+VitaMin U,11,0.7496688365936279
+Tylosin,64,0.6145665645599365
+Sodium Demethylcantharidate,14,0.6246746778488159
+L-Theanine,12,0.6021665930747986
+Citropten,15,0.6004712581634521
+Protoporphyrin IX,42,0.6246696710586548
+Pyrithioxin,24,0.6576074361801147
+Thymol,11,0.6077831983566284
+Casanthranol,1,0.7503787279129028
+Homotaurine,8,0.6675438284873962
+Taurocholic acid sodium salt hydrate,42,0.6978791952133179
+N-Acetylneuraminic acid,22,0.6059137582778931
+DL-Citrulline,12,0.6075812578201294
+Calcium folinate,36,1.2491341829299927
+Creatine phosphate disodium salt,15,0.6925092935562134
+Benzyl cinnamate,18,0.6196010112762451
+Kojic acid,10,0.5758721828460693
+Ademetionine,27,0.6347871422767639
+alpha-Arbutin,19,0.5955215692520142
+Hydroquinine,25,0.6082581281661987
+Doramectin,69,0.611865758895874
+Propyl gallate,15,0.5919109582901001
+7-Methoxycoumarin,13,0.6081012487411499
+Aleuritic Acid,21,0.613867461681366
+D(-)-Arabinose,10,0.568871259689331
+Lanolin,1,0.7503787279129028
+Glycine,5,0.5842424035072327
+Doxycycline,34,0.6146673560142517
+Chlorotetracycline,35,0.6533522605895996
+Cetilistat,29,0.6129949688911438
+Terconazole,36,0.6628194451332092
+Thiocolchicoside,39,0.6452322006225586
+Efinaconazole,25,0.6175189018249512
+Dihydralazine sulphate,19,0.731074333190918
+Sulfaquinoxaline sodium,22,0.6803575754165649
+Nisin,229,0.6500586271286011
+Milbemycin Oxime,44,0.5713876485824585
+Pixantrone Maleate,40,0.6139236688613892
+Trelagliptin succinate,34,0.6159726977348328
+Mupirocin calcium,77,0.6695449352264404
+Xipamide,23,0.6852338314056396
+Lentinan,81,0.538179874420166
+Azamethiphos,19,0.6624993085861206
+p-Anisaldehyde,11,0.5964206457138062
+Geranyl acetate,14,0.61686110496521
+SulfadiMethoxine sodium,22,0.6637978553771973
+Diaveridine,19,0.6090502738952637
+Benzylpenicillin potassium,25,0.5890709757804871
+Ciprofloxacin hydrochloride hydrate,26,0.8218789100646973
+Enoxacin Sesquihydrate,24,0.5632176399230957
+Sulfamethazine Sodium Salt,20,0.674167275428772
+4-Aminosalicylic acid,11,0.6093800067901611
+Imidazolidinyl Urea,27,0.5807521343231201
+Actarit,14,0.6195131540298462
+"Benorylate
+Benorylate",23,0.6145778894424438
+Granisetron,23,0.6120525598526001
+Revaprazan Hydrochloride,28,0.8285326957702637
+Daclatasvir Digydrochloride,56,0.822440505027771
+Pramipexole dihydrochloride,16,0.8026045560836792
+Argatroban Monohydrate,36,0.6768750548362732
+Acotiamide,31,0.6209218502044678
+Regorafenib Monohydrate,34,0.6612817049026489
+Sitagliptin,28,0.6520118713378906
+Carbazochrome,17,0.6100131273269653
+Febantel,31,0.6227647662162781
+Rafoxanide,27,0.8758898973464966
+Pralidoxime Iodide,11,4.618283271789551
+Imidocarb dipropionate,36,0.6237032413482666
+D-Pantethine,36,0.6631786823272705
+Bromisoval,11,0.7175402641296387
+Propyphenazone (4-Isopropylantipyrine),17,0.6086946725845337
+Manganese chloride,3,0.6126483678817749
+Tafluprost,34,0.6415444612503052
+Squalene,30,0.6498454809188843
+Farnesol,16,0.6114745140075684
+Nonanoic acid,11,0.613280713558197
+Linalool,11,0.6167892217636108
+Diastase,1,0.7503787279129028
+Sodium carbonate,6,0.5742206573486328
+Laurocapram,20,0.6056345701217651
+Mebhydrolin napadisylate,60,0.7067714333534241
+Mebeverine Hydrochloride,32,0.8156856298446655
+Choline Glycerophosphate,16,0.6639936566352844
+Etofylline,16,0.5947749614715576
+Mephenesin,13,0.6093974113464355
+Melitracen hydrochloride,23,0.8721616268157959
+Tiamulin,35,0.638656735420227
+Bevantolol hydrochloride,26,0.817779541015625
+Clonixin,18,0.6478703022003174
+Donepezil,28,0.6106626987457275
+Ceforanide,36,0.6168696880340576
+ Vitamin K2,33,0.6090201139450073
+Methotrexate disodium,35,0.721741795539856
+Coluracetam,25,0.6086134910583496
+Alectinib hydrochloride,37,0.855899453163147
+Raltegravir potassium,33,0.5693284869194031
+6-Methoxy-2-naphthoic acid,15,0.6223886013031006
+Ombitasvir(ABT-267),65,0.630455732345581
+Paritaprevir(ABT-450),56,0.6786713600158691
+ 6-AMinopenicillanic acid,15,0.6169931888580322
+Phenazine methosulfate,21,0.7118179202079773
+Fosfomycin Disodium,10,0.676599383354187
+Pipemidic acid,22,0.6131566762924194
+Imazalil,19,0.648104190826416
+Dinoprost tromethamine,33,0.6209309101104736
+Cefathiamidine,32,0.6104162931442261
+Perospirone hydrochloride,33,0.938931941986084
+Bifendate,30,0.59804368019104
+Avermectin B1,65,0.6081600189208984
+ Metadoxine,21,0.6038044095039368
+Adrafinil,20,0.6534633636474609
+Boldenone,24,0.6721696853637695
+Erythromycin thiocyanate,56,0.6600757837295532
+Minoxidil sulphate,19,0.7069518566131592
+Isosorbide dinitrate,18,0.6251688003540039
+Canrenone,28,0.6354962587356567
+Lactitol monohydrate,24,0.5882072448730469
+Adenosine 5'-monophosphate monohydrate,24,0.6836752891540527
+Pyridoxal phosphate,17,0.6844313144683838
+S5402 Dasabuvir(ABT-333).cdx,35,0.7000652551651001
+Oxidopamine (hydrobromide),13,2.6450002193450928
+Tribenzagan Hydrochloride,29,0.8175617456436157
+Rimantadine Hydrochloride,14,0.8391615152359009
+Abacavir,21,0.61405348777771
+Ruxolitinib Phosphate,28,0.7291743755340576
+Ozagrel sodium,18,0.7298422455787659
+Cisapride,32,0.6473648548126221
+Doxapram,28,0.6145458817481995
+Disopyramide,25,0.6196879148483276
+Gefitinib hydrochloride,32,0.8146201372146606
+Fenretinide,29,0.6221174001693726
+Entecavir,20,0.6075129508972168
+Darunavir,40,0.6689785718917847
+Ufenamate,24,0.6567473411560059
+Fendiline hydrochloride,25,0.8570394515991211
+Ramatroban,29,0.6793968081474304
+Ceftezole,29,0.6382936239242554
+sulfaisodimidine,19,0.6712960004806519
+Diazolidinyl urea,19,0.5763667821884155
+Nimustine Hydrochloride,19,0.8000980615615845
+Lincomycin Hydrochloride Monohydrate,29,0.808260440826416
+Cephradine monohydrate,26,0.6244426965713501
+Vidarabine monohydrate,20,0.6171958446502686
+Amoxicillin trihydrate,29,0.6359397172927856
+Tosufloxacin p-Toluenesulfonate Hydrate,41,0.6939364075660706
+Ceftezole sodium,30,0.6923995018005371
+Sulbenicillin Sodium,30,0.7017030715942383
+4-Allylanisole,11,0.6057449579238892
+Vanillic acid,12,0.6024852991104126
+Nerolidol,16,0.6199256181716919
+Clindamycin alcoholate,30,0.8013980388641357
+Triprolidine Hydrochloride,23,0.8274747133255005
+Cloperastine hydrochloride,24,0.8298745155334473
+Molindone hydrochloride,21,0.8202629089355469
+Econazole,24,0.6523764729499817
+Iopanoic acid,17,0.8456504344940186
+Betahistine mesylate,20,0.7057875990867615
+Amantadine,11,0.6610620021820068
+Dehydroepiandrosterone acetate,27,0.6378346681594849
+Penicillin G Procaine,42,0.6399677991867065
+Anlotinib (AL3818) dihydrochloride,32,0.8166952133178711
+5-Hydroxymethylfurfural,9,0.587958574295044
+Stevioside,58,0.6189684867858887
+Lobeline hydrochloride,26,0.8234401941299438
+Dithranol,17,0.6088309288024902
+Cefoxitin sodium,30,0.6933817863464355
+Rabeprazole,25,0.6482027769088745
+Meropenem Trihydrate,31,0.6400814652442932
+Flucloxacillin sodium,32,0.7005024552345276
+Ecabet sodium,28,0.733370304107666
+Cefetamet pivoxil hydrochloride,37,0.803969144821167
+Tavaborole (AN-2690),11,0.6037694215774536
+Dabrafenib Mesylate,40,0.7080027461051941
+Duloxetine,21,0.6347446441650391
+Tianeptine,29,0.667263925075531
+Octinoxate,21,0.611396849155426
+Sodium gualenate,20,0.7300784587860107
+Nitisinone,23,0.6511991024017334
+Meisoindigo,21,0.6108361482620239
+Metroprolol succinate,46,0.6149032115936279
+Raffinose,34,0.5796994566917419
+Piroctone Olamine,21,0.6216835975646973
+Nintedanib Ethanesulfonate Salt,46,0.7083004117012024
+Benproperine phosphate,28,0.7234193086624146
+Revefenacin,44,0.6211433410644531
+Stiripentol,17,0.6184834241867065
+Dapiprazole Hydrochloride,25,0.8330357074737549
+Cefpodoxime proxetil,38,0.611423134803772
+Piperaquine phosphate,42,0.7265600562095642
+Butoconazole,25,0.6656160354614258
+Citicholine,31,0.6811930537223816
+Pikamilone,15,0.6133732199668884
+Fipronil,26,0.6616475582122803
+Ethyl Oleate,22,0.6101639270782471
+Lactitol,23,0.5712413787841797
+Dibutyl phthalate,20,0.6034758687019348
+Dimethyl phthalate,14,0.6062357425689697
+"UTP, Trisodium Salt",32,0.6955145597457886
+Tegaserod Maleate,30,0.6162967681884766
+Squalane,30,0.6498454809188843
+Chloramphenicol sodium succinate,28,0.7203018665313721
+"1,4-Cineole",11,0.6085968017578125
+Carbaryl,15,0.6230858564376831
+Promazine hydrochloride,21,0.8204823732376099
+Metoprolol,19,0.6081468462944031
+Sodium succinate,10,0.6693001985549927
+Quinacrine Dihydrochloride Dihydrate,32,0.8122004270553589
+Berberine Sulfate,30,0.7269425392150879
+Sanguinarine chloride,26,0.8181174993515015
+Hyperoside,33,0.602625846862793
+Saikosaponin D,60,0.6288238763809204
+Curculigoside,33,0.600441038608551
+Verbascoside,44,0.6036102771759033
+Aucubin,26,0.6075769066810608
+Vitexin-2-O-rhaMnoside,41,0.6023303866386414
+Pivmecillinam hydrochloride,32,0.8038840293884277
+Clidinium Bromide,27,3.0320167541503906
+Desipramine Hydrochloride,21,0.8377774953842163
+Fluorometholone,29,0.6255987882614136
+Guanethidine Monosulfate,19,0.7281049489974976
+Vortioxetine,21,0.6258184909820557
+Spermine Tetrahydrochloride,18,0.7985402345657349
+Salmeterol,30,0.6095595359802246
+Acetophenone,9,0.6093848943710327
+Geraniol,11,0.6090660095214844
+Cinchocaine,25,0.6095468997955322
+Tropisetron,21,0.6139843463897705
+Dimetridazole,10,0.615067720413208
+"1, 10-Phenanthroline monohydrate",15,0.6425364017486572
+D-Ribose,11,0.5870767831802368
+DL-Serine,7,0.5850111842155457
+Hydroxylammonium chloride,3,0.7305201292037964
+DL-Arginine,12,0.6116188764572144
+Amenamevir,34,0.6792500615119934
+Kasugamycin hydrochloride,27,0.8012645244598389
+Lanatoside C,72,0.6215822696685791
+Pamabrom,20,0.7510460615158081
+(-)-Sparteine Sulfate,31,0.7401217222213745
+D-Pantothenate Sodium,16,0.707287073135376
+2-Hydroxybenzyl alcohol,9,0.6032274961471558
+Dapagliflozin propanediol monohydrate,34,0.6567392349243164
+Trimethadione,10,0.6041041016578674
+L-Asparagine,9,0.5923752784729004
+Tilmicosin phosphate,67,0.7032169103622437
+Arabic gum,1,0.7503787279129028
+Cytarabine hydrochloride,18,0.8011894226074219
+Cinnamyl acetate,13,0.6208348274230957
+Citronellal,12,0.598433256149292
+Creatine,9,0.603549063205719
+(1R)-(-)-Menthyl acetate,14,0.6175397634506226
+Sodium cholate,34,0.7447285056114197
+(+)-Longifolene,17,0.779759407043457
+Hippuric acid,13,0.6191860437393188
+L-Valine,8,0.612158477306366
+L-Proline,8,0.6106240749359131
+L-lysine,10,0.6099210381507874
+L-Alanine,6,0.5968594551086426
+L-aspartic Acid,9,0.5884816646575928
+L-methionine,9,0.611582338809967
+L-arginine,12,0.6116188764572144
+L-cysteine,7,0.6013681888580322
+Nonivamide,21,0.6047810912132263
+Nifuratel,19,0.6384503841400146
+Stachyose,49,0.5958722829818726
+Nilotinib hydrochloride,40,0.8259800672531128
+Paroxetine mesylate,29,0.7210700511932373
+lenvatinib Mesylate,35,0.709600567817688
+Selamectin,58,0.6133395433425903
+Nylidrin Hydrochloride,23,0.8218814134597778
+Dolasetron,26,0.6202542781829834
+Cefmetazole sodium,32,0.6889528036117554
+Cefminox Sodium,35,0.6899624466896057
+Ceftiofur,35,0.6118114590644836
+Safinamide,22,0.6137932538986206
+Regadenoson,28,0.599310576915741
+Diflorasone,31,0.6267740726470947
+Bendazac,21,0.6306164264678955
+Ethoxyquin,16,0.6182401180267334
+Betrixaban,32,0.6591628789901733
+Betrixaban maleate,40,0.656581461429596
+Cyclofenil,27,0.6233910322189331
+Propylparaben,13,0.5986723899841309
+Sultamicillin,42,0.6437071561813354
+Loxoprofen sodium,19,0.7249288558959961
+Ertugliflozin,30,0.6507406830787659
+Diflucortolone valerate,36,0.6268275380134583
+Saikosaponin A,60,0.6288238763809204
+Prilocaine hydrochloride,17,0.8187853097915649
+Atropine sulfate,51,0.7342510223388672
+Emedastine Difumarate,38,0.6148738861083984
+ Iguratimod,27,0.6763527393341064
+Dexrazoxane,19,0.6022172570228577
+Zofenopril calcium,59,0.6563643217086792
+L-Ornithine hydrochloride,10,0.7941120862960815
+Salbutamol,17,0.6151772141456604
+Amodiaquine hydrochloride,27,0.8113514184951782
+Hydrocortisone acetate,32,0.6338560581207275
+Tizanidine,16,0.6433243155479431
+Landiolol hydrochloride,37,0.8166509866714478
+Tetrahydropalmatine,26,0.6088717579841614
+Midecamycin,57,0.6102941036224365
+Cilastatin,24,0.6284244060516357
+Bedaquiline,37,0.7747533917427063
+Benzalkonium chloride,18,0.7549020051956177
+Cefpiramide sodium,44,0.7074785232543945
+Vitamin K1,33,0.6090201139450073
+Lithium carbonate,6,0.5320068597793579
+Latamoxef sodium,39,0.7073546648025513
+Ganciclovir sodium,19,0.705955445766449
+Nicardipine,35,0.6228357553482056
+Ethyl gallate,14,0.5858762860298157
+Oxytocin (Syntocinon),73,0.6755754947662354
+GHRP-2,55,0.6210972666740417
+Bivalirudin Trifluoroacetate,155,0.6195221543312073
+Eptifibatide Acetate,57,0.6792935132980347
+Lypressin Acetate,73,0.6801072359085083
+Atosiban Acetate,68,0.6753453016281128
+Salmon Calcitonin Acetate,239,0.6775313019752502
+Nafarelin Acetate,96,0.6195852756500244
+Leuprorelin Acetate,87,0.6130870580673218
+Alarelin Acetate,84,0.6126788258552551
+Terlipressin Acetate,85,0.679390549659729
+Angiotensin II human Acetate,79,0.6241796016693115
+Desmopressin Acetate,78,0.6802140474319458
+Azasetron HCl,25,0.8118107318878174
+"Apremilast (CC-10004)
+Apremilast (CC-10004)",32,0.6889859437942505
+Difloxacin hydrochloride,30,0.8177064657211304
+Edoxaban,49,0.6884094476699829
+Orcinol,9,0.6010816693305969
+Oxalic acid,6,0.5647863149642944
+Adenosine disodium triphosphate,34,0.6571616530418396
+ADP,27,0.6912413239479065
+Ligustilide,14,0.6085697412490845
+Rhynchophylline,29,0.6185487508773804
+Yangonin,19,0.6114171743392944
+Triptonide,27,0.6221655607223511
+Malic acid,9,0.5725976228713989
+Cabergoline,35,0.6234084367752075
+Cinitapride Hydrogen Tartrate,39,0.6206384897232056
+Vilazodone,33,0.6221778392791748
+Lercanidipine,45,0.6313939094543457
+Metoclopramide,20,0.6417762637138367
+Metronidazole Benzoate,20,0.6190589666366577
+Hyaluronic acid,30,0.5514571666717529
+Gastrodenol,30,0.5558527708053589
+Bendazac L-lysine,31,0.6263235211372375
+Cortisone,29,0.6335798501968384
+Trans-Tranilast,24,0.6175063848495483
+"17-Beta-Estradiol-3,17-Dipropionate",31,0.6308318376541138
+Scopolamine HBr trihydrate,30,3.470546007156372
+L-Carnitine hydrochloride,12,0.7860310673713684
+Edrophonium chloride,13,0.8049106597900391
+Canagliflozin hemihydrate,63,0.6371126770973206
+Garenoxacin,31,0.6486510634422302
+Anagliptin,28,0.6167004108428955
+Bictegravir,33,0.6060831546783447
+Celiprolol hydrochloride,28,0.8170207738876343
+Olanexidine Hydrochloride semihydrate,26,0.7537967562675476
+Olodaterol hydrochloride,29,0.8192464113235474
+Pitolisant hydrochloride,21,0.827234148979187
+Proguanil,17,0.6515742540359497
+Alvimopan,31,0.63173508644104
+Fingolimod,22,0.6242779493331909
+Ripretinib (DCC-2618),33,0.7629272937774658
+L-Fucose,12,0.5884059071540833
+(R)-(-)-Mandelic acid,11,0.6189356446266174
+2'-Deoxyguanosine,19,0.5956648588180542
+Homoharringtonine,40,0.6249884366989136
+Cimifugin,22,0.6063960790634155
+Boldine,25,0.6084009408950806
+Irisflorentin,28,0.5960975885391235
+Harringtonine,39,0.6245008707046509
+Dihydrocapsaicin,22,0.608604907989502
+Magnolin,32,0.6024543046951294
+Morin,22,0.5967063307762146
+Isorhamnetin,23,0.5995723009109497
+Eriodictyol,21,0.6010462641716003
+Pulegone,11,0.6077831983566284
+Berbamine,45,0.6107720136642456
+Sparteine,21,0.799355149269104
+Ammonium Glycyrrhizate,62,0.6327582001686096
+Harpagoside,36,0.6070618629455566
+Catharanthine hemitartrate,37,0.6289923191070557
+Ruscogenin,36,0.6492395401000977
+Vitexin,31,0.6051691770553589
+Pneumocandin B0,82,0.6151014566421509
+Melamine,9,0.5915955901145935
+Dipotassium glycyrrhizinate,65,0.5931894779205322
+Dehydroandrographolide Succinate,39,0.6230806112289429
+Sinensetin,27,0.5980335474014282
+Isofraxidin,16,0.5996862649917603
+Homoorientin,32,0.6029962301254272
+Securinine,17,0.6188770532608032
+Corydaline,28,0.6060349941253662
+3-n-Butylphathlide,14,0.6085697412490845
+Dracohodin perochlorate,25,0.7345936298370361
+Peimine,39,0.7355226874351501
+Fargesin,29,0.6065305471420288
+Casticin,27,0.5977272987365723
+Gelsemine,28,0.6753098368644714
+Germacrone,16,0.6093263626098633
+Topotecan,31,0.6220125555992126
+Scopolamine,22,0.6102006435394287
+Octreotide Acetate,71,0.6802557706832886
+Ajmaline,29,0.7031618356704712
+Methyl Aminolevulinate Hydrochloride,11,0.7852675914764404
+Imidafenacin,24,0.6211429834365845
+Chlorprothixene hydrochloride,22,0.8147332668304443
+Parecoxib Sodium,27,0.6796943545341492
+Doripenem,29,0.6915301084518433
+Tobramycin sulfate,93,0.7045654654502869
+Olmesartan,33,0.6316673755645752
+Vitamin A,21,0.6235073804855347
+Solifenacin,27,0.6220118999481201
+Tedizolid,27,0.6174544095993042
+Erythromycin estolate,72,0.7027614116668701
+ Moxifloxacin,31,0.6268566846847534
+Xylazine,15,0.6300857067108154
+Tocofersolan,42,0.5652725696563721
+Amsacrine hydrochloride,29,0.8224490880966187
+Alvimopan dihydrate,33,0.6431598663330078
+Valbenazine tosylate,53,0.6939224004745483
+Rifamycin sodium salt,51,0.7211700677871704
+Mepivacaine,18,0.6105918288230896
+Lomefloxacin,25,0.6131707429885864
+2'-deoxyuridine,16,0.5902643799781799
+Trimebutine maleate,36,0.6191514134407043
+Olprinone,19,0.6090139150619507
+Phthalylsulfathiazole,27,0.6708035469055176
+Carvedilol Phosphate,36,0.6622350811958313
+Carperitide Acetate,215,0.6652804613113403
+Dimemorfan phosphate,25,0.7293845415115356
+Estropipate,33,0.7239659428596497
+Phenolphthalein,24,0.6173640489578247
+Chlorhexidine,34,0.6560262441635132
+Nefazodone hydrochloride,34,0.8159201145172119
+Gefarnate,29,0.6180295944213867
+Fenipentol,12,0.60384601354599
+Carboprost,26,0.6222580075263977
+Metyrapone,17,0.6136008501052856
+Sofalcone,33,0.6237452626228333
+Cefoperazone sodium,46,0.7073206901550293
+Fluorescein,25,0.6150141954421997
+Ceftibuten (dihydrate),29,0.6260727643966675
+Sulfacetamide,14,0.6586517095565796
+Balofloxacin Dihydrate,30,0.6332422494888306
+Edetate Trisodium,23,0.7002625465393066
+Dantrolene sodium,24,0.7259601950645447
+Ropivacaine,20,0.6095523834228516
+Myristic Acid,16,0.6164119839668274
+Betahistine,10,0.6026620864868164
+Cefotiam Hexetil Hydrochloride,49,0.7937105894088745
+Cefozopran hydrochloride,37,0.7991571426391602
+Rhodamine B,34,0.8115228414535522
+Berberine,25,0.6136194467544556
+Indigo carmine,30,0.713534951210022
+Ambroxol,18,0.7541074752807617
+AKBA,40,0.6358098983764648
+Sanguinarine,25,0.6213060021400452
+Wedelolactone,23,0.5955275297164917
+Quillaic acid,38,0.6389821171760559
+Minaprine dihydrochloride,24,0.8232642412185669
+Ammonium lactate,7,0.579492449760437
+(-)-Verbenone,11,0.6196225881576538
+Hydroxyzine pamoate,55,0.6630627512931824
+Clodronate disodium tetrahydrate,17,0.6725564002990723
+Ranitidine,21,0.6204102039337158
+Orphenadrine Hydrochloride,21,0.8289443254470825
+Dichlorophene,17,0.6378453969955444
+Sebacic acid,14,0.6140535473823547
+Stearic acid,20,0.6177896857261658
+DL-Methionine,9,0.6115823984146118
+D-(+)-Raffinose pentahydrate,39,0.5958596467971802
+2'-Deoxyadenosine monohydrate,19,0.6187547445297241
+L-serine,7,0.5850111842155457
+Neryl acetate,14,0.61686110496521
+Fosfosal,14,0.6904604434967041
+Octyl gallate,20,0.6012473106384277
+"5,7-Dihydroxy-4-methylcoumarin",14,0.6046129465103149
+Thymine,9,0.6006963849067688
+Methyl palmitate,19,0.6116387248039246
+Tasimelteon,18,0.6183187961578369
+Indometacin Sodium,29,0.6568698883056641
+Losartan,30,0.6645873188972473
+Sulbutiamine,48,0.6537245512008667
+Arformoterol Tartrate,36,0.6078841686248779
+Lapatinib ditosylate monohydrate,63,0.6921188831329346
+Dasatinib hydrochloride,34,0.8104531764984131
+Delapril Hydrochloride,34,0.8220925331115723
+Alimemazine Tartrate,52,0.6250247359275818
+Elbasvir,67,0.6221076250076294
+Indacaterol,29,0.614039957523346
+Venlafaxine,20,0.6155242323875427
+Ertapenem sodium,36,0.7224661111831665
+Emedastine,22,0.6094082593917847
+Tiaprofenic acid,18,0.6185288429260254
+Raceanisodamine,22,0.6098410487174988
+Norgestrel,27,0.6767877340316772
+lurasidone,37,0.6372662782669067
+Abemaciclib,37,0.6192002296447754
+Acetohexamide,22,0.6731276512145996
+Tamsulosin,28,0.6854603886604309
+Rolapitant,35,0.6607666015625
+Triflupromazine hydrochloride,25,0.8174809217453003
+Fruquintinib,29,0.6022266745567322
+Dienestrol ,20,0.609146237373352
+"Prulifloxacin (NM441, AF 3013)",32,0.6250828504562378
+Procaterol HCl,23,0.763916552066803
+Alectinib (CH5424802),36,0.6169632077217102
+Auranofin,32,0.6096792221069336
+Bromocriptine Mesylate,49,0.764717161655426
+Clorgyline HCl,18,0.7993546724319458
+Meclocycline Sulfosalicylate ,49,0.6903088092803955
+Medrysone,28,0.6276214718818665
+Methoxamine HCl,16,0.8039389848709106
+Oxprenolol HCl,20,0.8127090930938721
+Thiostrepton,118,0.621540904045105
+Pinacidil ,19,0.6456589698791504
+Suxibuzone,32,0.6205503940582275
+Digoxigenin,31,0.6322312355041504
+Pindolol,18,0.611461877822876
+2-Ethoxybenzamide,12,0.6096512079238892
+6-Acetamidohexanoic acid,12,0.6116679310798645
+8-Hydroxyquinoline,11,0.6097052097320557
+Diatrizoic acid,20,0.8238357305526733
+Ethylvanillin,12,0.5950853824615479
+Gluconolactone,12,0.5686112642288208
+L(+)-Asparagine monohydrate,10,0.6057580709457397
+L-Threonine,8,0.5910754203796387
+Timonacic,8,0.5701421499252319
+Valethamate Bromide,23,2.988018274307251
+Osimertinib mesylate,42,0.719438910484314
+Fructose,12,0.5667365789413452
+Naproxen,17,0.6208229064941406
+Ropivacaine Mesilate,25,0.7144877910614014
+Carglumic Acid,13,0.5978139638900757
+Gamithromycin,56,0.6070026755332947
+Sultamicillin Tosylate,53,0.679662823677063
+Ilaprazole sodium,27,0.6510114669799805
+Ethacrynic Acid,19,0.6536825895309448
+Diphenylamine Hydrochloride,14,0.8413206338882446
+Diphenylpyraline hydrochloride,22,0.8298982381820679
+Omeprazole Sodium,25,0.6457716226577759
+Drofenine Hydrochloride,24,0.8226450681686401
+Moxisylyte hydrochloride,21,0.8150370121002197
+Isoxsuprine hydrochloride,23,0.8158963918685913
+Chloropyramine hydrochloride,21,0.8204894065856934
+Mivacurium chloride,76,0.806692361831665
+Lodoxamide Tromethamine,37,0.6357688903808594
+Xanthopterin Hydrate,14,0.6173753142356873
+Dolasetron Mesylate,32,0.725162148475647
+Methyl linolenate,21,0.6122951507568359
+Isoproterenol sulfate dihydrate,37,0.7144318222999573
+Desoximetasone,29,0.6285256147384644
+Tropic acid,12,0.6186591386795044
+Mexenone,18,0.605527400970459
+Levomilnacipran Hydrochloride,19,0.8258577585220337
+Icatibant Acetate,98,0.6355887651443481
+Isopropamide Iodide,27,5.514279365539551
+Ketorolac tromethamine salt,27,0.6253558397293091
+Pravastatin,31,0.6212329268455505
+atorvastatin,41,0.6258862018585205
+Acrivastine,26,0.6256859302520752
+Ceftizoxime sodium,27,0.693790078163147
+Glecaprevir,60,0.6723628640174866
+edetate calcium disodium,23,0.8988858461380005
+Oxantel Pamoate,45,0.6234811544418335
+Triiodothyronine,23,0.8323743343353271
+Tetryzoline,15,0.6857016086578369
+Midodrine hydrochloride,19,0.805588960647583
+Midodrine,18,0.5983365774154663
+Benzathine penicilline,66,0.6294258236885071
+Diclofenac Epolamine,27,0.6545618772506714
+Nebivolol,31,0.6081572771072388
+Palonosetron,23,0.6149901747703552
+Quetiapine,27,0.6259395480155945
+Deferoxamine mesylate,44,0.7073776721954346
+pentetate calcium trisodium hydrate,32,0.9723383188247681
+Morantel tartrate,25,0.6172301769256592
+Chlorpromazine,21,0.6502170562744141
+DL-Norepinephrine hydrochloride,13,0.8081778287887573
+Dihydroergotamine Mesylate ,50,0.7224688529968262
+Abametapir,14,0.6201698780059814
+Baricitinib phosphate,31,0.7163740992546082
+Methyl Stearate,21,0.6122951507568359
+Isoeugenol,12,0.6029981970787048
+Methyl linoleate,21,0.6122951507568359
+Citric acid,13,0.584801435470581
+Methyl Oleate,21,0.6122951507568359
+D-Mannose,12,0.5686112642288208
+Sodium Dehydrocholate,35,0.7479609251022339
+Alfuzosin,28,0.6006901264190674
+Aliskiren,39,0.6179707050323486
+Fenoterol hydrobromide,23,3.018244743347168
+Fenoterol,22,0.6025804281234741
+Proflavine,16,0.6210314035415649
+Esmolol,21,0.613434910774231
+Trimetazidine,19,0.6033023595809937
+Prazosin,28,0.5998488068580627
+Raloxifene,34,0.6182900071144104
+Doxazosin,33,0.6052546501159668
+Montelukast,41,0.6572200655937195
+Vancomycin,102,0.6483129262924194
+Dronedarone,39,0.6936514377593994
+Rasagiline,13,0.6647786498069763
+Ala-Gln,15,0.601730465888977
+Alprenolol hydrochloride,19,0.81745445728302
+Allopregnanolone,27,0.6864206790924072
+Relugolix,44,0.620558500289917
+Choline Fenofibrate,29,0.6480276584625244
+pyrvinium,87,0.6219059228897095
+L-Hydroxyproline,9,0.5949267148971558
+Linoleic acid,20,0.6177896857261658
+L-Pyroglutamic acid,9,0.600726842880249
+Citronellyl acetate,14,0.61686110496521
+L-Xylose,10,0.566132128238678
+Aristolochic acid A,25,0.6237887740135193
+1-Indanone,10,0.6106761693954468
+Uridine 5'-monophosphate,21,0.6792324185371399
+10-Undecenoic acid,13,0.614822268486023
+Undecanoic acid,13,0.614822268486023
+Phensuximide,14,0.6103373169898987
+Ergoloid Mesylates,48,0.7238419055938721
+Mecamylamine Hydrochloride,13,0.833362340927124
+Ethotoin,15,0.6094475388526917
+Benzonatate,19,0.5525820255279541
+Demecarium Bromide,42,2.917956590652466
+Methysergide Maleate,35,0.6214628219604492
+Methenamine Hippurate,23,0.6240812540054321
+Thiothixene,30,0.6725021600723267
+Haloperidol Decanoate,37,0.6558214426040649
+Penbutolol Sulfate,49,0.7233961820602417
+Gadoversetamide,36,0.6362361907958984
+Oxtriphylline,20,0.6165454983711243
+Madecassic acid,39,0.6342232823371887
+Danazol,28,0.6464218497276306
+(?)-Norepinephrine,12,0.5997958183288574
+Brimonidine,17,0.7618659138679504
+Tiapride Hydrochloride ,23,0.80174720287323
+Protriptyline hydrochloride,21,0.8592865467071533
+Farrerol,22,0.5987985134124756
+Anisodamine Hydrobromide,23,3.0375783443450928
+Bepridil hydrochloride,29,0.8247056007385254
+Indinavir Sulfate,50,0.7304682731628418
+Sapropterin Dihydrochloride,20,0.8095370531082153
+Imidazole,5,0.5890251994132996
+Bisphenol A,17,0.6183205842971802
+Brucine sulfate heptahydrate,76,0.7365174889564514
+Amylmetacresol,13,0.6062682271003723
+p-Toluenesulfonic acid monohydrate,12,0.6851503252983093
+Acid Yellow 36,26,0.737834632396698
+Dimethylamine hydrochloride,4,0.7795237302780151
+Butylated hydroxytoluene,16,0.6193416714668274
+Levulinic acid,8,0.5909543037414551
+Ethanolamine hydrochloride,5,0.7683298587799072
+Phthalic acid,12,0.6122115254402161
+o-Toluic acid,10,0.6165367960929871
+Sodium lauryl sulfate,18,0.7243379354476929
+Methyl cinnamate,12,0.6182945966720581
+Triethyl citrate,19,0.587458610534668
+Methyl nicotinate,10,0.6056527495384216
+Methylamine hydrochloride,3,0.7593430876731873
+Tartaric acid,10,0.5695188045501709
+Sodium L-lactate,7,0.6763430833816528
+Acetamide,4,0.5834446549415588
+Isonicotinic acid,9,0.607547402381897
+2-Naphthol,11,0.6133298277854919
+Dibutyl sebacate,22,0.6044625043869019
+Lactose,24,0.5815977454185486
+(+)-(S)-Carvone,11,0.6081830859184265
+Saccharin sodium salt hydrate,14,0.6527045965194702
+Phenylglyoxylic acid,11,0.6189356446266174
+(S)-(?)-Limonene,10,0.6676820516586304
+Congo Red,48,0.7319978475570679
+"2,4-dichlorobenzyl alcohol",10,0.6162586212158203
+Doxycycline monohydrate,35,0.6355729103088379
+Diclofenac acid,19,0.6501611471176147
+2-Methylhexanoic acid,9,0.6085036993026733
+Terpinen-4-ol,11,0.6149134635925293
+Maltotriose,34,0.5729104280471802
+Acid Red 27,38,0.7173590064048767
+Pentadecanoic acid,17,0.6168171763420105
+Sodium dehydroacetate,13,0.700537919998169
+L-Lactic acid,6,0.5828922986984253
+Terephthalic acid,12,0.6097846031188965
+N-Acetylglucosamine,16,0.5933258533477783
+"1,2-Propanediol",5,0.5781838893890381
+Ammonium formate,5,0.571214497089386
+Rutin hydrate,44,0.5474718809127808
+Glycolic acid,5,0.5668771862983704
+Sodium Thiocyanate,4,0.6147187948226929
+Tetraethylammonium bromide,10,2.4749395847320557
+Chlorhexidine diacetate,42,0.651756763458252
+Octanoic acid,10,0.6122787594795227
+N-Acetyl-L-tyrosine,16,0.6164000034332275
+5-Methoxytryptamine,14,0.6069068908691406
+2-Ethyl-3-hydroxy-4H-pyran-4-one,10,0.5928406119346619
+Glycerol Tri-n-octanoate,33,0.6052180528640747
+D-Glucuronic acid,13,0.5744878053665161
+L-(+)-Arabinose,11,0.5870767831802368
+Androsterone,25,0.7054323554039001
+Creatine monohydrate,10,0.6160531044006348
+Thiamine pyrophosphate hydrochloride,27,0.7843507528305054
+Malachite green,68,0.6351462602615356
+(R)-Serine,7,0.5850111842155457
+(S)-Glutamic acid,10,0.5920426845550537
+Sodium phytate hydrate,38,0.6087694764137268
+Ofloxacin,26,0.6131978034973145
+Bestatin,22,0.6187106966972351
+Bacitracin Zinc,101,0.5896506905555725
+Acetylcholine Chloride,11,0.7869104146957397
+Clofibrate,16,0.6327307224273682
+"Seratrodast(AA-2414, ABT-001)",26,0.6216825842857361
+HS-10296,39,0.6171061992645264
+Abiraterone Acetate,32,0.6380477547645569
+Evodiamine,23,0.6108810901641846
+Tetrandrine,46,0.6101030111312866
+Ethisterone,26,0.6571604013442993
+Niclosamide,21,0.6359038352966309
+Droxidopa,15,0.6101484298706055
+Clopamide,22,0.6826715469360352
+Dolutegravir Sodium,32,0.6260601282119751
+Dimenhydrinate,33,0.6592147350311279
+Succimer,10,0.5966372489929199
+Cefotaxime,31,0.6091209053993225
+Anethole trithione,14,0.6804031133651733
+Benzamidine HCl,10,0.8244580030441284
+Ethacrynate Sodium,20,0.6992031335830688
+Frovatriptan Succinate,26,0.6217676401138306
+Cariprazine HCl,29,0.8158068656921387
+Xylometazoline,18,0.6305427551269531
+Trazodone,26,0.6595939993858337
+Sancycline,32,0.6179969906806946
+DL-Menthol,11,0.6077831983566284
+Khellin,19,0.590006947517395
+Cefazolin,30,0.6357620358467102
+Benazepril,31,0.6239652037620544
+Bendamustine,23,0.6548730134963989
+Bepotastine,27,0.6565091013908386
+Bromhexine,18,0.7595692873001099
+Butenafine,24,0.646379828453064
+Amodiaquine,25,0.6548632979393005
+Cefoxitin,29,0.602516770362854
+Glucosamine,13,0.5931914448738098
+2-Aminoethanethiol,4,0.5993786454200745
+Chloramine-T,13,0.7163288593292236
+Salicylamide,10,0.6094256639480591
+Octisalate,18,0.6082241535186768
+Tulobuterol hydrochloride,16,0.808845043182373
+Hexetidine,24,0.6150506734848022
+Zucapsaicin,22,0.608604907989502
+Clemizole,23,0.6735366582870483
+Nimorazole,16,0.6170856952667236
+Diroximel Fumarete ,18,0.5899441242218018
+Cevimeline,15,0.7485860586166382
+Udenafil,36,0.6748073101043701
+Mequitazine,23,0.636842668056488
+Talniflumate,30,0.6597377061843872
+Halazone,15,0.7318273782730103
+Riboflavin Tetrabutyrate,47,0.6110110878944397
+Chlorphenesin,13,0.6291447877883911
+Chromium picolinate,28,0.6211729645729065
+Triclocarban,19,0.6499180793762207
+Chlorophyllin (sodium copper salt),48,0.7288175821304321
+Carazolol,22,0.6172579526901245
+Ibuprofen piconol,22,0.6164916753768921
+Apronal,13,0.6147960424423218
+Delavirdine (mesylate),37,0.7101907730102539
+Bicyclol ,28,0.5993267297744751
+Docosahexaenoic Acid,24,0.6187082529067993
+Clebopride (malate),35,0.6514490842819214
+Glycyrrhetinic acid,37,0.6395410299301147
+Flurbiprofen Axetil,24,0.6165217161178589
+Nifurtimox,19,0.6608344316482544
+Sugammadex (sodium),136,0.6728917360305786
+Permethrin,26,0.7252298593521118
+Amezinium (methylsulfate),21,0.7049130201339722
+Tafamidis,20,0.6485722064971924
+Fosfluconazole,26,0.6989549398422241
+Trandolapril,33,0.6249392032623291
+Thonzylamine,21,0.6116663217544556
+Fluralaner,36,0.664298415184021
+Tinoridine hydrochloride,23,0.8128634691238403
+Pinaverium bromide,33,2.858135461807251
+Eicosapentaenoic Acid,22,0.6182906627655029
+2-Amino-6-methylheptan,10,0.8200277090072632
+Fipexide hydrochloride,28,0.8145732879638672
+Fosphenytoin (disodium),27,0.7271198034286499
+Brigatinib (AP26113),40,0.6714861392974854
+Zanubrutinib (BGB-3111),35,0.6146071553230286
+"ABT-492(Delafloxacin, RX-3341, WQ-3034)",30,0.6386404633522034
+Phenprocoumon,21,0.6121563911437988
+levalbuterol tartrate,44,0.6263999938964844
+"3,4-Diaminopyridine",8,0.5947667956352234
+Cyclopentolate Hydrochloride,22,0.819847583770752
+Baloxavir marboxil,41,0.6256623268127441
+uridine triacetate,26,0.5955612659454346
+fluticasone furoate,39,0.6605023145675659
+Gadoxetate sodium,40,0.7283782958984375
+Doravirine (MK-1439),29,0.6556231379508972
+Triethylenetetramine Dihydrochloride,12,0.7963201999664307
+clobetasone butyrate,35,0.6724467277526855
+Methylprednisolone hemisuccinate,37,0.6337698698043823
+Hydrocortisone butyrate,34,0.6287969350814819
+Diquafosol Tetrasodium,53,0.6987313032150269
+Cyclothiazide,24,0.695475697517395
+Fursultiamine,26,0.6589840054512024
+Omadacycline tosylate,53,0.7029215693473816
+Letermovir(AIC246),41,0.6608319282531738
+Josamycin,58,0.6129789352416992
+Trifluoperazine,28,0.6555658578872681
+(-)-Fenchone,11,0.6176358461380005
+Lasmiditan succinate,62,0.6163920164108276
+Fosamprenavir calcium salt,40,1.0718295574188232
+Ozenoxacin,27,0.6234726905822754
+Apraclonidine HCl,16,0.7933796644210815
+Norethisterone Enanthate,34,0.6363281607627869
+Methylprednisolone sodium succinate,38,0.7386601567268372
+Avatrombopag,42,0.6688073873519897
+Brequinar,28,0.6222339868545532
+Belotecan (CKD-602) hydrochloride,33,0.8231809139251709
+Besifovir,20,0.6965680718421936
+Etofenamate,26,0.6564640998840332
+Siramesine HCl,35,0.8610852956771851
+"Selpercatinib (LOXO-292, ARRY-192)",39,0.6274046897888184
+Fadrozole,17,0.6260656118392944
+Mirogabalin (DS-5565),17,0.6375720500946045
+Somatostatin Acetate,119,0.6802923083305359
+Goserelin Acetate,95,0.631367564201355
+Sodium Hyaluronate,30,0.6629987955093384
+2-Aminoethyl Diphenylborinate,17,0.6071691513061523
+BMS-927711,39,0.6192656755447388
+Ebselen,16,0.6902121901512146
+Temocapril,32,0.6305708885192871
+Roquinimex,23,0.6079411506652832
+Tirapazamine,13,0.6128972768783569
+Isopropyl myristate,19,0.6108018159866333
+Estramustine phosphate sodium,38,0.7294533252716064
+Sevoflurane,12,0.610885500907898
+Fabomotizole?hydrochloride,22,0.8125386238098145
+Rubitecan,29,0.6281638145446777
+o-Phenanthroline,14,0.6927090883255005
+HEPES,15,0.6886215209960938
+Pleconaril,27,0.66108238697052
+Stibogluconate sodium,43,0.834966778755188
+Ansamitocin P-3,45,0.6472734212875366
+DTT,8,0.5789123773574829
+3'-Fluoro-3'-deoxythymidine (Alovudine),17,0.6026394367218018
+Relebactam,24,0.705437421798706
+Pemigatinib (INCB054828),35,0.6092689037322998
+Treprostinil sodium,31,0.6507257223129272
+Astemizole,34,0.621849775314331
+Ipragliflozin L-Proline,36,0.6226447224617004
+Vindesine sulfate,63,0.7345222234725952
+D-Alanine,6,0.5968594551086426
+Brilliant Blue G,60,0.7352498769760132
+Trigonelline,10,0.6126217842102051
+Hypericin,38,0.6096230149269104
+Cynarin,37,0.6162891387939453
+Gossypol,38,0.6097862720489502
+Clozapine N-oxide,24,0.661246657371521
+Monomethyl Fumarate,9,0.5802329182624817
+Clascoterone,32,0.6319516897201538
+Capric acid,12,0.6141157150268555
+Pibrentasvir (ABT-530),80,0.6215406656265259
+Irinotecan,43,0.6223094463348389
+Staurosporine,35,0.6174095869064331
+Adenine,10,0.5939347147941589
+Oxiglutatione,40,0.6519784927368164
+Hemin,44,0.6359808444976807
+Indole,9,0.6949400901794434
+Ticlopidine,17,0.6541242599487305
+3-Hydroxybenzoic acid,10,0.6086467504501343
+Ginsenoside Ro,70,0.6325385570526123
+Pentostatin,19,0.596136212348938
+Lanreotide acetate,81,0.6806325912475586
+Ampalex (CX-516),18,0.6086405515670776
+Antineoplaston A10,18,0.6113245487213135
+Carbetapentane,24,0.6168950796127319
+Barnidipine,36,0.6231609582901001
+Calcium Levofolinate,36,1.2491341829299927
+DL-Tartaric acid,10,0.5695188045501709
+Menthone,11,0.6077831983566284
+Malonic acid,7,0.5651647448539734
+Deoxycholic acid sodium salt,33,0.7481040954589844
+Maleic acid,8,0.5776137709617615
+Pyrazole,5,0.5921029448509216
+L-Histidine monohydrochloride monohydr,13,0.801846981048584
+2-Deoxy-D-ribose,9,0.570634663105011
+Pyridoxal hydrochloride,13,0.8021562099456787
+D-(-)-Tartaric acid,10,0.5695188045501709
+Maleimide,7,0.5846418142318726
+Potassium sorbate,9,0.5601521730422974
+Pyruvic acid,6,0.5828922986984253
+Glutaric acid,9,0.5950726270675659
+Amiloxate,18,0.612837553024292
+Myosmine,11,0.6524975895881653
+2-Methylpentanoic acid,8,0.6073598861694336
+D-Mannosamine hydrochloride,13,0.7833727598190308
+Palmitoleic acid,18,0.6171773672103882
+Bis(2-ethylhexyl) phthalate,28,0.6080081462860107
+N-Acetyl-D-mannosamine,15,0.5805431604385376
+Ceftaroline Fosamil,48,0.6745020151138306
+Apatinib,30,0.6229709386825562
+Trypan Blue,62,0.7182744741439819
+DOTAP chloride,48,0.8076024055480957
+Lanreotide,77,0.6810176372528076
+Insulin (human),1,0.7503787279129028
+Treosulfan,16,0.6390314102172852
+Perhexiline maleate,28,0.6264415979385376
+Enarodustat (JTZ-951),25,0.6253637075424194
+Saroglitazar,31,0.6431081295013428
+Fluzoparib (SHR-3162),34,0.6662856936454773
+Chloroquine,22,0.6577972769737244
+Folinic acid,34,0.6185216307640076
+Loxapine,23,0.6588407158851624
+S(-)-Propranolol hydrochloride,20,0.8223366737365723
+Melittin,202,0.603090763092041
+Oxytetracycline hydrochloride,34,0.8150736093521118
+Tenofovir hydrate,20,0.6830750703811646
+Hydrocortisone hemisuccinate,36,0.6337071061134338
+S-(+)-Ketoprofen,19,0.6192552447319031
+Spectinomycin dihydrochloride pentahydrate,30,0.7987483739852905
+Vardenafil hydrochloride,35,0.8115631341934204
+Cinacalcet,26,0.6661005616188049
+Varenicline Hydrochloride,17,0.8452386856079102
+Dexamethasone phosphate disodium,36,0.733747661113739
+Monocaprylin,15,0.6039764881134033
+Levobupivacaine,21,0.6095749139785767
+Ensulizole,19,0.7076687216758728
+Rucaparib,24,0.6196510791778564
+Almitrine mesylate,45,0.716783881187439
+Iproniazid phosphate,18,0.7059175968170166
+Amdinocillin,23,0.6245731115341187
+6-Aminonicotinamide,10,0.6068469285964966
+Phenol Red sodium salt,26,0.723034143447876
+Urapidil,28,0.6089845895767212
+Methionine,9,0.611582338809967
+Delafloxacin Meglumine,43,0.6370639801025391
+Megestrol,28,0.6333150863647461
+3-Phenoxybenzoic acid,16,0.6172715425491333
+Tenofovir alafenamide fumarate,41,0.6553059816360474
+Furosemide sodium,22,0.6999479532241821
+Sodium tauroglycocholate,45,0.7429419755935669
+Perflubron,26,0.7511749267578125
+Allylestrenol,26,0.7186450958251953
+Lasmiditan,27,0.6118022799491882
+DL-Carnitine,11,0.6176480054855347
+Edoxaban,37,0.6498531103134155
+Beclamide,13,0.6619675755500793
+Guanabenz,14,0.6293505430221558
+Amcinonide,38,0.6288944482803345
+Atropine,21,0.612484335899353
+Norethindrone acetate,29,0.6418509483337402
+D-Gluconic acid,13,0.5744878053665161
+Etomidate hydrochloride,19,0.8165320158004761
+Thiamine nitrate,22,0.6355602741241455
+Methylprednisolone Acetate,33,0.6338364481925964
+Propafenone,25,0.6120291948318481
+Metoclopramide hydrochloride hydrate,22,0.803351879119873
+Procaine penicillin G,40,0.6379017233848572
+Pipobroman,16,0.7615426182746887
+Tetraethylammonium chloride,10,0.8056520223617554
+ATP,31,0.6878050565719604
+Palbociclib,33,0.6112877130508423
+Sucrose,23,0.5787636637687683
+Puromycin aminonucleoside,21,0.6009618043899536
+Metamizole sodium hydrate,23,0.71873539686203
+Thiamine monochloride,19,0.7869906425476074
+Dimercaprol,6,0.5959073305130005
+Cetylpyridinium chloride monohydrate,24,0.8086225986480713
+Tetracycline,32,0.6141108870506287
+Promethazine,20,0.6210776567459106
+Quinidine hydrochloride monohydrate,27,0.9412436485290527
+Bendazol,16,0.6874066591262817
+Rhodamine 123,27,0.8253165483474731
+L-Thyroxine sodium salt pentahydrate,30,0.831038236618042
+Sodium citrate dihydrate,18,0.6772881746292114
+Irinotecan hydrochloride,44,0.8232156038284302
+Pyrithioxin Dihydrochloride,26,0.7921908497810364
+2-Phenylacetamide,10,0.6191322803497314
+Ceftiofur sodium,35,0.6906394958496094
+Hexylene glycol,8,0.6016631722450256
+Efonidipine hydrochloride monoethanolate,49,0.8155165910720825
+Lusutrombopag,39,0.6445428133010864
+Lesinurad sodium,25,0.7637476921081543
+Oxacillin sodium,29,0.714617133140564
+Trometamol hydrochloride,9,0.7814478278160095
+Homosalate,19,0.6220071315765381
+Trametinib DMSO solvate,41,0.8833576440811157
+Benzophenone,14,0.6073119640350342
+Bromfenac sodium hydrate,45,0.7592822313308716
+Protirelin Acetate,64,0.6206148862838745
+Ertugliflozin L-pyroglutamic acid,39,0.6509519815444946
+Ribociclib hydrochloride,33,0.8272167444229126
+Gatifloxacin hydrochloride,28,0.8161803483963013
+Triolein,63,0.6099675297737122
+Larotrectinib,31,0.614930272102356
+Ixazomib Citrate (MLN9708),34,0.6420310735702515
+Adipic acid,10,0.6030954122543335
+Prednisone acetate,32,0.6338560581207275
+Pleuromutilin,27,0.6283870935440063
+Levocetirizine,27,0.6615673303604126
+Menadione bisulfite sodium,18,0.718549370765686
+Neticonazole,21,0.6560608148574829
+Quinine,24,0.6075873374938965
+Gadodiamide,30,0.5751956701278687
+Pimethixene maleate,29,0.6252493858337402
+Dicloxacillin Sodium hydrate,32,0.6970653533935547
+Lefamulin acetate (Xenleta),39,0.6346781849861145
+Vericiguat,31,0.6207412481307983
+Rifamycin S,50,0.612541675567627
+Sacubitril hemicalcium salt,61,1.2874788045883179
+Pemetrexed,31,0.6230486035346985
+Ribociclib succinate,40,0.622663676738739
+Ceritinib dihydrochloride,40,0.8155151605606079
+Gadobutrol,32,0.5752060413360596
+Tenofovir alafenamide hemifumarate,74,0.6561229228973389
+Crizotinib hydrochloride,31,0.807950496673584
+Piperazine adipate,16,0.6079370975494385
+Sodium nitroprusside,15,0.7089303731918335
+Ledipasvir acetone,69,0.6396539211273193
+Iodoacetamide,5,0.8308109045028687
+Sulfathiazole sodium,17,0.6580942869186401
+Dexamethasone palmitate,45,0.6240293979644775
+Amikacin Sulfate Salt,45,0.7082667350769043
+Perospirone,32,0.6342532634735107
+Emamectin Benzoate,72,0.6164296269416809
+Pizotifen,21,0.6357654333114624
+Pantoprazole sodium hydrate,57,0.7172878384590149
+Enasidenib Mesylate,38,0.7145580649375916
+Neotame,27,0.6286424398422241
+Lanraplenib (GS-9876),33,0.6109722256660461
+4-Phenylbutyric acid (4-PBA),12,0.6255929470062256
+Ethacridine lactate,25,0.6216133236885071
+Rucaparib Camsylate,39,0.7073255181312561
+Oxolamine Citrate,31,0.6197920441627502
+Kasugamycin hydrochloride hydrate,28,0.8030732870101929
+Tenofovir Disoproxil,35,0.6527397632598877
+Resazurin sodium,18,0.7150651216506958
+Maltose monohydrate,24,0.5882072448730469
+Isomalt,23,0.5708122253417969
+Metformin,9,0.600263237953186
+Iohexol,34,0.8579949140548706
+L-Carnitine hydrochloride,12,0.7860310077667236
+Ipratropium bromide monohydrate,26,3.015394926071167
+Cefodizime,37,0.6312412023544312
+L-Ornithine,9,0.602081298828125
+Cefpiramide,42,0.6219800710678101
+Sodium Etidronate,13,0.6561222076416016
+Mebrofenin,23,0.747688353061676
+Balsalazide,26,0.6166219711303711
+Regorafenib Hydrochloride,34,0.8122997283935547
+Eicosapentaenoic acid ethyl ester,24,0.6106842756271362
+Fostemsavir,41,0.7017987966537476
+Tecovirimat,27,0.6680245399475098
+Dabigatran etexilate mesylate,51,0.7139606475830078
+Amlodipine maleate,36,0.6421349048614502
+Ecamsule.2Na,40,0.7287976741790771
+Fostamatinib disodium hexahydrate,48,0.7149671912193298
+Nilotinib hydrochloride monohydrate,41,0.8247629404067993
+Eliglustat hemitartrate,68,0.6190483570098877
+Ciprofloxacin hydrochloride,25,0.8206140995025635
+Rhodamine 6G,34,0.8085144758224487
+Teriparatide Acetate,295,0.6035850048065186
+Felypressin Acetate,72,0.680575966835022
+Varenicline dihydrochloride,18,0.8384265899658203
+Zoledronic Acid,16,0.6742678880691528
+Crotamiton,15,0.6084226369857788
+Indocyanine green,54,0.7391425371170044
+Liranaftate,23,0.6583855152130127
+Dydrogesterone,27,0.6961104869842529
+Bekanamycin,35,0.594713568687439
+Ceftriaxone Sodium,39,0.6905263662338257
+Bisoprolol,23,0.6049097776412964
+Alverine,21,0.6421507596969604
+Amitriptyline,21,0.6432072520256042
+Remdesivir (GS-5734),42,0.6631174087524414
+Purine,9,0.6049168705940247
+Sodium citrate,16,0.6711873412132263
+Gadoteridol,29,0.5783014893531799
+Isosulfan Blue,38,0.7327980995178223
+Triheptanoin,30,0.603971540927887
+Dipivefrin Hydrochloride,26,0.8135319948196411
+Remogliflozin etabonate (GSK189075),37,0.6173447370529175
+Olodaterol (BI 1744),28,0.617989182472229
+Potassium guaiacolsulfonate hemihydrate,29,0.6278462409973145
+(R)-(-)-Ibuprofen,15,0.6224489212036133
+Alpha-Estradiol,23,0.6622717380523682
+DL-Penicillamine,9,0.6179335117340088
+Glycerol phenylbutyrate,39,0.617908239364624
+Varenicline,16,0.6802433729171753
+Iron Dextran,6,0.6310036182403564
+Sodium Acetate,5,0.6611711382865906
+Calcium chloride,3,0.7350900769233704
+Hexaminolevulinate hydrochloride,16,0.8065441846847534
+Bictegravir Sodium,36,0.7158489227294922
+Phenelzine sulfate,15,0.7294331192970276
+Tazobactam Sodium,22,0.6890801787376404
+Zinc acetate,9,0.5674211382865906
+Imidacloprid,18,0.60356605052948
+Betamethasone sodium phosphate,36,0.733747661113739
+Hydrocortisone sodium succinate,37,0.7385134696960449
+Zinc acetate dihydrate,15,0.5918956995010376
+Magnesium chloride,3,0.6817511320114136
+Enclomiphene Citrate,43,0.5938096046447754
+Ammonium ferric citrate,58,0.5700863003730774
+Setmelanotide (RM-493),78,0.678969144821167
+Miglustat,15,0.600178599357605
+Abaloparatide (BA058),1,0.7503787279129028
+Glatiramer acetate,43,0.6176749467849731
+Cyclizine,20,0.620430052280426
+Propidium Iodide,33,5.174123764038086
+Saquinavir (Ro 31-8959),49,0.6259422302246094
+Imeglimin (EMD 387008) Hydrochloride,12,0.8128554821014404
+Bradykinin,76,0.6234228610992432
+Baloxavir,34,0.6264955401420593
+Vernakalant (RSD1235) Hydrochloride,26,0.8210310935974121
+Linalyl Acetate,14,0.6188580989837646
+Papain,16,0.6082156896591187
+Ammonium chloride,2,0.7089554071426392
+Lithium Chloride,2,0.6949775815010071
+Taurocholic acid sodium salt,36,0.7329771518707275
+Thioacetamide,4,0.6035733222961426

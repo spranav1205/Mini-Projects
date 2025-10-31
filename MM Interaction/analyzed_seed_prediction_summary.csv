@@ -1,0 +1,7 @@
+drug,true_value,med_pred,mean_pred,median_abs_error,mean_abs_error,rmse
+Ifosfamide,0.566,,,,,
+Pyrazinamide (Pyrazinoic acid amide),0.39,,,,,
+Zidovudine (Retrovir),0.36,,,,,
+Metformin hydrochloride (Glucophage),0.94,,,,,
+Captopril (Capoten),0.61,,,,,
+Tiopronin (Thiola),0.38,,,,,

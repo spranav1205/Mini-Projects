@@ -13,7 +13,7 @@ from qm9_encoder import GCNEncoder
 
 class DrugMaterialRegressor(torch.nn.Module):
     def __init__(self, node_dim, hidden_dim=32, gnn_out_dim=64, mlp_hidden=64, 
-                 pretrained_encoder_path=None, lr=0.0, avg_rmse=0.0):
+                 pretrained_encoder_path=None, lr=0.0, avg_rmse=0.0, frozen=True):
         super().__init__()
         
         # Initialize encoders
@@ -27,21 +27,26 @@ class DrugMaterialRegressor(torch.nn.Module):
             # Load and freeze encoders
             self.encoder1.load_state_dict(encoder_state_dict)
             self.encoder2.load_state_dict(encoder_state_dict)
+
+            if frozen:
             
-            for param in self.encoder1.parameters():
-                param.requires_grad = False
-            for param in self.encoder2.parameters():
-                param.requires_grad = False
+                for param in self.encoder1.parameters():
+                    param.requires_grad = False
+                for param in self.encoder2.parameters():
+                    param.requires_grad = False
+                
+                print("Loaded and frozen pretrained encoder")
+
+            else :
             
-            print("Loaded and frozen pretrained encoder")
+                print("Loaded pretrained encoder without freezing")
+        
         
         # MLP decoder
         self.mlp = torch.nn.Sequential(
             torch.nn.Linear(4 * gnn_out_dim, mlp_hidden),
             torch.nn.ReLU(),
-            torch.nn.Linear(mlp_hidden, mlp_hidden // 2),
-            torch.nn.ReLU(),
-            torch.nn.Linear(mlp_hidden // 2, 1)
+            torch.nn.Linear(mlp_hidden, 1)
         )
     
     def forward(self, data):

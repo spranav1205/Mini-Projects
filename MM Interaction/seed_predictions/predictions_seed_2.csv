@@ -1,0 +1,7 @@
+name,drug_name,num_atoms,pred_energy,prediction
+Ifosfamide,Ifosfamide,14,0.7775709629058838,0.7775709629058838
+Pyrazinamide (Pyrazinoic acid amide),Pyrazinamide (Pyrazinoic acid amide),9,0.4100724756717682,0.4100724756717682
+Metformin hydrochloride (Glucophage),Metformin hydrochloride (Glucophage),10,0.8347235321998596,0.8347235321998596
+Zidovudine (Retrovir),Zidovudine (Retrovir),19,0.5054537057876587,0.5054537057876587
+Captopril (Capoten),Captopril (Capoten),14,0.5833574533462524,0.5833574533462524
+Tiopronin (Thiola),Tiopronin (Thiola),10,0.49723297357559204,0.49723297357559204
