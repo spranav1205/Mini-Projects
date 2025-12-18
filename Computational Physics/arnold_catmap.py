@@ -47,11 +47,11 @@ def arnold_catmap(image, iterations):
     
 
 if __name__ == "__main__":
-    img = Image.open("moon.jpg")
+    img = Image.open("cat.jpg")
     img = img.resize((100, 100))
     img_array = np.array(img)    
 
-    random_image = np.random.randint(0, 256, (100, 100, 3), dtype=np.uint8)
+    random_image = np.random.randint(0, 256, (300, 300, 3), dtype=np.uint8)
 
     iterations = 150
     transformed_image, iter = arnold_catmap(img_array, iterations)
