@@ -277,7 +277,7 @@ try:
         # (removed per-drug n annotation for cleaner plot)
 
         plt.title('Per-drug predictions across seeds')
-        plt.ylabel('Predicted value')
+        plt.ylabel('Predicted value (eV)')
         # set full drug names as tick labels centered under boxes
         # remove any bracketed text like "(...)" or "[...]" from labels for a cleaner plot
         def _clean_label(s):
@@ -302,7 +302,7 @@ try:
         ax = plt.gca()
         ax.set_xticks(range(1, len(letters) + 1))
         ax.set_xticklabels(letters, rotation=0, ha='center')
-        plt.legend(loc='upper right')
+        plt.legend(loc='upper right', fontsize=20, markerscale=1.2, frameon=False)
         plt.tight_layout()
         plt.savefig(os.path.join(PLOT_DIR, 'per_drug_boxplot_enhanced.png'))
 
@@ -447,7 +447,7 @@ try:
         # (removed per-drug n annotation for cleaner plot)
 
         plt.title('Per-drug predictions across seeds')
-        plt.ylabel('Predicted value')
+        plt.ylabel('Predicted value (eV)')
         # clean bracketed content and set tick labels
         def _clean_label(s):
             lab = re.sub(r"[\(\[].*?[\)\]]", '', s)
@@ -471,6 +471,7 @@ try:
         ax = plt.gca()
         ax.set_xticks(range(1, len(letters) + 1))
         ax.set_xticklabels(letters, rotation=0, ha='center')
+        plt.legend(loc='upper right', fontsize=16, markerscale=1, frameon=False)
         plt.tight_layout()
         plt.savefig(os.path.join(PLOT_DIR, 'per_drug_boxplot_enhanced.png'))
 
