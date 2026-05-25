@@ -1,0 +1,379 @@
+{
+    "patch_size": 24,
+    "stages": [
+        {
+            "stage_id": 0,
+            "stage_threshold": -2.243141657573631,
+            "stumps": [
+                {
+                    "weight": 2.0780360600711005,
+                    "feature_idx": 148,
+                    "threshold": 2.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.4423793189403895,
+                    "feature_idx": 125,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.479123489146558,
+                    "feature_idx": 56,
+                    "threshold": 2.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.8941015108041287,
+                    "feature_idx": 73,
+                    "threshold": 1.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 1.0198784904037579,
+                    "feature_idx": 28,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                }
+            ]
+        },
+        {
+            "stage_id": 1,
+            "stage_threshold": -1.3620023249867912,
+            "stumps": [
+                {
+                    "weight": 1.8740620648690292,
+                    "feature_idx": 148,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.2052247201362336,
+                    "feature_idx": 56,
+                    "threshold": 2.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.140544940521945,
+                    "feature_idx": 184,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9149118257780109,
+                    "feature_idx": 132,
+                    "threshold": 3.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.111785384016601,
+                    "feature_idx": 118,
+                    "threshold": 2.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.796051577788882,
+                    "feature_idx": 59,
+                    "threshold": 4.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 0.9379744230045942,
+                    "feature_idx": 180,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.0036906762426039,
+                    "feature_idx": 148,
+                    "threshold": 4.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.7516801213864619,
+                    "feature_idx": 71,
+                    "threshold": 0.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 1.1967804645146756,
+                    "feature_idx": 8,
+                    "threshold": 3.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                }
+            ]
+        },
+        {
+            "stage_id": 2,
+            "stage_threshold": -0.749701104831403,
+            "stumps": [
+                {
+                    "weight": 2.572365955116586,
+                    "feature_idx": 118,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.908711257244433,
+                    "feature_idx": 148,
+                    "threshold": 3.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9326144757978629,
+                    "feature_idx": 125,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9576325061262431,
+                    "feature_idx": 56,
+                    "threshold": 3.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9237159724194658,
+                    "feature_idx": 207,
+                    "threshold": 2.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 1.0068573615033385,
+                    "feature_idx": 48,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.8822767783360645,
+                    "feature_idx": 126,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.784031814249893,
+                    "feature_idx": 134,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9113876231309551,
+                    "feature_idx": 180,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9365915105480814,
+                    "feature_idx": 148,
+                    "threshold": 5.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.837294305469564,
+                    "feature_idx": 118,
+                    "threshold": 3.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9220716348618465,
+                    "feature_idx": 166,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.8139707223188025,
+                    "feature_idx": 133,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.7906066682678069,
+                    "feature_idx": 65,
+                    "threshold": 0.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 0.49721706765626106,
+                    "feature_idx": 132,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 0
+                }
+            ]
+        },
+        {
+            "stage_id": 3,
+            "stage_threshold": 2.159335772359171,
+            "stumps": [
+                {
+                    "weight": 3.290886360844473,
+                    "feature_idx": 59,
+                    "threshold": 8.0,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 1.4144476124377419,
+                    "feature_idx": 132,
+                    "threshold": 2.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.2361736885058063,
+                    "feature_idx": 71,
+                    "threshold": 0.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 0.9920237277761764,
+                    "feature_idx": 6,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9878423719158457,
+                    "feature_idx": 125,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.2991093835169625,
+                    "feature_idx": 148,
+                    "threshold": 5.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9128108742632493,
+                    "feature_idx": 7,
+                    "threshold": 1.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 0.7547347616925004,
+                    "feature_idx": 148,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.7509240615312031,
+                    "feature_idx": 207,
+                    "threshold": 1.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 1.0560050652678346,
+                    "feature_idx": 121,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9037692232434721,
+                    "feature_idx": 134,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.086210232570251,
+                    "feature_idx": 67,
+                    "threshold": 0.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 0.8357542216204028,
+                    "feature_idx": 2,
+                    "threshold": 1.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 0.6050676823830355,
+                    "feature_idx": 125,
+                    "threshold": 0.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 1.000387366664464,
+                    "feature_idx": 15,
+                    "threshold": 5.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.7484825046772432,
+                    "feature_idx": 148,
+                    "threshold": 1.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.6361280498825863,
+                    "feature_idx": 118,
+                    "threshold": 3.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.9097912623307844,
+                    "feature_idx": 148,
+                    "threshold": 9.5,
+                    "left_pred": 0,
+                    "right_pred": 1
+                },
+                {
+                    "weight": 0.7839696758472335,
+                    "feature_idx": 0,
+                    "threshold": 4.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                },
+                {
+                    "weight": 0.6632531307499682,
+                    "feature_idx": 211,
+                    "threshold": 1.5,
+                    "left_pred": 1,
+                    "right_pred": 0
+                }
+            ]
+        }
+    ]
+}

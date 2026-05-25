@@ -40,5 +40,5 @@ htmlcov/
 /MM Interaction/data/
 
 # Ignore zip files and att_faces directory
-./*.zip
-./att_faces/
+att_faces.zip
+att_faces/
