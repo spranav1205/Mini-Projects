@@ -41,4 +41,4 @@ htmlcov/
 
 # Ignore zip files and att_faces directory
 ./*.zip
-./*.att_faces/
+./att_faces/
