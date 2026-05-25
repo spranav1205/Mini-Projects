@@ -7,6 +7,7 @@ Usage:
 """
 
 import sys
+import os
 import configparser
 import matplotlib.pyplot as plt
 from simulation import simulate_and_measure, PARAM_PRESETS
@@ -88,8 +89,9 @@ def run_from_config(config_file):
     
     # Load configuration
     config = load_config(config_file)
+    scenario_name = config['scenario'].get('name', 'Unnamed')
     print(f"\nLoading configuration from: {config_file}")
-    print(f"Scenario: {config['scenario'].get('name', 'Unnamed')}")
+    print(f"Scenario: {scenario_name}")
     print(f"Description: {config['scenario'].get('description', 'No description')}")
     
     # Parse parameters
@@ -143,10 +145,28 @@ def run_from_config(config_file):
     # Print summary report
     print_summary_report(results, withdrawal_params)
     
+    # Plot saving options
+    save_plots = config['output'].getboolean('save_plots', True)
+    plots_dir = config['output'].get('plots_dir', 'plots')
+    plots_prefix = config['output'].get('plots_prefix', '').strip()
+    if not plots_prefix:
+        safe_name = "".join(ch if (ch.isalnum() or ch in ("-", "_")) else "_" for ch in scenario_name.strip())
+        plots_prefix = f"{safe_name}_" if safe_name else ""
+    if save_plots:
+        os.makedirs(plots_dir, exist_ok=True)
+
+    def save_plot(filename: str) -> None:
+        if not save_plots:
+            return
+        path = os.path.join(plots_dir, filename)
+        plt.savefig(path, dpi=300, bbox_inches='tight')
+        print(f"Saved plot: {path}")
+
     # Generate visualizations based on config
     if config['output'].getboolean('plot_traces', True):
         print("\nGenerating annual traces plot...")
         plot_traces_annual(results['traces'], initial_params['inflation'])
+        save_plot(f"{plots_prefix}traces_annual.png")
         plt.show()
     
     if config['output'].getboolean('plot_histogram', True):
@@ -158,6 +178,7 @@ def run_from_config(config_file):
             initial_params['inflation'],
             corpus
         )
+        save_plot(f"{plots_prefix}corpus_histogram_year_{histogram_year}.png")
         plt.show()
         
     
@@ -170,6 +191,7 @@ def run_from_config(config_file):
             initial_params['inflation'],
             withdrawal_params
         )
+        save_plot(f"{plots_prefix}withdrawal_analysis.png")
         plt.show()
     
     # Export to CSV if requested
